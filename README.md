@@ -1,6 +1,10 @@
 # talk-analyzer
 Some simple functions for analyzing Zooniverse Talk pages.
 
+To be used with the forum data that can be exported from the
+Talk admin interface (.json format).
+
+These scripts rely on the pandas, matplotlib and networkx modules, besides the standard Python3 library.
 
 ## Contents
 
