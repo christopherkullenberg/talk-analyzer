@@ -316,8 +316,10 @@ class Network(object):
                             Network.getnodes(searchstring, df,
                             source='regexp', target='user'), regexp=True)
 
-    def regexpusers(searchstring, df, plot=True, html=False):
+    def regexpusers(searchstring, df, plot=True, html=False, data=False):
         results = Network.getnodes(searchstring, df,
                             source='regexp', target='user')
+        if data:
+            return(results)
         for r in results:
             print("<p>" + r[0] + "   " + str(r[1]) + "</p>")
