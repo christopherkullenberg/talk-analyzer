@@ -1,23 +1,13 @@
-# Non free data
-.data
-.misc
-
-# Rendered data
-figures/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
 # notes
-todo.md
-ideas.md
-ideas.pdf
-ideas.docx
 
 # upload scripts
 upload.sh
+compile.sh
 
 # C extensions
 *.so
