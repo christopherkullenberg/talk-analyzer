@@ -5,6 +5,9 @@ __pycache__/
 
 # notes
 
+# data
+data/
+
 # upload scripts
 upload.sh
 compile.sh

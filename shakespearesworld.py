@@ -17,7 +17,7 @@ import talkanalyzer as ta # Requires pandas
 
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
 
-df = pd.read_json(".data/project-376-comments_2017-04-28.json")
+df = pd.read_json("data/project-376-comments_2017-04-28.json")
 
 print("Content-type:text/html; charset=utf-8\r\n\r\n")
 print()
