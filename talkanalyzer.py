@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import networkx as nx
 from collections import Counter
+import numpy as np
+from scipy import stats
 
 class URLconstructor(object):
     def __init__(self, idnumber, df):
@@ -249,6 +251,9 @@ class Network(object):
         #print(nodefreq)
         G = nx.Graph()
         color_map = []
+        totalfreq = 0
+        userlist = []
+        freqarray = []
         for key, value in nodefreq:
             '''
             if value >= 4:
@@ -258,9 +263,30 @@ class Network(object):
             '''
             if regexp:
                 G.add_edge(searchstring, key, weight=value)
+                print(key, value)
+                userlist.append(key)
+                freqarray.append(value)
+                totalfreq += value
             else:
                 G.add_edge(searchstring, key, weight=value)
-
+                print(key, value)
+                userlist.append(key)
+                freqarray.append(value)
+                totalfreq += value
+        print("-----")
+        print("Total value: " + str(totalfreq))
+        ten = np.percentile(freqarray, 10)
+        twentyfive= np.percentile(freqarray, 25)
+        fifty = np.percentile(freqarray, 50) 
+        seventyfive = np.percentile(freqarray, 75) 
+        ninety = np.percentile(freqarray, 90) 
+        print("Ten percentile: " + str(ten))
+        print("Twentyfive percentile: " + str(twentyfive))
+        print("Fifty percentile: " + str(fifty))
+        print("Seventyfive percentile: " + str(seventyfive))
+        print("Ninety percentile: " + str(ninety))
+        print("Total users: " + str(len(set(userlist))))
+        #slope, intercept, r_value, p_value, std_err = stats.linregress(list(range(totalfreq)), freqarray)
         plt.figure(figsize=(8,8))
         nx.draw(G,with_labels=True, font_size=16)
         if regexp:
