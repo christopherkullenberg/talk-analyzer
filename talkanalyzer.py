@@ -74,6 +74,7 @@ class Printer(object):
                     for m in match:
                         print("\t" + m)
                     print(URLconstructor.commenturl(row[0], df))
+                    print("Thread: " + URLconstructor.threadturl(row[0], df))
                     # Get date of post by locating by index number:
                     print("Date of post: " +
                     str(df.loc[row[0]].comment_created_at)[0:-7])
