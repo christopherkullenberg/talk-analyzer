@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from collections import Counter
 import numpy as np
+import seaborn as sns
 #  from scipy import stats
 
 
@@ -20,7 +21,8 @@ class URLconstructor(object):
         boardID = str(df.loc[idnumber].board_id)
         discussionID = str(df.loc[idnumber].discussion_id)
         commentID = str(df.loc[idnumber].comment_id)
-        URL = baseURL + directory + boardID + "/" + discussionID + "?comment=" + commentID
+        URL = (baseURL + directory + boardID + "/" +
+               discussionID + "?comment=" + commentID)
         return URL
 
     def threadturl(idnumber, df):
@@ -232,7 +234,7 @@ class Network(object):
                                              row[1][3], re.IGNORECASE)
                         if hashhit:
                             for h in hashhit:
-                                nodes.append(h)
+                                nodes.append(h.lower())
             if target == "user":
                 print("Searching for: " + str(searchstring))
                 for row in df.iterrows():
@@ -348,6 +350,8 @@ class CoreSet(object):
         '''
         Takes search string and dataframe as input.
         Returns various time series as dicts.
+        Seaborn distplot docs:
+        https://seaborn.pydata.org/tutorial/distributions.html
         '''
     def frequency(searchstring, df):
         distribution = Network.getnodes(searchstring, df,
@@ -368,3 +372,18 @@ class CoreSet(object):
         plt.xlabel('Number of users')
         plt.ylabel('Number of hashtags')
         plt.show()
+
+    def distplot(searchstring, df):
+        freqdict = CoreSet.frequency(searchstring, df)
+        freqarray = []
+        for tple in freqdict:
+            freqarray.append(tple[1])
+        sns.distplot(freqarray, bins=len(freqarray), kde=False, rug=True)
+        plt.show()
+
+    def kerneldistplot(searchstring, df):
+        freqdict = CoreSet.frequency(searchstring, df)
+        freqarray = []
+        for tple in freqdict:
+            freqarray.append(tple[1])
+        sns.distplot(freqarray, hist=False, rug=True)
