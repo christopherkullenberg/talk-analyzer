@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from collections import Counter
 import numpy as np
-from scipy import stats
+#  from scipy import stats
+
 
 class URLconstructor(object):
     def __init__(self, idnumber, df):
@@ -288,6 +289,9 @@ class Network(object):
         print("Seventyfive percentile: " + str(seventyfive))
         print("Ninety percentile: " + str(ninety))
         print("Total users: " + str(len(set(userlist))))
+        plt.plot(freqarray)
+        plt.ylabel('some numbers')
+        plt.show()
         plt.figure(figsize=(8, 8))
         nx.draw(G, with_labels=True, font_size=16)
         if regexp:
