@@ -250,7 +250,7 @@ class Network(object):
         nodefreq = Counter(nodes).most_common()
         return nodefreq
 
-    def makegraph(searchstring, nodefreq, regexp=False):
+    def makegraph(searchstring, nodefreq, users=True, plot=True):
         #  print(nodefreq)
         G = nx.Graph()
         #  color_map = []
@@ -258,24 +258,11 @@ class Network(object):
         userlist = []
         freqarray = []
         for key, value in nodefreq:
-            '''
-            if value >= 4:
-                color_map.append('red')
-            else:
-                color_map.append('orange')
-            '''
-            if regexp:
-                G.add_edge(searchstring, key, weight=value)
-                print(key, value)
-                userlist.append(key)
-                freqarray.append(value)
-                totalfreq += value
-            else:
-                G.add_edge(searchstring, key, weight=value)
-                print(key, value)
-                userlist.append(key)
-                freqarray.append(value)
-                totalfreq += value
+            G.add_edge(searchstring, key, weight=value)
+            print(key, value)
+            userlist.append(key)
+            freqarray.append(value)
+            totalfreq += value
         print("-----")
         print("Total value: " + str(totalfreq))
         ten = np.percentile(freqarray, 10)
@@ -290,15 +277,11 @@ class Network(object):
         print("Ninety percentile: " + str(ninety))
         print("Total users: " + str(len(set(userlist))))
         plt.plot(freqarray)
-        plt.ylabel('some numbers')
+        plt.xlabel('Number of users')
+        plt.ylabel('Number of hashtags')
         plt.show()
         plt.figure(figsize=(8, 8))
         nx.draw(G, with_labels=True, font_size=16)
-        if regexp:
-            plt.savefig("../results/" + str(searchstring) + ".png")
-        else:
-            plt.savefig("../results/" +
-                        str(searchstring[1:]) + ".png")  # rm hash symbol
 
     def userusernetwork(searchstring, df, plot=True, html=False):
         """Takes a username and makes a graph,
@@ -323,6 +306,7 @@ class Network(object):
 
     def hashtagusernetwork(searchstring, df, plot=True, html=False):
         """Takes a hashtag and makes a graph of its users,
+        searchstring, nodefreq, regexp=False, users=True, plot=True
         """
         Network.makegraph(searchstring,
                           Network.getnodes(searchstring, df,
@@ -357,3 +341,30 @@ class Network(object):
             return(results)
         for r in results:
             print("<p>" + r[0] + "   " + str(r[1]) + "</p>")
+
+
+class CoreSet(object):
+    def __init__(self, searchstring, df):
+        '''
+        Takes search string and dataframe as input.
+        Returns various time series as dicts.
+        '''
+    def frequency(searchstring, df):
+        distribution = Network.getnodes(searchstring, df,
+                                        source='hash', target='user')
+        return distribution
+
+    def percentile(searchstring, df):
+        distribution = Network.getnodes(searchstring, df,
+                                        source='hash', target='user')
+        return distribution
+
+    def histogram(searchstring, df):
+        freqdict = CoreSet.frequency(searchstring, df)
+        freqarray = []
+        for tple in freqdict:
+            freqarray.append(tple[1])
+        plt.plot(freqarray)
+        plt.xlabel('Number of users')
+        plt.ylabel('Number of hashtags')
+        plt.show()
