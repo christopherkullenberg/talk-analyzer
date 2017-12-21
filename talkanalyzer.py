@@ -397,3 +397,39 @@ class CoreSet(object):
         for tple in freqdict:
             freqarray.append(tple[1])
         sns.distplot(freqarray, hist=False, rug=True)
+
+    def hashtagtimeseries(searchstring, df):
+        '''Takes a hashtag as input, for example "womanwriter",
+        then returns a time series describing the formation of hashtag.'''
+        ts = pd.DataFrame(columns=["User", "Timestamp", "Hashtag"])
+        timefreq = {}
+        datadict = {}
+        for row in df.iterrows():
+            regexp = '\#' + searchstring[1:] + "\s"  # hashtag search
+            match = re.findall(regexp, row[1][3], re.IGNORECASE)
+            if match:
+                datadict = {}
+                matchcounter = 0
+                for m in match:
+                    matchcounter += 1
+                # print(str(matchcounter))
+                datadict["User"] = row[1][9]
+                datadict["Timestamp"] = row[1][4]
+                datadict["Hashtag"] = searchstring
+                ts = ts.append(datadict, ignore_index=True)
+        # ts = pd.Series(timefreq)
+        # hitsperday = ts.resample('1440T', base=60).count()
+        # hitsperday = hitsperday[hitsperday != 0]  # Remove empty values
+        return ts
+
+        def builddf(filename):
+            datadict = {}
+
+
+
+
+
+
+
+
+        return ts
