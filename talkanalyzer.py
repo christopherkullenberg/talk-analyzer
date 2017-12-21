@@ -220,8 +220,6 @@ class Network(object):
                         talksto = re.findall(r'\#[a-zA-Z0-9]+',
                                              row[1][3], re.IGNORECASE)
                     if talksto:
-                        #  print(talksto[0])
-                        #  odes[counter] = talksto[0]
                         nodes.append(talksto[0])
         if source == "hash":
             if target == "hash":
@@ -248,7 +246,6 @@ class Network(object):
                 match = re.findall(searchstring, row[1][3])
                 if match:
                     nodes.append(row[1][9])
-
         nodefreq = Counter(nodes).most_common()
         return nodefreq
 
@@ -358,7 +355,20 @@ class CoreSet(object):
                                         source='hash', target='user')
         return distribution
 
+    def frequencypercent(searchstring, df):
+        totalhashtags = 0
+        percentlist = []
+        distribution = Network.getnodes(searchstring, df,
+                                        source='hash', target='user')
+        for d in distribution:  # get total
+            totalhashtags += d[1]
+        print("Total hashtags: " + str(totalhashtags))
+        for d in distribution:
+            percentlist.append((d[0], round((d[1] / totalhashtags), 2)))
+        return percentlist
+
     def percentile(searchstring, df):
+        '''To be fixed'''
         distribution = Network.getnodes(searchstring, df,
                                         source='hash', target='user')
         return distribution
