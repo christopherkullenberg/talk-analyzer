@@ -401,8 +401,8 @@ class CoreSet(object):
     def hashtagtimeseries(searchstring, df):
         '''Takes a hashtag as input, for example "womanwriter",
         then returns a time series describing the formation of hashtag.'''
-        ts = pd.DataFrame(columns=["User", "Timestamp", "Hashtag"])
-        timefreq = {}
+        ts = pd.DataFrame(columns=["User", "Timestamp",
+                                   "Hashtag", "ThreadURL"])
         datadict = {}
         for row in df.iterrows():
             regexp = '\#' + searchstring[1:] + "\s"  # hashtag search
@@ -416,6 +416,7 @@ class CoreSet(object):
                 datadict["User"] = row[1][9]
                 datadict["Timestamp"] = row[1][4]
                 datadict["Hashtag"] = searchstring
+                datadict["ThreadURL"] = URLconstructor.commenturl(row[0], df)
                 ts = ts.append(datadict, ignore_index=True)
         # ts = pd.Series(timefreq)
         # hitsperday = ts.resample('1440T', base=60).count()
