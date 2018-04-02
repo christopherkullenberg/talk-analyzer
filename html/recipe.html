@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+                    <html>
+                    <head>
+                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <style type="text/css">
+                        body, html {
+                          font-family: sans-serif;
+                            font-size: 7pt;
+                        }
+                        .vis-item.researcher {
+                          background-color: greenyellow;
+                          border-color: green;
+                        }
+                        .vis-item.moderator {
+                          background-color: pink;
+                          border-color: pink;
+                        }
+                        .vis-item.superuser {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.active {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.visitor {
+                          background-color: white;
+                          border-color: white;
+                        }
+                      </style>
+
+                      <script src="node_modules/vis/dist/vis.js"></script>
+                      <link href="node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+                    </head>
+                    <body>
+                    <div id="visualization"></div>
+                    <script type="text/javascript">
+                      var items = new vis.DataSet([
+                        
+{id: 1, content: 'bootnecksbs', start: '2015-12-08', type: 'box', className: 'visitor'}, 
+{id: 2, content: 'parsfan', start: '2015-12-10', type: 'box', className: 'moderator'}, 
+{id: 3, content: 'VVH', start: '2015-12-10', type: 'box', className: 'researcher'}, 
+{id: 4, content: 'parsfan', start: '2015-12-10', type: 'box', className: 'moderator'}, 
+{id: 5, content: 'bookish', start: '2015-12-11', type: 'box', className: 'visitor'}, 
+{id: 6, content: 'klmasters', start: '2015-12-11', type: 'box', className: 'visitor'}, 
+{id: 7, content: 'tinavdmolen', start: '2015-12-13', type: 'box', className: 'visitor'}, 
+{id: 8, content: 'RachelLevine', start: '2015-12-15', type: 'box', className: 'visitor'}, 
+{id: 9, content: 'kerebeth', start: '2015-12-15', type: 'box', className: 'visitor'}, 
+{id: 10, content: 'parsfan', start: '2015-12-15', type: 'box', className: 'moderator'}, 
+{id: 11, content: 'bookish', start: '2015-12-17', type: 'box', className: 'visitor'}, 
+{id: 12, content: 'bookish', start: '2015-12-17', type: 'box', className: 'visitor'}, 
+{id: 13, content: 'kodemunkey', start: '2015-12-17', type: 'box', className: 'superuser'}, 
+{id: 14, content: 'bookish', start: '2015-12-17', type: 'box', className: 'visitor'}, 
+{id: 15, content: 'kodemunkey', start: '2015-12-18', type: 'box', className: 'superuser'}, 
+{id: 16, content: 'parsfan', start: '2015-12-18', type: 'box', className: 'moderator'}, 
+{id: 17, content: 'parsfan', start: '2015-12-18', type: 'box', className: 'moderator'}, 
+{id: 18, content: 'joolslee', start: '2015-12-19', type: 'box', className: 'superuser'}, 
+{id: 19, content: 'parsfan', start: '2015-12-20', type: 'box', className: 'moderator'}, 
+{id: 20, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
+{id: 21, content: 'parsfan', start: '2015-12-20', type: 'box', className: 'moderator'}, 
+{id: 22, content: 'kodemunkey', start: '2015-12-22', type: 'box', className: 'superuser'}, 
+{id: 23, content: 'Archi', start: '2015-12-22', type: 'box', className: 'visitor'}, 
+{id: 24, content: 'Antihelios', start: '2015-12-22', type: 'box', className: 'visitor'}, 
+{id: 25, content: 'Archi', start: '2015-12-23', type: 'box', className: 'visitor'}, 
+{id: 26, content: 'kodemunkey', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 27, content: 'kodemunkey', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 28, content: 'parsfan', start: '2015-12-24', type: 'box', className: 'moderator'}, 
+{id: 29, content: 'Archi', start: '2015-12-24', type: 'box', className: 'visitor'}, 
+{id: 30, content: 'parsfan', start: '2015-12-24', type: 'box', className: 'moderator'}, 
+{id: 31, content: 'parsfan', start: '2015-12-25', type: 'box', className: 'moderator'}, 
+{id: 32, content: 'parsfan', start: '2015-12-25', type: 'box', className: 'moderator'}, 
+{id: 33, content: 'edtechgirl', start: '2015-12-26', type: 'box', className: 'visitor'}, 
+{id: 34, content: 'edtechgirl', start: '2015-12-27', type: 'box', className: 'visitor'}, 
+{id: 35, content: 'parsfan', start: '2015-12-27', type: 'box', className: 'moderator'}, 
+{id: 36, content: 'parsfan', start: '2015-12-28', type: 'box', className: 'moderator'}, 
+{id: 37, content: 'Archi', start: '2015-12-28', type: 'box', className: 'visitor'}, 
+{id: 38, content: 'parsfan', start: '2015-12-29', type: 'box', className: 'moderator'}, 
+{id: 39, content: 'parsfan', start: '2015-12-29', type: 'box', className: 'moderator'}, 
+{id: 40, content: 'Archi', start: '2015-12-29', type: 'box', className: 'visitor'}, 
+{id: 41, content: 'Traceydix', start: '2015-12-30', type: 'box', className: 'superuser'}, 
+{id: 42, content: 'parsfan', start: '2015-12-30', type: 'box', className: 'moderator'}, 
+{id: 43, content: 'joolslee', start: '2015-12-30', type: 'box', className: 'superuser'}, 
+{id: 44, content: 'Archi', start: '2015-12-31', type: 'box', className: 'visitor'}, 
+{id: 45, content: 'parsfan', start: '2015-12-31', type: 'box', className: 'moderator'}, 
+{id: 46, content: 'kodemunkey', start: '2015-12-31', type: 'box', className: 'superuser'}, 
+{id: 47, content: 'kodemunkey', start: '2015-12-31', type: 'box', className: 'superuser'}, 
+{id: 48, content: 'Antihelios', start: '2016-01-02', type: 'box', className: 'visitor'}, 
+{id: 49, content: 'parsfan', start: '2016-01-04', type: 'box', className: 'moderator'}, 
+{id: 50, content: 'Archi', start: '2016-01-04', type: 'box', className: 'visitor'}, 
+{id: 51, content: 'Archi', start: '2016-01-04', type: 'box', className: 'visitor'}, 
+{id: 52, content: 'Antihelios', start: '2016-01-04', type: 'box', className: 'visitor'}, 
+{id: 53, content: 'Antihelios', start: '2016-01-04', type: 'box', className: 'visitor'}, 
+{id: 54, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'visitor'}, 
+{id: 55, content: 'Archi', start: '2016-01-05', type: 'box', className: 'visitor'}, 
+{id: 56, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'visitor'}, 
+{id: 57, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'visitor'}, 
+{id: 58, content: 'parsfan', start: '2016-01-06', type: 'box', className: 'moderator'}, 
+{id: 59, content: 'Antihelios', start: '2016-01-06', type: 'box', className: 'visitor'}, 
+{id: 60, content: 'Traceydix', start: '2016-01-06', type: 'box', className: 'superuser'}, 
+{id: 61, content: 'Traceydix', start: '2016-01-07', type: 'box', className: 'superuser'}, 
+{id: 62, content: 'Traceydix', start: '2016-01-09', type: 'box', className: 'superuser'}, 
+{id: 63, content: 'Traceydix', start: '2016-01-09', type: 'box', className: 'superuser'}, 
+{id: 64, content: 'Antihelios', start: '2016-01-11', type: 'box', className: 'visitor'}, 
+{id: 65, content: 'Antihelios', start: '2016-01-11', type: 'box', className: 'visitor'}, 
+{id: 66, content: 'Kimnj', start: '2016-01-11', type: 'box', className: 'visitor'}, 
+{id: 67, content: 'Kimnj', start: '2016-01-13', type: 'box', className: 'visitor'}, 
+{id: 68, content: 'parsfan', start: '2016-01-13', type: 'box', className: 'moderator'}, 
+{id: 69, content: 'Antihelios', start: '2016-01-14', type: 'box', className: 'visitor'}, 
+{id: 70, content: 'Antihelios', start: '2016-01-14', type: 'box', className: 'visitor'}, 
+{id: 71, content: 'Archi', start: '2016-01-14', type: 'box', className: 'visitor'}, 
+{id: 72, content: 'griddlesticks', start: '2016-01-15', type: 'box', className: 'visitor'}, 
+{id: 73, content: 'griddlesticks', start: '2016-01-15', type: 'box', className: 'visitor'}, 
+{id: 74, content: 'Greensleeves', start: '2016-01-15', type: 'box', className: 'superuser'}, 
+{id: 75, content: 'Traceydix', start: '2016-01-16', type: 'box', className: 'superuser'}, 
+{id: 76, content: 'Traceydix', start: '2016-01-17', type: 'box', className: 'superuser'}, 
+{id: 77, content: 'griddlesticks', start: '2016-01-18', type: 'box', className: 'visitor'}, 
+{id: 78, content: 'Traceydix', start: '2016-01-18', type: 'box', className: 'superuser'}, 
+{id: 79, content: 'Kimnj', start: '2016-01-20', type: 'box', className: 'visitor'}, 
+{id: 80, content: 'parsfan', start: '2016-01-23', type: 'box', className: 'moderator'}, 
+{id: 81, content: 'Traceydix', start: '2016-01-24', type: 'box', className: 'superuser'}, 
+{id: 82, content: 'Traceydix', start: '2016-01-24', type: 'box', className: 'superuser'}, 
+{id: 83, content: 'Traceydix', start: '2016-01-26', type: 'box', className: 'superuser'}, 
+{id: 84, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 85, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 86, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 87, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 88, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 89, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 90, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 91, content: 'Cuboctahedron', start: '2016-01-27', type: 'box', className: 'superuser'}, 
+{id: 92, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 93, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 94, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 95, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 96, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 97, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 98, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 99, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 100, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 101, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 102, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 103, content: 'Greensleeves', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 104, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 105, content: 'Traceydix', start: '2016-01-29', type: 'box', className: 'superuser'}, 
+{id: 106, content: 'Traceydix', start: '2016-01-30', type: 'box', className: 'superuser'}, 
+{id: 107, content: 'joolslee', start: '2016-01-30', type: 'box', className: 'superuser'}, 
+{id: 108, content: 'griddlesticks', start: '2016-01-31', type: 'box', className: 'visitor'}, 
+{id: 109, content: 'griddlesticks', start: '2016-01-31', type: 'box', className: 'visitor'}, 
+{id: 110, content: 'Traceydix', start: '2016-01-31', type: 'box', className: 'superuser'}, 
+{id: 111, content: 'griddlesticks', start: '2016-02-01', type: 'box', className: 'visitor'}, 
+{id: 112, content: 'Greensleeves', start: '2016-02-01', type: 'box', className: 'superuser'}, 
+{id: 113, content: 'Cuboctahedron', start: '2016-02-01', type: 'box', className: 'superuser'}, 
+{id: 114, content: 'griddlesticks', start: '2016-02-02', type: 'box', className: 'visitor'}, 
+{id: 115, content: 'Traceydix', start: '2016-02-02', type: 'box', className: 'superuser'}, 
+{id: 116, content: 'Cuboctahedron', start: '2016-02-03', type: 'box', className: 'superuser'}, 
+{id: 117, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 118, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 119, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 120, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 121, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 122, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 123, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 124, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 125, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 126, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 127, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 128, content: 'Traceydix', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 129, content: 'Cuboctahedron', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 130, content: 'griddlesticks', start: '2016-02-06', type: 'box', className: 'visitor'}, 
+{id: 131, content: 'Greensleeves', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 132, content: 'Traceydix', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 133, content: 'Traceydix', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 134, content: 'Cuboctahedron', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 135, content: 'Traceydix', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 136, content: 'Woo-H', start: '2016-02-07', type: 'box', className: 'visitor'}, 
+{id: 137, content: 'Cuboctahedron', start: '2016-02-07', type: 'box', className: 'superuser'}, 
+{id: 138, content: 'Greensleeves', start: '2016-02-08', type: 'box', className: 'superuser'}, 
+{id: 139, content: 'Antihelios', start: '2016-02-10', type: 'box', className: 'visitor'}, 
+{id: 140, content: 'Antihelios', start: '2016-02-10', type: 'box', className: 'visitor'}, 
+{id: 141, content: 'Traceydix', start: '2016-02-11', type: 'box', className: 'superuser'}, 
+{id: 142, content: 'Antihelios', start: '2016-02-12', type: 'box', className: 'visitor'}, 
+{id: 143, content: 'Greensleeves', start: '2016-02-13', type: 'box', className: 'superuser'}, 
+{id: 144, content: 'Greensleeves', start: '2016-02-13', type: 'box', className: 'superuser'}, 
+{id: 145, content: 'Traceydix', start: '2016-02-14', type: 'box', className: 'superuser'}, 
+{id: 146, content: 'Cuboctahedron', start: '2016-02-14', type: 'box', className: 'superuser'}, 
+{id: 147, content: 'Christoferos', start: '2016-02-17', type: 'box', className: 'superuser'}, 
+{id: 148, content: 'Christoferos', start: '2016-02-20', type: 'box', className: 'superuser'}, 
+{id: 149, content: 'Greensleeves', start: '2016-02-21', type: 'box', className: 'superuser'}, 
+{id: 150, content: 'Antihelios', start: '2016-02-26', type: 'box', className: 'visitor'}, 
+{id: 151, content: 'Cuboctahedron', start: '2016-02-27', type: 'box', className: 'superuser'}, 
+{id: 152, content: 'Cuboctahedron', start: '2016-02-28', type: 'box', className: 'superuser'}, 
+{id: 153, content: 'fromere', start: '2016-03-01', type: 'box', className: 'superuser'}, 
+{id: 154, content: 'griddlesticks', start: '2016-03-21', type: 'box', className: 'visitor'}, 
+{id: 155, content: 'Dizzy78', start: '2016-03-29', type: 'box', className: 'superuser'}, 
+{id: 156, content: 'Kimnj', start: '2016-04-10', type: 'box', className: 'visitor'}, 
+{id: 157, content: 'Dizzy78', start: '2016-04-10', type: 'box', className: 'superuser'}, 
+{id: 158, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
+{id: 159, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
+{id: 160, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
+{id: 161, content: 'Dizzy78', start: '2016-04-19', type: 'box', className: 'superuser'}, 
+{id: 162, content: 'dbenford', start: '2016-04-24', type: 'box', className: 'visitor'}, 
+{id: 163, content: 'Dizzy78', start: '2016-04-30', type: 'box', className: 'superuser'}, 
+{id: 164, content: 'kerebeth', start: '2016-05-10', type: 'box', className: 'visitor'}, 
+{id: 165, content: 'hilohello', start: '2016-05-25', type: 'box', className: 'visitor'}, 
+{id: 166, content: 'kerebeth', start: '2016-06-02', type: 'box', className: 'visitor'}, 
+{id: 167, content: 'fromere', start: '2016-09-10', type: 'box', className: 'superuser'}, 
+{id: 168, content: 'Thel', start: '2016-09-17', type: 'box', className: 'visitor'}, 
+{id: 169, content: 'Thel', start: '2016-09-17', type: 'box', className: 'visitor'}, 
+{id: 170, content: 'Dizzy78', start: '2016-10-09', type: 'box', className: 'superuser'}, 
+{id: 171, content: 'fromere', start: '2016-10-12', type: 'box', className: 'superuser'}, 
+{id: 172, content: 'Dizzy78', start: '2016-11-01', type: 'box', className: 'superuser'}, 
+{id: 173, content: 'Kimnj', start: '2016-12-12', type: 'box', className: 'visitor'}, 
+{id: 174, content: 'Kimnj', start: '2016-12-12', type: 'box', className: 'visitor'}, 
+{id: 175, content: 'Kimnj', start: '2016-12-13', type: 'box', className: 'visitor'}, 
+{id: 176, content: 'Dizzy78', start: '2017-01-07', type: 'box', className: 'superuser'}, 
+{id: 177, content: 'schub', start: '2017-01-09', type: 'box', className: 'visitor'}, 
+{id: 178, content: 'Kimnj', start: '2017-01-23', type: 'box', className: 'visitor'}, 
+{id: 179, content: 'Woo-H', start: '2017-06-25', type: 'box', className: 'visitor'}, 
+{id: 180, content: 'CalliopeSoul', start: '2017-08-28', type: 'box', className: 'visitor'}, 
+{id: 181, content: 'CalliopeSoul', start: '2017-08-30', type: 'box', className: 'visitor'}, 
+{id: 182, content: 'marmar96', start: '2017-09-26', type: 'box', className: 'visitor'}, 
+{id: 183, content: 'hallkr', start: '2017-10-02', type: 'box', className: 'visitor'}, 
+{id: 184, content: 'hallkr', start: '2017-10-03', type: 'box', className: 'visitor'}, 
+{id: 185, content: 'hallkr', start: '2017-10-03', type: 'box', className: 'visitor'}, 
+{id: 186, content: 'Sangel123', start: '2017-10-10', type: 'box', className: 'visitor'}, 
+{id: 187, content: 'Carriechelle', start: '2017-10-18', type: 'box', className: 'visitor'}, 
+]);
+          // DOM element where the Timeline will be attached
+          var container = document.getElementById('visualization');
+
+          // Configuration for the Timeline
+          var options = {
+            editable: true
+          };
+
+          // Create a Timeline
+          var timeline = new vis.Timeline(container);
+          timeline.setOptions(options);
+          timeline.setItems(items);
+        </script>
+        </body>
+        </html>
+        

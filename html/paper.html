@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+                    <html>
+                    <head>
+                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <style type="text/css">
+                        body, html {
+                          font-family: sans-serif;
+                            font-size: 7pt;
+                        }
+                        .vis-item.researcher {
+                          background-color: greenyellow;
+                          border-color: green;
+                        }
+                        .vis-item.moderator {
+                          background-color: pink;
+                          border-color: pink;
+                        }
+                        .vis-item.superuser {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.active {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.visitor {
+                          background-color: white;
+                          border-color: white;
+                        }
+                      </style>
+
+                      <script src="node_modules/vis/dist/vis.js"></script>
+                      <link href="node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+                    </head>
+                    <body>
+                    <div id="visualization"></div>
+                    <script type="text/javascript">
+                      var items = new vis.DataSet([
+                        
+{id: 1, content: 'mutabilitie', start: '2016-01-11', type: 'box', className: 'moderator'}, 
+{id: 2, content: 'LWSmith', start: '2016-02-09', type: 'box', className: 'researcher'}, 
+{id: 3, content: 'parsfan', start: '2016-02-21', type: 'box', className: 'moderator'}, 
+{id: 4, content: 'LWSmith', start: '2016-03-08', type: 'box', className: 'researcher'}, 
+{id: 5, content: 'Christoferos', start: '2016-03-09', type: 'box', className: 'superuser'}, 
+{id: 6, content: 'Greensleeves', start: '2016-03-21', type: 'box', className: 'superuser'}, 
+{id: 7, content: 'S_Powell', start: '2016-03-21', type: 'box', className: 'researcher'}, 
+{id: 8, content: 'Greensleeves', start: '2016-03-22', type: 'box', className: 'superuser'}, 
+{id: 9, content: 'Greensleeves', start: '2016-03-22', type: 'box', className: 'superuser'}, 
+{id: 10, content: 'S_Powell', start: '2016-03-22', type: 'box', className: 'researcher'}, 
+{id: 11, content: 'Greensleeves', start: '2016-06-15', type: 'box', className: 'superuser'}, 
+{id: 12, content: 'Greensleeves', start: '2016-06-18', type: 'box', className: 'superuser'}, 
+{id: 13, content: 'S_Powell', start: '2016-06-20', type: 'box', className: 'researcher'}, 
+{id: 14, content: 'Traceydix', start: '2016-06-26', type: 'box', className: 'superuser'}, 
+{id: 15, content: 'S_Powell', start: '2016-06-27', type: 'box', className: 'researcher'}, 
+{id: 16, content: 'LWSmith', start: '2016-06-27', type: 'box', className: 'researcher'}, 
+{id: 17, content: 'mutabilitie', start: '2016-06-28', type: 'box', className: 'moderator'}, 
+{id: 18, content: 'LWSmith', start: '2016-07-04', type: 'box', className: 'researcher'}, 
+{id: 19, content: 'mutabilitie', start: '2016-07-05', type: 'box', className: 'moderator'}, 
+{id: 20, content: 'S_Powell', start: '2016-07-07', type: 'box', className: 'researcher'}, 
+{id: 21, content: 'Traceydix', start: '2016-07-09', type: 'box', className: 'superuser'}, 
+{id: 22, content: 'Traceydix', start: '2016-07-09', type: 'box', className: 'superuser'}, 
+{id: 23, content: 'S_Powell', start: '2016-07-11', type: 'box', className: 'researcher'}, 
+{id: 24, content: 'Christoferos', start: '2016-07-22', type: 'box', className: 'superuser'}, 
+{id: 25, content: 'mutabilitie', start: '2016-07-22', type: 'box', className: 'moderator'}, 
+{id: 26, content: 'Traceydix', start: '2016-07-29', type: 'box', className: 'superuser'}, 
+{id: 27, content: 'Traceydix', start: '2016-08-12', type: 'box', className: 'superuser'}, 
+{id: 28, content: 'S_Powell', start: '2016-09-14', type: 'box', className: 'researcher'}, 
+{id: 29, content: 'Greensleeves', start: '2016-10-21', type: 'box', className: 'superuser'}, 
+{id: 30, content: 'S_Powell', start: '2016-10-21', type: 'box', className: 'researcher'}, 
+{id: 31, content: 'Traceydix', start: '2016-10-23', type: 'box', className: 'superuser'}, 
+{id: 32, content: 'Christoferos', start: '2016-10-28', type: 'box', className: 'superuser'}, 
+{id: 33, content: 'mutabilitie', start: '2016-11-12', type: 'box', className: 'moderator'}, 
+{id: 34, content: 'jules', start: '2016-12-13', type: 'box', className: 'superuser'}, 
+{id: 35, content: 'schub', start: '2017-01-10', type: 'box', className: 'visitor'}, 
+{id: 36, content: 'Traceydix', start: '2017-02-21', type: 'box', className: 'superuser'}, 
+{id: 37, content: 'Greensleeves', start: '2017-03-06', type: 'box', className: 'superuser'}, 
+{id: 38, content: 'schub', start: '2017-05-04', type: 'box', className: 'visitor'}, 
+{id: 39, content: 'Christoferos', start: '2017-08-02', type: 'box', className: 'superuser'}, 
+{id: 40, content: 'VVH', start: '2017-09-05', type: 'box', className: 'researcher'}, 
+{id: 41, content: 'parsfan', start: '2017-10-12', type: 'box', className: 'moderator'}, 
+]);
+          // DOM element where the Timeline will be attached
+          var container = document.getElementById('visualization');
+
+          // Configuration for the Timeline
+          var options = {
+            editable: true
+          };
+
+          // Create a Timeline
+          var timeline = new vis.Timeline(container);
+          timeline.setOptions(options);
+          timeline.setItems(items);
+        </script>
+        </body>
+        </html>
+        

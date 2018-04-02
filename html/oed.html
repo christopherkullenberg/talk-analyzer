@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+                    <html>
+                    <head>
+                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <style type="text/css">
+                        body, html {
+                          font-family: sans-serif;
+                            font-size: 7pt;
+                        }
+                        .vis-item.researcher {
+                          background-color: greenyellow;
+                          border-color: green;
+                        }
+                        .vis-item.moderator {
+                          background-color: pink;
+                          border-color: pink;
+                        }
+                        .vis-item.superuser {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.active {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.visitor {
+                          background-color: white;
+                          border-color: white;
+                        }
+                      </style>
+
+                      <script src="node_modules/vis/dist/vis.js"></script>
+                      <link href="node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+                    </head>
+                    <body>
+                    <div id="visualization"></div>
+                    <script type="text/javascript">
+                      var items = new vis.DataSet([
+                        
+{id: 1, content: 'VVH', start: '2015-12-13', type: 'box', className: 'researcher'}, 
+{id: 2, content: 'VVH', start: '2015-12-17', type: 'box', className: 'researcher'}, 
+{id: 3, content: 'VVH', start: '2015-12-18', type: 'box', className: 'researcher'}, 
+{id: 4, content: 'IntelVoid', start: '2015-12-19', type: 'box', className: 'superuser'}, 
+{id: 5, content: 'LWSmith', start: '2015-12-29', type: 'box', className: 'researcher'}, 
+{id: 6, content: 'LWSmith', start: '2016-01-01', type: 'box', className: 'researcher'}, 
+{id: 7, content: 'LWSmith', start: '2016-01-05', type: 'box', className: 'researcher'}, 
+{id: 8, content: 'LWSmith', start: '2016-01-08', type: 'box', className: 'researcher'}, 
+{id: 9, content: 'jules', start: '2016-01-18', type: 'box', className: 'superuser'}, 
+{id: 10, content: 'IntelVoid', start: '2016-01-21', type: 'box', className: 'superuser'}, 
+{id: 11, content: 'Kimnj', start: '2016-01-22', type: 'box', className: 'visitor'}, 
+{id: 12, content: 'jules', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 13, content: 'IntelVoid', start: '2016-02-03', type: 'box', className: 'superuser'}, 
+{id: 14, content: 'IntelVoid', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 15, content: 'IntelVoid', start: '2016-02-08', type: 'box', className: 'superuser'}, 
+{id: 16, content: 'LWSmith', start: '2016-02-09', type: 'box', className: 'researcher'}, 
+{id: 17, content: 'mutabilitie', start: '2016-02-09', type: 'box', className: 'moderator'}, 
+{id: 18, content: 'Cuboctahedron', start: '2016-02-12', type: 'box', className: 'superuser'}, 
+{id: 19, content: 'mutabilitie', start: '2016-02-15', type: 'box', className: 'moderator'}, 
+{id: 20, content: 'mutabilitie', start: '2016-02-16', type: 'box', className: 'moderator'}, 
+{id: 21, content: 'Christoferos', start: '2016-02-17', type: 'box', className: 'superuser'}, 
+{id: 22, content: 'mutabilitie', start: '2016-02-18', type: 'box', className: 'moderator'}, 
+{id: 23, content: 'IntelVoid', start: '2016-02-19', type: 'box', className: 'superuser'}, 
+{id: 24, content: 'joyce7b', start: '2016-02-20', type: 'box', className: 'visitor'}, 
+{id: 25, content: 'Cuboctahedron', start: '2016-02-20', type: 'box', className: 'superuser'}, 
+{id: 26, content: 'parsfan', start: '2016-02-21', type: 'box', className: 'moderator'}, 
+{id: 27, content: 'mutabilitie', start: '2016-02-23', type: 'box', className: 'moderator'}, 
+{id: 28, content: 'VVH', start: '2016-02-24', type: 'box', className: 'researcher'}, 
+{id: 29, content: 'VVH', start: '2016-02-29', type: 'box', className: 'researcher'}, 
+{id: 30, content: 'mutabilitie', start: '2016-03-02', type: 'box', className: 'moderator'}, 
+{id: 31, content: 'parsfan', start: '2016-03-02', type: 'box', className: 'moderator'}, 
+{id: 32, content: 'mutabilitie', start: '2016-03-04', type: 'box', className: 'moderator'}, 
+{id: 33, content: 'mutabilitie', start: '2016-03-04', type: 'box', className: 'moderator'}, 
+{id: 34, content: 'IntelVoid', start: '2016-03-06', type: 'box', className: 'superuser'}, 
+{id: 35, content: 'mutabilitie', start: '2016-03-06', type: 'box', className: 'moderator'}, 
+{id: 36, content: 'mutabilitie', start: '2016-03-08', type: 'box', className: 'moderator'}, 
+{id: 37, content: 'mutabilitie', start: '2016-03-08', type: 'box', className: 'moderator'}, 
+{id: 38, content: 'LWSmith', start: '2016-03-08', type: 'box', className: 'researcher'}, 
+{id: 39, content: 'mutabilitie', start: '2016-03-09', type: 'box', className: 'moderator'}, 
+{id: 40, content: 'IntelVoid', start: '2016-03-09', type: 'box', className: 'superuser'}, 
+{id: 41, content: 'jules', start: '2016-03-09', type: 'box', className: 'superuser'}, 
+{id: 42, content: 'mutabilitie', start: '2016-03-10', type: 'box', className: 'moderator'}, 
+{id: 43, content: 'VVH', start: '2016-03-10', type: 'box', className: 'researcher'}, 
+{id: 44, content: 'mutabilitie', start: '2016-03-10', type: 'box', className: 'moderator'}, 
+{id: 45, content: 'Christoferos', start: '2016-03-10', type: 'box', className: 'superuser'}, 
+{id: 46, content: 'Christoferos', start: '2016-03-10', type: 'box', className: 'superuser'}, 
+{id: 47, content: 'jules', start: '2016-03-11', type: 'box', className: 'superuser'}, 
+{id: 48, content: 'IntelVoid', start: '2016-03-13', type: 'box', className: 'superuser'}, 
+{id: 49, content: 'Greensleeves', start: '2016-03-13', type: 'box', className: 'superuser'}, 
+{id: 50, content: 'jules', start: '2016-03-13', type: 'box', className: 'superuser'}, 
+{id: 51, content: 'IntelVoid', start: '2016-03-14', type: 'box', className: 'superuser'}, 
+{id: 52, content: 'jules', start: '2016-03-14', type: 'box', className: 'superuser'}, 
+{id: 53, content: 'jules', start: '2016-03-16', type: 'box', className: 'superuser'}, 
+{id: 54, content: 'IntelVoid', start: '2016-03-21', type: 'box', className: 'superuser'}, 
+{id: 55, content: 'IntelVoid', start: '2016-03-23', type: 'box', className: 'superuser'}, 
+{id: 56, content: 'Greensleeves', start: '2016-03-27', type: 'box', className: 'superuser'}, 
+{id: 57, content: 'S_Powell', start: '2016-03-29', type: 'box', className: 'researcher'}, 
+{id: 58, content: 'IntelVoid', start: '2016-03-30', type: 'box', className: 'superuser'}, 
+{id: 59, content: 'IntelVoid', start: '2016-03-30', type: 'box', className: 'superuser'}, 
+{id: 60, content: 'IntelVoid', start: '2016-04-04', type: 'box', className: 'superuser'}, 
+{id: 61, content: 'IntelVoid', start: '2016-04-04', type: 'box', className: 'superuser'}, 
+{id: 62, content: 'VVH', start: '2016-04-04', type: 'box', className: 'researcher'}, 
+{id: 63, content: 'S_Powell', start: '2016-04-04', type: 'box', className: 'researcher'}, 
+{id: 64, content: 'IntelVoid', start: '2016-04-06', type: 'box', className: 'superuser'}, 
+{id: 65, content: 'Dizzy78', start: '2016-04-11', type: 'box', className: 'superuser'}, 
+{id: 66, content: 'S_Powell', start: '2016-04-11', type: 'box', className: 'researcher'}, 
+{id: 67, content: 'S_Powell', start: '2016-04-11', type: 'box', className: 'researcher'}, 
+{id: 68, content: 'mutabilitie', start: '2016-04-15', type: 'box', className: 'moderator'}, 
+{id: 69, content: 'jules', start: '2016-04-17', type: 'box', className: 'superuser'}, 
+{id: 70, content: 'Dizzy78', start: '2016-04-20', type: 'box', className: 'superuser'}, 
+{id: 71, content: 'jules', start: '2016-04-28', type: 'box', className: 'superuser'}, 
+{id: 72, content: 'jules', start: '2016-04-28', type: 'box', className: 'superuser'}, 
+{id: 73, content: 'jules', start: '2016-05-03', type: 'box', className: 'superuser'}, 
+{id: 74, content: 'S_Powell', start: '2016-05-06', type: 'box', className: 'researcher'}, 
+{id: 75, content: 'S_Powell', start: '2016-05-13', type: 'box', className: 'researcher'}, 
+{id: 76, content: 'ebaldwin', start: '2016-05-15', type: 'box', className: 'visitor'}, 
+{id: 77, content: 'VVH', start: '2016-05-19', type: 'box', className: 'researcher'}, 
+{id: 78, content: 'S_Powell', start: '2016-05-19', type: 'box', className: 'researcher'}, 
+{id: 79, content: 'S_Powell', start: '2016-05-19', type: 'box', className: 'researcher'}, 
+{id: 80, content: 'joyce7b', start: '2016-05-30', type: 'box', className: 'visitor'}, 
+{id: 81, content: 'IntelVoid', start: '2016-06-05', type: 'box', className: 'superuser'}, 
+{id: 82, content: 'parsfan', start: '2016-06-05', type: 'box', className: 'moderator'}, 
+{id: 83, content: 'VVH', start: '2016-06-09', type: 'box', className: 'researcher'}, 
+{id: 84, content: 'IntelVoid', start: '2016-06-11', type: 'box', className: 'superuser'}, 
+{id: 85, content: 'elaineleong', start: '2016-06-27', type: 'box', className: 'researcher'}, 
+{id: 86, content: 'ebaldwin', start: '2016-07-03', type: 'box', className: 'visitor'}, 
+{id: 87, content: 'jules', start: '2016-07-21', type: 'box', className: 'superuser'}, 
+{id: 88, content: 'mutabilitie', start: '2016-07-22', type: 'box', className: 'moderator'}, 
+{id: 89, content: 'S_Powell', start: '2016-07-29', type: 'box', className: 'researcher'}, 
+{id: 90, content: 'jules', start: '2016-07-31', type: 'box', className: 'superuser'}, 
+{id: 91, content: 'fromere', start: '2016-09-30', type: 'box', className: 'superuser'}, 
+{id: 92, content: 'parsfan', start: '2016-10-13', type: 'box', className: 'moderator'}, 
+{id: 93, content: 'IntelVoid', start: '2016-10-26', type: 'box', className: 'superuser'}, 
+{id: 94, content: 'S_Powell', start: '2016-10-27', type: 'box', className: 'researcher'}, 
+{id: 95, content: 'parsfan', start: '2016-10-29', type: 'box', className: 'moderator'}, 
+{id: 96, content: 'parsfan', start: '2016-11-10', type: 'box', className: 'moderator'}, 
+{id: 97, content: 'IntelVoid', start: '2016-11-16', type: 'box', className: 'superuser'}, 
+{id: 98, content: 'IntelVoid', start: '2016-12-08', type: 'box', className: 'superuser'}, 
+{id: 99, content: 'parsfan', start: '2016-12-08', type: 'box', className: 'moderator'}, 
+{id: 100, content: 'Kimnj', start: '2016-12-12', type: 'box', className: 'visitor'}, 
+{id: 101, content: 'Kimnj', start: '2016-12-13', type: 'box', className: 'visitor'}, 
+{id: 102, content: 'Kimnj', start: '2016-12-13', type: 'box', className: 'visitor'}, 
+{id: 103, content: 'IntelVoid', start: '2016-12-23', type: 'box', className: 'superuser'}, 
+{id: 104, content: 'parsfan', start: '2016-12-23', type: 'box', className: 'moderator'}, 
+{id: 105, content: 'Kimnj', start: '2016-12-26', type: 'box', className: 'visitor'}, 
+{id: 106, content: 'Kimnj', start: '2016-12-27', type: 'box', className: 'visitor'}, 
+{id: 107, content: 'Kimnj', start: '2016-12-27', type: 'box', className: 'visitor'}, 
+{id: 108, content: 'Kimnj', start: '2017-01-22', type: 'box', className: 'visitor'}, 
+{id: 109, content: 'Kimnj', start: '2017-01-23', type: 'box', className: 'visitor'}, 
+{id: 110, content: 'Kimnj', start: '2017-01-23', type: 'box', className: 'visitor'}, 
+{id: 111, content: 'Kimnj', start: '2017-01-23', type: 'box', className: 'visitor'}, 
+{id: 112, content: 'parsfan', start: '2017-01-24', type: 'box', className: 'moderator'}, 
+{id: 113, content: 'IntelVoid', start: '2017-01-26', type: 'box', className: 'superuser'}, 
+{id: 114, content: 'parsfan', start: '2017-01-29', type: 'box', className: 'moderator'}, 
+{id: 115, content: 'Kimnj', start: '2017-01-30', type: 'box', className: 'visitor'}, 
+{id: 116, content: 'parsfan', start: '2017-02-21', type: 'box', className: 'moderator'}, 
+{id: 117, content: 'jules', start: '2017-04-02', type: 'box', className: 'superuser'}, 
+{id: 118, content: 'jules', start: '2017-04-06', type: 'box', className: 'superuser'}, 
+{id: 119, content: 'jules', start: '2017-04-06', type: 'box', className: 'superuser'}, 
+{id: 120, content: 'schub', start: '2017-04-09', type: 'box', className: 'visitor'}, 
+{id: 121, content: 'jules', start: '2017-04-18', type: 'box', className: 'superuser'}, 
+{id: 122, content: 'schub', start: '2017-04-27', type: 'box', className: 'visitor'}, 
+{id: 123, content: 'schub', start: '2017-04-27', type: 'box', className: 'visitor'}, 
+{id: 124, content: 'schub', start: '2017-05-03', type: 'box', className: 'visitor'}, 
+{id: 125, content: 'schub', start: '2017-05-04', type: 'box', className: 'visitor'}, 
+{id: 126, content: 'schub', start: '2017-05-11', type: 'box', className: 'visitor'}, 
+{id: 127, content: 'AndrejGalinac', start: '2017-05-13', type: 'box', className: 'visitor'}, 
+{id: 128, content: 'parsfan', start: '2017-05-16', type: 'box', className: 'moderator'}, 
+{id: 129, content: 'schub', start: '2017-05-17', type: 'box', className: 'visitor'}, 
+{id: 130, content: 'jules', start: '2017-05-19', type: 'box', className: 'superuser'}, 
+{id: 131, content: 'schub', start: '2017-06-08', type: 'box', className: 'visitor'}, 
+{id: 132, content: 'VVH', start: '2017-06-13', type: 'box', className: 'researcher'}, 
+{id: 133, content: 'VVH', start: '2017-06-13', type: 'box', className: 'researcher'}, 
+{id: 134, content: 'parsfan', start: '2017-06-21', type: 'box', className: 'moderator'}, 
+{id: 135, content: 'jules', start: '2017-06-29', type: 'box', className: 'superuser'}, 
+{id: 136, content: 'parsfan', start: '2017-07-03', type: 'box', className: 'moderator'}, 
+{id: 137, content: 'parsfan', start: '2017-07-06', type: 'box', className: 'moderator'}, 
+{id: 138, content: 'parsfan', start: '2017-07-08', type: 'box', className: 'moderator'}, 
+{id: 139, content: 'schub', start: '2017-07-09', type: 'box', className: 'visitor'}, 
+{id: 140, content: 'VVH', start: '2017-07-10', type: 'box', className: 'researcher'}, 
+{id: 141, content: 'parsfan', start: '2017-07-10', type: 'box', className: 'moderator'}, 
+{id: 142, content: 'schub', start: '2017-07-15', type: 'box', className: 'visitor'}, 
+{id: 143, content: 'schub', start: '2017-08-07', type: 'box', className: 'visitor'}, 
+{id: 144, content: 'parsfan', start: '2017-08-24', type: 'box', className: 'moderator'}, 
+{id: 145, content: 'schub', start: '2017-08-25', type: 'box', className: 'visitor'}, 
+{id: 146, content: 'parsfan', start: '2017-08-25', type: 'box', className: 'moderator'}, 
+{id: 147, content: 'schub', start: '2017-08-29', type: 'box', className: 'visitor'}, 
+{id: 148, content: 'parsfan', start: '2017-09-03', type: 'box', className: 'moderator'}, 
+{id: 149, content: 'parsfan', start: '2017-09-08', type: 'box', className: 'moderator'}, 
+{id: 150, content: 'IntelVoid', start: '2017-09-11', type: 'box', className: 'superuser'}, 
+{id: 151, content: 'IntelVoid', start: '2017-09-12', type: 'box', className: 'superuser'}, 
+{id: 152, content: 'IntelVoid', start: '2017-09-12', type: 'box', className: 'superuser'}, 
+{id: 153, content: 'parsfan', start: '2017-09-13', type: 'box', className: 'moderator'}, 
+{id: 154, content: 'VVH', start: '2017-09-28', type: 'box', className: 'researcher'}, 
+{id: 155, content: 'schub', start: '2017-10-06', type: 'box', className: 'visitor'}, 
+{id: 156, content: 'parsfan', start: '2017-10-16', type: 'box', className: 'moderator'}, 
+{id: 157, content: 'schub', start: '2017-10-25', type: 'box', className: 'visitor'}, 
+{id: 158, content: 'schub', start: '2017-10-26', type: 'box', className: 'visitor'}, 
+{id: 159, content: 'Christoferos', start: '2017-11-04', type: 'box', className: 'superuser'}, 
+{id: 160, content: 'schub', start: '2017-11-04', type: 'box', className: 'visitor'}, 
+{id: 161, content: 'joyce7b', start: '2017-11-10', type: 'box', className: 'visitor'}, 
+{id: 162, content: 'schub', start: '2017-11-10', type: 'box', className: 'visitor'}, 
+{id: 163, content: 'schub', start: '2017-11-14', type: 'box', className: 'visitor'}, 
+{id: 164, content: 'schub', start: '2017-11-18', type: 'box', className: 'visitor'}, 
+{id: 165, content: 'parsfan', start: '2017-11-21', type: 'box', className: 'moderator'}, 
+]);
+          // DOM element where the Timeline will be attached
+          var container = document.getElementById('visualization');
+
+          // Configuration for the Timeline
+          var options = {
+            editable: true
+          };
+
+          // Create a Timeline
+          var timeline = new vis.Timeline(container);
+          timeline.setOptions(options);
+          timeline.setItems(items);
+        </script>
+        </body>
+        </html>
+        

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+                    <html>
+                    <head>
+                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <style type="text/css">
+                        body, html {
+                          font-family: sans-serif;
+                            font-size: 7pt;
+                        }
+                        .vis-item.researcher {
+                          background-color: greenyellow;
+                          border-color: green;
+                        }
+                        .vis-item.moderator {
+                          background-color: pink;
+                          border-color: pink;
+                        }
+                        .vis-item.superuser {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.active {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.visitor {
+                          background-color: white;
+                          border-color: white;
+                        }
+                      </style>
+
+                      <script src="node_modules/vis/dist/vis.js"></script>
+                      <link href="node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+                    </head>
+                    <body>
+                    <div id="visualization"></div>
+                    <script type="text/javascript">
+                      var items = new vis.DataSet([
+                        
+{id: 1, content: 'parsfan', start: '2016-01-10', type: 'box', className: 'moderator'}, 
+{id: 2, content: 'Kimnj', start: '2016-01-21', type: 'box', className: 'visitor'}, 
+{id: 3, content: 'parsfan', start: '2016-02-04', type: 'box', className: 'moderator'}, 
+{id: 4, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 5, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 6, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 7, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 8, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 9, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 10, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 11, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 12, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 13, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 14, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 15, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 16, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 17, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 18, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 19, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 20, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 21, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 22, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 23, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 24, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 25, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 26, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 27, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 28, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 29, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 30, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 31, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 32, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 33, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 34, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 35, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 36, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 37, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 38, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 39, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 40, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 41, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 42, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 43, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 44, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 45, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 46, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 47, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 48, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 49, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 50, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 51, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 52, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 53, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 54, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 55, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 56, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 57, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 58, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 59, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 60, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 61, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 62, content: 'Cuboctahedron', start: '2016-02-15', type: 'box', className: 'superuser'}, 
+{id: 63, content: 'parsfan', start: '2016-02-17', type: 'box', className: 'moderator'}, 
+{id: 64, content: 'Cuboctahedron', start: '2016-02-18', type: 'box', className: 'superuser'}, 
+{id: 65, content: 'Cuboctahedron', start: '2016-02-18', type: 'box', className: 'superuser'}, 
+{id: 66, content: 'Cuboctahedron', start: '2016-02-18', type: 'box', className: 'superuser'}, 
+{id: 67, content: 'Cuboctahedron', start: '2016-02-21', type: 'box', className: 'superuser'}, 
+{id: 68, content: 'parsfan', start: '2016-02-22', type: 'box', className: 'moderator'}, 
+]);
+          // DOM element where the Timeline will be attached
+          var container = document.getElementById('visualization');
+
+          // Configuration for the Timeline
+          var options = {
+            editable: true
+          };
+
+          // Create a Timeline
+          var timeline = new vis.Timeline(container);
+          timeline.setOptions(options);
+          timeline.setItems(items);
+        </script>
+        </body>
+        </html>
+        

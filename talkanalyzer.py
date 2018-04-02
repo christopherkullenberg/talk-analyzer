@@ -81,6 +81,8 @@ class Printer(object):
                     print(URLconstructor.commenturl(row[0], df))
                     print("Thread: " + URLconstructor.threadturl(row[0], df))
                     # Get date of post by locating by index number:
+                    # Lazy christopher this is a bad solution
+                    # Fix code to parse datetime 
                     print("Date of post: " +
                           str(df.loc[row[0]].comment_created_at)[0:-7])
 
@@ -408,29 +410,113 @@ class CoreSet(object):
             regexp = '\#' + searchstring[1:] + "\s"  # hashtag search
             match = re.findall(regexp, row[1][3], re.IGNORECASE)
             if match:
+                #print(row[1][3])
                 datadict = {}
                 matchcounter = 0
                 for m in match:
                     matchcounter += 1
                 # print(str(matchcounter))
-                datadict["User"] = row[1][9]
-                datadict["Timestamp"] = row[1][4]
-                datadict["Hashtag"] = searchstring
-                datadict["ThreadURL"] = URLconstructor.commenturl(row[0], df)
-                ts = ts.append(datadict, ignore_index=True)
+                    datadict["User"] = row[1][9]
+                    datadict["Timestamp"] = row[1][4]
+                    datadict["Hashtag"] = m
+                    datadict["ThreadURL"] = URLconstructor.commenturl(row[0], df)
+                    ts = ts.append(datadict, ignore_index=True)
         # ts = pd.Series(timefreq)
         # hitsperday = ts.resample('1440T', base=60).count()
         # hitsperday = hitsperday[hitsperday != 0]  # Remove empty values
         return ts
 
-        def builddf(filename):
-            datadict = {}
+    def vis(hashtag, df, excludeusers = None):
+        hashtag = hashtag.lower()
+        header = ('''<!DOCTYPE HTML>
+                    <html>
+                    <head>
+                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <style type="text/css">
+                        body, html {
+                          font-family: sans-serif;
+                            font-size: 7pt;
+                        }
+                        .vis-item.researcher {
+                          background-color: greenyellow;
+                          border-color: green;
+                        }
+                        .vis-item.moderator {
+                          background-color: pink;
+                          border-color: pink;
+                        }
+                        .vis-item.superuser {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.active {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.visitor {
+                          background-color: white;
+                          border-color: white;
+                        }
+                      </style>
 
+                      <script src="node_modules/vis/dist/vis.js"></script>
+                      <link href="node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+                    </head>
+                    <body>
+                    <div id="visualization"></div>
+                    <script type="text/javascript">
+                      var items = new vis.DataSet([
+                        \n''')
+        
+        htmlfile = open("html/" + hashtag[1:] + ".html", "w")
+        htmlfile.write(header)
+        iterator = 1
+        listofresearchers = ["VVH", "PhilipDurkin", "hwolfe", "S_Powell",
+                            "LWSmith", "pding", "simoneduca", "elaineleong", 
+                             "etobey", "camallen"]
+        listofmoderators = ["mutabilitie", "parsfan"]
+        listofsuperusers = ["Cuboctahedron", "jules", "Traceydix", "cdorsett",
+                            "Greensleeves", "Christoferos", "kodemunkey",
+                            "fromere", "joolslee", "IntelVoid", "Dizzy78"]
 
+        for t in CoreSet.hashtagtimeseries(hashtag, df).iterrows():
+            #print(t[1][0])
+            color = ""
+            if excludeusers:
+                if t[1][0] in excludeusers:
+                    continue
+            if t[1][0] in listofresearchers:
+                color = "className: 'researcher'"
+            elif t[1][0] in listofmoderators:
+                color = "className: 'moderator'"
+            elif t[1][0] in listofsuperusers:
+                color = "className: 'superuser'"
+            else:
+                color = "className: 'visitor'"
 
+            htmlfile.write("{id: " + str(iterator) + ", content: '" + t[1][0] + "', start: '"
+              + str(t[1][1])[0:10] + "', type: 'box', " + color + "}, \n")
+            iterator += 1
 
+        footer = (''']);
+          // DOM element where the Timeline will be attached
+          var container = document.getElementById('visualization');
 
+          // Configuration for the Timeline
+          var options = {
+            editable: true
+          };
 
+          // Create a Timeline
+          var timeline = new vis.Timeline(container);
+          timeline.setOptions(options);
+          timeline.setItems(items);
+        </script>
+        </body>
+        </html>
+        ''')
+        htmlfile.write(footer)
+        htmlfile.close()
+        print("Wrote " + str(iterator) + " interactions for hashtag #" + hashtag[1:]
+             + " as " + hashtag[1:] + ".html")
 
-
-        return ts

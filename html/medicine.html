@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+                    <html>
+                    <head>
+                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <style type="text/css">
+                        body, html {
+                          font-family: sans-serif;
+                            font-size: 7pt;
+                        }
+                        .vis-item.researcher {
+                          background-color: greenyellow;
+                          border-color: green;
+                        }
+                        .vis-item.moderator {
+                          background-color: pink;
+                          border-color: pink;
+                        }
+                        .vis-item.superuser {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.active {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.visitor {
+                          background-color: white;
+                          border-color: white;
+                        }
+                      </style>
+
+                      <script src="node_modules/vis/dist/vis.js"></script>
+                      <link href="node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+                    </head>
+                    <body>
+                    <div id="visualization"></div>
+                    <script type="text/javascript">
+                      var items = new vis.DataSet([
+                        
+{id: 1, content: 'edtechgirl', start: '2015-12-11', type: 'box', className: 'visitor'}, 
+{id: 2, content: 'tinavdmolen', start: '2015-12-13', type: 'box', className: 'visitor'}, 
+{id: 3, content: 'AHatLikeThat', start: '2015-12-14', type: 'box', className: 'visitor'}, 
+{id: 4, content: 'RachelLevine', start: '2015-12-15', type: 'box', className: 'visitor'}, 
+{id: 5, content: 'RachelLevine', start: '2015-12-15', type: 'box', className: 'visitor'}, 
+{id: 6, content: 'kerebeth', start: '2015-12-15', type: 'box', className: 'visitor'}, 
+{id: 7, content: 'LWSmith', start: '2015-12-15', type: 'box', className: 'researcher'}, 
+{id: 8, content: 'parsfan', start: '2015-12-16', type: 'box', className: 'moderator'}, 
+{id: 9, content: 'Antihelios', start: '2015-12-17', type: 'box', className: 'visitor'}, 
+{id: 10, content: 'Antihelios', start: '2015-12-17', type: 'box', className: 'visitor'}, 
+{id: 11, content: 'parsfan', start: '2015-12-17', type: 'box', className: 'moderator'}, 
+{id: 12, content: 'parsfan', start: '2015-12-18', type: 'box', className: 'moderator'}, 
+{id: 13, content: 'parsfan', start: '2015-12-18', type: 'box', className: 'moderator'}, 
+{id: 14, content: 'joolslee', start: '2015-12-19', type: 'box', className: 'superuser'}, 
+{id: 15, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
+{id: 16, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
+{id: 17, content: 'parsfan', start: '2015-12-21', type: 'box', className: 'moderator'}, 
+{id: 18, content: 'Archi', start: '2015-12-22', type: 'box', className: 'visitor'}, 
+{id: 19, content: 'kerebeth', start: '2015-12-23', type: 'box', className: 'visitor'}, 
+{id: 20, content: 'kodemunkey', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 21, content: 'joolslee', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 22, content: 'Greensleeves', start: '2015-12-24', type: 'box', className: 'superuser'}, 
+{id: 23, content: 'parsfan', start: '2015-12-24', type: 'box', className: 'moderator'}, 
+{id: 24, content: 'kodemunkey', start: '2015-12-24', type: 'box', className: 'superuser'}, 
+{id: 25, content: 'kodemunkey', start: '2015-12-24', type: 'box', className: 'superuser'}, 
+{id: 26, content: 'parsfan', start: '2015-12-24', type: 'box', className: 'moderator'}, 
+{id: 27, content: 'Archi', start: '2015-12-24', type: 'box', className: 'visitor'}, 
+{id: 28, content: 'kodemunkey', start: '2015-12-25', type: 'box', className: 'superuser'}, 
+{id: 29, content: 'parsfan', start: '2015-12-25', type: 'box', className: 'moderator'}, 
+{id: 30, content: 'parsfan', start: '2015-12-25', type: 'box', className: 'moderator'}, 
+{id: 31, content: 'edtechgirl', start: '2015-12-26', type: 'box', className: 'visitor'}, 
+{id: 32, content: 'Archi', start: '2015-12-26', type: 'box', className: 'visitor'}, 
+{id: 33, content: 'edtechgirl', start: '2015-12-27', type: 'box', className: 'visitor'}, 
+{id: 34, content: 'parsfan', start: '2015-12-27', type: 'box', className: 'moderator'}, 
+{id: 35, content: 'parsfan', start: '2015-12-27', type: 'box', className: 'moderator'}, 
+{id: 36, content: 'edtechgirl', start: '2015-12-28', type: 'box', className: 'visitor'}, 
+{id: 37, content: 'parsfan', start: '2015-12-28', type: 'box', className: 'moderator'}, 
+{id: 38, content: 'parsfan', start: '2015-12-29', type: 'box', className: 'moderator'}, 
+{id: 39, content: 'parsfan', start: '2015-12-29', type: 'box', className: 'moderator'}, 
+{id: 40, content: 'parsfan', start: '2015-12-30', type: 'box', className: 'moderator'}, 
+{id: 41, content: 'LWSmith', start: '2015-12-31', type: 'box', className: 'researcher'}, 
+{id: 42, content: 'Archi', start: '2016-01-01', type: 'box', className: 'visitor'}, 
+{id: 43, content: 'Traceydix', start: '2016-01-02', type: 'box', className: 'superuser'}, 
+{id: 44, content: 'parsfan', start: '2016-01-02', type: 'box', className: 'moderator'}, 
+{id: 45, content: 'joolslee', start: '2016-01-02', type: 'box', className: 'superuser'}, 
+{id: 46, content: 'edtechgirl', start: '2016-01-04', type: 'box', className: 'visitor'}, 
+{id: 47, content: 'parsfan', start: '2016-01-06', type: 'box', className: 'moderator'}, 
+{id: 48, content: 'Traceydix', start: '2016-01-07', type: 'box', className: 'superuser'}, 
+{id: 49, content: 'Traceydix', start: '2016-01-07', type: 'box', className: 'superuser'}, 
+{id: 50, content: 'edtechgirl', start: '2016-01-10', type: 'box', className: 'visitor'}, 
+{id: 51, content: 'parsfan', start: '2016-01-10', type: 'box', className: 'moderator'}, 
+{id: 52, content: 'snikdekl', start: '2016-01-10', type: 'box', className: 'visitor'}, 
+{id: 53, content: 'Kimnj', start: '2016-01-11', type: 'box', className: 'visitor'}, 
+{id: 54, content: 'Traceydix', start: '2016-01-11', type: 'box', className: 'superuser'}, 
+{id: 55, content: 'edtechgirl', start: '2016-01-13', type: 'box', className: 'visitor'}, 
+{id: 56, content: 'joolslee', start: '2016-01-13', type: 'box', className: 'superuser'}, 
+{id: 57, content: 'parsfan', start: '2016-01-15', type: 'box', className: 'moderator'}, 
+{id: 58, content: 'griddlesticks', start: '2016-01-16', type: 'box', className: 'visitor'}, 
+{id: 59, content: 'griddlesticks', start: '2016-01-16', type: 'box', className: 'visitor'}, 
+{id: 60, content: 'griddlesticks', start: '2016-01-17', type: 'box', className: 'visitor'}, 
+{id: 61, content: 'Traceydix', start: '2016-01-21', type: 'box', className: 'superuser'}, 
+{id: 62, content: 'Traceydix', start: '2016-01-22', type: 'box', className: 'superuser'}, 
+{id: 63, content: 'Traceydix', start: '2016-01-24', type: 'box', className: 'superuser'}, 
+{id: 64, content: 'Traceydix', start: '2016-01-24', type: 'box', className: 'superuser'}, 
+{id: 65, content: 'Traceydix', start: '2016-01-24', type: 'box', className: 'superuser'}, 
+{id: 66, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 67, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 68, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 69, content: 'Cuboctahedron', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 70, content: 'Traceydix', start: '2016-01-29', type: 'box', className: 'superuser'}, 
+{id: 71, content: 'Traceydix', start: '2016-01-30', type: 'box', className: 'superuser'}, 
+{id: 72, content: 'Traceydix', start: '2016-01-31', type: 'box', className: 'superuser'}, 
+{id: 73, content: 'Traceydix', start: '2016-01-31', type: 'box', className: 'superuser'}, 
+{id: 74, content: 'Traceydix', start: '2016-02-01', type: 'box', className: 'superuser'}, 
+{id: 75, content: 'Traceydix', start: '2016-02-01', type: 'box', className: 'superuser'}, 
+{id: 76, content: 'Cuboctahedron', start: '2016-02-01', type: 'box', className: 'superuser'}, 
+{id: 77, content: 'griddlesticks', start: '2016-02-02', type: 'box', className: 'visitor'}, 
+{id: 78, content: 'Traceydix', start: '2016-02-02', type: 'box', className: 'superuser'}, 
+{id: 79, content: 'joolslee', start: '2016-02-04', type: 'box', className: 'superuser'}, 
+{id: 80, content: 'Captain_Video', start: '2016-02-04', type: 'box', className: 'visitor'}, 
+{id: 81, content: 'Traceydix', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 82, content: 'parsfan', start: '2016-02-06', type: 'box', className: 'moderator'}, 
+{id: 83, content: 'griddlesticks', start: '2016-02-06', type: 'box', className: 'visitor'}, 
+{id: 84, content: 'Cuboctahedron', start: '2016-02-06', type: 'box', className: 'superuser'}, 
+{id: 85, content: 'Traceydix', start: '2016-02-07', type: 'box', className: 'superuser'}, 
+{id: 86, content: 'Traceydix', start: '2016-02-07', type: 'box', className: 'superuser'}, 
+{id: 87, content: 'Christoferos', start: '2016-02-09', type: 'box', className: 'superuser'}, 
+{id: 88, content: 'Christoferos', start: '2016-02-09', type: 'box', className: 'superuser'}, 
+{id: 89, content: 'Antihelios', start: '2016-02-10', type: 'box', className: 'visitor'}, 
+{id: 90, content: 'Christoferos', start: '2016-02-11', type: 'box', className: 'superuser'}, 
+{id: 91, content: 'parsfan', start: '2016-02-13', type: 'box', className: 'moderator'}, 
+{id: 92, content: 'Traceydix', start: '2016-02-13', type: 'box', className: 'superuser'}, 
+{id: 93, content: 'Traceydix', start: '2016-02-13', type: 'box', className: 'superuser'}, 
+{id: 94, content: 'Traceydix', start: '2016-02-14', type: 'box', className: 'superuser'}, 
+{id: 95, content: 'Traceydix', start: '2016-02-14', type: 'box', className: 'superuser'}, 
+{id: 96, content: 'Traceydix', start: '2016-02-14', type: 'box', className: 'superuser'}, 
+{id: 97, content: 'Cuboctahedron', start: '2016-02-14', type: 'box', className: 'superuser'}, 
+{id: 98, content: 'parsfan', start: '2016-02-22', type: 'box', className: 'moderator'}, 
+{id: 99, content: 'Archi', start: '2016-02-26', type: 'box', className: 'visitor'}, 
+{id: 100, content: 'Cuboctahedron', start: '2016-02-27', type: 'box', className: 'superuser'}, 
+{id: 101, content: 'parsfan', start: '2016-02-29', type: 'box', className: 'moderator'}, 
+{id: 102, content: 'Archi', start: '2016-03-26', type: 'box', className: 'visitor'}, 
+{id: 103, content: 'Dizzy78', start: '2016-03-26', type: 'box', className: 'superuser'}, 
+{id: 104, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
+{id: 105, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
+{id: 106, content: 'EyesOfARat', start: '2016-04-25', type: 'box', className: 'visitor'}, 
+{id: 107, content: 'kerebeth', start: '2016-05-10', type: 'box', className: 'visitor'}, 
+{id: 108, content: 'kerebeth', start: '2016-06-02', type: 'box', className: 'visitor'}, 
+{id: 109, content: 'ebaldwin', start: '2016-06-19', type: 'box', className: 'visitor'}, 
+{id: 110, content: 'MyraMo', start: '2016-06-26', type: 'box', className: 'visitor'}, 
+{id: 111, content: 'snikdekl', start: '2016-07-09', type: 'box', className: 'visitor'}, 
+{id: 112, content: 'Dizzy78', start: '2016-10-13', type: 'box', className: 'superuser'}, 
+{id: 113, content: 'Dizzy78', start: '2016-11-03', type: 'box', className: 'superuser'}, 
+{id: 114, content: 'Dizzy78', start: '2016-11-20', type: 'box', className: 'superuser'}, 
+{id: 115, content: 'Kimnj', start: '2016-12-12', type: 'box', className: 'visitor'}, 
+{id: 116, content: 'schub', start: '2017-01-09', type: 'box', className: 'visitor'}, 
+{id: 117, content: 'Woo-H', start: '2017-05-01', type: 'box', className: 'visitor'}, 
+{id: 118, content: 'Kimnj', start: '2017-08-14', type: 'box', className: 'visitor'}, 
+{id: 119, content: 'Kimnj', start: '2017-08-14', type: 'box', className: 'visitor'}, 
+{id: 120, content: 'Carriechelle', start: '2017-10-03', type: 'box', className: 'visitor'}, 
+{id: 121, content: 'Carriechelle', start: '2017-10-05', type: 'box', className: 'visitor'}, 
+{id: 122, content: 'Carriechelle', start: '2017-10-17', type: 'box', className: 'visitor'}, 
+]);
+          // DOM element where the Timeline will be attached
+          var container = document.getElementById('visualization');
+
+          // Configuration for the Timeline
+          var options = {
+            editable: true
+          };
+
+          // Create a Timeline
+          var timeline = new vis.Timeline(container);
+          timeline.setOptions(options);
+          timeline.setItems(items);
+        </script>
+        </body>
+        </html>
+        

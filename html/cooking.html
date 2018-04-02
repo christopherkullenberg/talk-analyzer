@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+                    <html>
+                    <head>
+                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <style type="text/css">
+                        body, html {
+                          font-family: sans-serif;
+                            font-size: 7pt;
+                        }
+                        .vis-item.researcher {
+                          background-color: greenyellow;
+                          border-color: green;
+                        }
+                        .vis-item.moderator {
+                          background-color: pink;
+                          border-color: pink;
+                        }
+                        .vis-item.superuser {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.active {
+                          background-color: lightblue;
+                          border-color: lightblue;
+                        }
+                              .vis-item.visitor {
+                          background-color: white;
+                          border-color: white;
+                        }
+                      </style>
+
+                      <script src="node_modules/vis/dist/vis.js"></script>
+                      <link href="node_modules/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+                    </head>
+                    <body>
+                    <div id="visualization"></div>
+                    <script type="text/javascript">
+                      var items = new vis.DataSet([
+                        
+{id: 1, content: 'bootnecksbs', start: '2015-12-08', type: 'box', className: 'visitor'}, 
+{id: 2, content: 'khthies', start: '2015-12-10', type: 'box', className: 'visitor'}, 
+{id: 3, content: 'kerebeth', start: '2015-12-15', type: 'box', className: 'visitor'}, 
+{id: 4, content: 'kodemunkey', start: '2015-12-21', type: 'box', className: 'superuser'}, 
+{id: 5, content: 'kodemunkey', start: '2015-12-21', type: 'box', className: 'superuser'}, 
+{id: 6, content: 'kodemunkey', start: '2015-12-21', type: 'box', className: 'superuser'}, 
+{id: 7, content: 'Archi', start: '2015-12-23', type: 'box', className: 'visitor'}, 
+{id: 8, content: 'kodemunkey', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 9, content: 'kodemunkey', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 10, content: 'parsfan', start: '2015-12-24', type: 'box', className: 'moderator'}, 
+{id: 11, content: 'kodemunkey', start: '2015-12-25', type: 'box', className: 'superuser'}, 
+{id: 12, content: 'kodemunkey', start: '2015-12-27', type: 'box', className: 'superuser'}, 
+{id: 13, content: 'Archi', start: '2015-12-29', type: 'box', className: 'visitor'}, 
+{id: 14, content: 'kodemunkey', start: '2015-12-31', type: 'box', className: 'superuser'}, 
+{id: 15, content: 'Antihelios', start: '2016-01-02', type: 'box', className: 'visitor'}, 
+{id: 16, content: 'kodemunkey', start: '2016-01-02', type: 'box', className: 'superuser'}, 
+{id: 17, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'visitor'}, 
+{id: 18, content: 'Archi', start: '2016-01-05', type: 'box', className: 'visitor'}, 
+{id: 19, content: 'parsfan', start: '2016-01-06', type: 'box', className: 'moderator'}, 
+{id: 20, content: 'griddlesticks', start: '2016-01-15', type: 'box', className: 'visitor'}, 
+{id: 21, content: 'Kimnj', start: '2016-01-20', type: 'box', className: 'visitor'}, 
+{id: 22, content: 'griddlesticks', start: '2016-02-02', type: 'box', className: 'visitor'}, 
+{id: 23, content: 'Antihelios', start: '2016-02-12', type: 'box', className: 'visitor'}, 
+{id: 24, content: 'Antihelios', start: '2016-02-26', type: 'box', className: 'visitor'}, 
+{id: 25, content: 'Kimnj', start: '2016-04-10', type: 'box', className: 'visitor'}, 
+{id: 26, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
+{id: 27, content: 'dbenford', start: '2016-04-24', type: 'box', className: 'visitor'}, 
+{id: 28, content: 'dbenford', start: '2016-04-24', type: 'box', className: 'visitor'}, 
+{id: 29, content: 'kodemunkey', start: '2016-07-22', type: 'box', className: 'superuser'}, 
+{id: 30, content: 'Kimnj', start: '2016-12-13', type: 'box', className: 'visitor'}, 
+{id: 31, content: 'Sangel123', start: '2017-10-10', type: 'box', className: 'visitor'}, 
+]);
+          // DOM element where the Timeline will be attached
+          var container = document.getElementById('visualization');
+
+          // Configuration for the Timeline
+          var options = {
+            editable: true
+          };
+
+          // Create a Timeline
+          var timeline = new vis.Timeline(container);
+          timeline.setOptions(options);
+          timeline.setItems(items);
+        </script>
+        </body>
+        </html>
+        
