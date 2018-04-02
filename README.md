@@ -6,7 +6,8 @@ Talk admin interface (.json format).
 
 These scripts rely on the pandas, matplotlib and networkx modules, besides the standard Python3 library.
 
-## Contents
+For hashtag visualizations rendered as javascript/html, [Vis.js](http://visjs.org/) is incorporated
+(see html folder).
 
 ### 1. talkanalyzer.py
 
@@ -46,16 +47,31 @@ Returns a time series plot for easy tracking of words and users. By setting the 
 Returns a network visualization of various entry-points to the data. The networks are outdegree networks and put either a search term, a user or a hashtag as focal point.
 
 
-````Python
+```Python
     ta.Network.hashtaghashtagnetwork("#women", df, plot=True, html=False)
     ta.Network.hashtagusernetwork("#beer", df, plot=True, html=False)
     ta.Network.regexpusernetwork("recip.*", df, plot=True, html=False)
     ta.Network.userhashtagnetwork("username", df, plot=True, html=False)
     ta.Network.userusernetwork("username", df, plot=True, html=False)
-````
+```
+.
 
 ### 2. shakespearesworldDataAnalysis.ipynb
+
 A Jyputer notebook that analyses the forum data from a variety of approaches. Imports ``talkanalyzer.py``.
+
+
+### 2. shakespearesworldHashtagAnalysis.ipynb
+A Jyputer notebook that analyses the forum hashtags from a variety of approaches. Imports ``talkanalyzer.py``.
+
+To generate static html visualisations for hashtags, you can use: 
+
+```Python
+    ta.CoreSet.vis("#OED", df, excludeusers=["Username"])
+```
+
+The function ``excludeusers`` is optional and set to None by default.
+
 
 ### 3. shapkespearesworld.py
 A script for generating a web front end using cgi-bin to interact with
