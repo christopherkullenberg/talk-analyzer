@@ -56,23 +56,13 @@ Returns a network visualization of various entry-points to the data. The network
 ```
 .
 
-### 2. shakespearesworldDataAnalysis.ipynb
-
-A Jyputer notebook that analyses the forum data from a variety of approaches. Imports ``talkanalyzer.py``.
 
 
-### 2. shakespearesworldHashtagAnalysis.ipynb
-A Jyputer notebook that analyses the forum hashtags from a variety of approaches. Imports ``talkanalyzer.py``.
 
-To generate static html visualisations for hashtags, you can use: 
-
-```Python
-    ta.CoreSet.vis("#OED", df, excludeusers=["Username"])
-```
-
-The function ``excludeusers`` is optional and set to None by default.
-
-
-### 3. shapkespearesworld.py
+### 2. shapkespearesworld.py
 A script for generating a web front end using cgi-bin to interact with
 ``talkanalyzer.py``.
+
+
+### 3. HashtagRolesAnalysis.ipynb
+A notebook using the `Coreset.hashtagroles()` and `Coreset.vis()` methods to create hashtag-mentions visualisations and networks. 
