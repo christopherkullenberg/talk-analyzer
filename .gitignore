@@ -7,7 +7,7 @@ __pycache__/
 
 # data
 data/
-
+.oldnotebooks/
 # upload scripts
 upload.sh
 compile.sh

@@ -5,17 +5,30 @@ import networkx as nx
 from collections import Counter
 import numpy as np
 import seaborn as sns
-#  from scipy import stats
+
+''' talkanalyzer.py - A set of functions for
+analyzing exported data from the Zooniverse Talk
+forum.
+
+Written by <anonymized for peer review>
+
+Free software according to the MIT-license:
+https://opensource.org/licenses/MIT
+
+'''
 
 
 class URLconstructor(object):
+    '''Construct urls'''
     def __init__(self, idnumber, df):
         '''
         Takes idnumber (integer) and pandas dataframe
         '''
-    def commenturl(idnumber, df):
-        """Takes an index number from the dataframe and
-        returns a composite URL as a string for a specific comment."""
+
+    @classmethod
+    def commenturl(cls, idnumber, df):
+        '''Takes an index number from the dataframe and
+        returns a composite URL as a string for a specific comment.'''
         baseURL = "https://www.zooniverse.org/"
         directory = "projects/zooniverse/shakespeares-world/talk/"
         boardID = str(df.loc[idnumber].board_id)
@@ -25,9 +38,10 @@ class URLconstructor(object):
                discussionID + "?comment=" + commentID)
         return URL
 
-    def threadturl(idnumber, df):
-        """Takes an thread id number and returns
-        returns a composite URL as a string for whole discussion"""
+    @classmethod
+    def threadturl(cls, idnumber, df):
+        '''Takes an thread id number and returns
+        returns a composite URL as a string for whole discussion'''
         baseURL = "https://www.zooniverse.org/"
         directory = "projects/zooniverse/shakespeares-world/talk/"
         boardID = ""
@@ -38,24 +52,27 @@ class URLconstructor(object):
         URL = baseURL + directory + boardID + "/" + discussionID
         return URL
 
-    def userurl(idnumber, df):
-        """Takes a user name and returns the
-        user's page URL as a string"""
+    @classmethod
+    def userurl(cls, idnumber, df):
+        '''Takes a user name and returns the
+        user's page URL as a string'''
         baseURL = "https://www.zooniverse.org/"
         userdir = "projects/zooniverse/shakespeares-world/users/"
         return baseURL + userdir + idnumber
 
 
 class Printer(object):
+    '''Printing forum content in various ways'''
     def __init__(self, searchstring, df):
         '''
         Takes search string as input and prints the results. The Output
         can be printed both in plaintext or html depending if the optional
         html is set to True or False. Default value is False.
         '''
-    def regexpsearch(searchstring, df, html=False, context=True):
-        """Takes a regular expression and prints the results, either
-        as plain text or html. """
+    @classmethod
+    def regexpsearch(cls, searchstring, df, html=False, context=True):
+        '''Takes a regular expression and prints the results, either
+        as plain text or html. '''
         datacolumn = df.comment_body
         for row in datacolumn.iteritems():
             if context:
@@ -80,15 +97,13 @@ class Printer(object):
                         print("\t" + m)
                     print(URLconstructor.commenturl(row[0], df))
                     print("Thread: " + URLconstructor.threadturl(row[0], df))
-                    # Get date of post by locating by index number:
-                    # Lazy christopher this is a bad solution
-                    # Fix code to parse datetime 
                     print("Date of post: " +
                           str(df.loc[row[0]].comment_created_at)[0:-7])
 
-    def usercomments(searchstring, df, html=False):
-        """Input user name as string,
-        Output: prints comments for the user"""
+    @classmethod
+    def usercomments(cls, searchstring, df, html=False):
+        '''Input user name as string,
+        Output: prints comments for the user'''
         comments = df[df.comment_user_login == searchstring]
         userurl = URLconstructor.userurl(searchstring, df)
         if html:
@@ -121,9 +136,10 @@ class Printer(object):
                       str(df.loc[x[0]].comment_created_at)[0:-7])
                 print("\n")
 
-    def thread(searchstring, df):
-        """Input: Thread number as integer
-        Output: Prints thread URL and text body"""
+    @classmethod
+    def thread(cls, searchstring, df):
+        '''Input: Thread number as integer
+        Output: Prints thread URL and text body'''
         searchnumber = int(searchstring)
         comments = df[df.discussion_id == searchnumber]
         counter = 0
@@ -136,8 +152,9 @@ class Printer(object):
             print("Comment URL: " + URLconstructor.commenturl(x[0], df))
             print("\n")
 
-    def hashtag(searchstring, df, html=False):
-        """fix so that it prints also time, url, user etc. """
+    @classmethod
+    def hashtag(cls, searchstring, df, html=False):
+        '''fix so that it prints also time, url, user etc. '''
         if html:
             print("<p>Searching for: " + searchstring + "</p>")
 
@@ -152,12 +169,14 @@ class Printer(object):
 
 
 class TimeSeries(object):
+    '''Various ways of creating time series'''
     def __init__(self, searchstring, df):
         '''
         Takes search string and dataframe as input.
         Returns various time series as dicts.
         '''
-    def regexpsearch(searchstring, df, plot=True, html=False, freqs=False):
+    @classmethod
+    def regexpsearch(cls, searchstring, df, plot=True, html=False, freqs=False):
         timefreq = {}
         for row in df.iterrows():
             match = re.findall(searchstring, str(row[1][3]), re.IGNORECASE)
@@ -182,7 +201,9 @@ class TimeSeries(object):
         if freqs:
             return hitsperday
 
-    def usersearch(searchstring, df, plot=True, html=False):
+    @classmethod
+    def usersearch(cls, searchstring, df, plot=True, html=False):
+        '''Search users'''
         timefreq = {}
         for row in df.iterrows():
             matchcounter = 0
@@ -205,11 +226,13 @@ class TimeSeries(object):
 
 
 class Network(object):
+    '''Create networks for visual inspections.'''
     def __init__(self, searchstring, df):
-        """Takes a username or hashtag as input
-        and returns a directed network."""
+        '''Takes a username or hashtag as input
+        and returns a directed network.'''
 
-    def getnodes(searchstring, df, source='user', target='user'):
+    @classmethod
+    def getnodes(cls, searchstring, df, source='user', target='user'):
         nodes = []
         # counter = 0
         if source == "user":
@@ -251,7 +274,9 @@ class Network(object):
         nodefreq = Counter(nodes).most_common()
         return nodefreq
 
-    def makegraph(searchstring, nodefreq, users=True, plot=True):
+    @classmethod
+    def makegraph(cls, searchstring, nodefreq, users=True, plot=True):
+        '''Make a graph of the distribution of users.'''
         #  print(nodefreq)
         G = nx.Graph()
         #  color_map = []
@@ -284,67 +309,77 @@ class Network(object):
         plt.figure(figsize=(8, 8))
         nx.draw(G, with_labels=True, font_size=16)
 
-    def userusernetwork(searchstring, df, plot=True, html=False):
-        """Takes a username and makes a graph,
-        """
+    @classmethod
+    def userusernetwork(cls, searchstring, df, plot=True, html=False):
+        '''Takes a username and makes a graph,
+        '''
         Network.makegraph(searchstring,
                           Network.getnodes(searchstring, df,
                                            source='user', target='user'))
 
-    def userhashtagnetwork(searchstring, df, plot=True, html=False):
-        """Takes a username and makes a
-        graph of hashtags"""
+    @classmethod
+    def userhashtagnetwork(cls, searchstring, df, plot=True, html=False):
+        '''Takes a username and makes a
+        graph of hashtags'''
         Network.makegraph(searchstring,
                           Network.getnodes(searchstring, df,
                                            source='user', target='hash'))
 
-    def hashtaghashtagnetwork(searchstring, df, plot=True, html=False):
-        """Takes a username and makes a graph,
-        """
+    @classmethod
+    def hashtaghashtagnetwork(cls, searchstring, df, plot=True, html=False):
+        '''Takes a username and makes a graph,
+        '''
         Network.makegraph(searchstring,
                           Network.getnodes(searchstring, df,
                                            source='hash', target='hash'))
 
-    def hashtagusernetwork(searchstring, df, plot=True, html=False):
-        """Takes a hashtag and makes a graph of its users,
+    @classmethod
+    def hashtagusernetwork(cls, searchstring, df, plot=True, html=False):
+        '''Takes a hashtag and makes a graph of its users,
         searchstring, nodefreq, regexp=False, users=True, plot=True
-        """
+        '''
         Network.makegraph(searchstring,
                           Network.getnodes(searchstring, df,
                                            source='hash', target='user'))
 
-    def hashtagusers(searchstring, df, plot=True, html=False):
-        """Takes a hashtag and returns frequency of users,
-        """
+    @classmethod
+    def hashtagusers(cls, searchstring, df, plot=True, html=False):
+        '''Takes a hashtag and returns frequency of users,
+        '''
         results = Network.getnodes(searchstring, df,
                                    source='hash', target='user')
         for r in results:
             print("<p>" + r[0] + "   " + str(r[1]) + "</p>")
 
-    def hashtagcooccurrence(searchstring, df, plot=False, html=False):
-        """Takes a hashtag and prints co-occurrence,
-        """
+    @classmethod
+    def hashtagcooccurrence(cls, searchstring, df, plot=False, html=False):
+        '''Takes a hashtag and prints co-occurrence,
+        '''
         results = Network.getnodes(searchstring, df,
                                    source='hash', target='hash')
         for r in results:
             print("<p>" + r[0] + "   " + str(r[1]) + "</p>")
 
-    def regexpusernetwork(searchstring, df, plot=True, html=False):
-            Network.makegraph(searchstring,
-                              Network.getnodes(searchstring, df,
-                                               source='regexp',
-                                               target='user'), regexp=True)
+    @classmethod
+    def regexpusernetwork(cls, searchstring, df, plot=True, html=False):
+        Network.makegraph(searchstring,
+                          Network.getnodes(searchstring, df,
+                                           source='regexp',
+                                           target='user'), regexp=True)
 
-    def regexpusers(searchstring, df, plot=True, html=False, data=False):
+    @classmethod
+    def regexpusers(cls, searchstring, df, plot=True, html=False, data=False):
         results = Network.getnodes(searchstring, df,
                                    source='regexp', target='user')
         if data:
-            return(results)
+            return results
         for r in results:
             print("<p>" + r[0] + "   " + str(r[1]) + "</p>")
 
 
 class CoreSet(object):
+    '''This class has various functions that analyze
+    the core set of users and how they interact.'''
     def __init__(self, searchstring, df):
         '''
         Takes search string and dataframe as input.
@@ -352,12 +387,15 @@ class CoreSet(object):
         Seaborn distplot docs:
         https://seaborn.pydata.org/tutorial/distributions.html
         '''
-    def frequency(searchstring, df):
+
+    @classmethod
+    def frequency(cls, searchstring, df):
         distribution = Network.getnodes(searchstring, df,
                                         source='hash', target='user')
         return distribution
 
-    def frequencypercent(searchstring, df):
+    @classmethod
+    def frequencypercent(cls, searchstring, df):
         totalhashtags = 0
         percentlist = []
         distribution = Network.getnodes(searchstring, df,
@@ -369,13 +407,15 @@ class CoreSet(object):
             percentlist.append((d[0], round((d[1] / totalhashtags), 2)))
         return percentlist
 
-    def percentile(searchstring, df):
+    @classmethod
+    def percentile(cls, searchstring, df):
         '''To be fixed'''
         distribution = Network.getnodes(searchstring, df,
                                         source='hash', target='user')
         return distribution
 
-    def histogram(searchstring, df):
+    @classmethod
+    def histogram(cls, searchstring, df):
         freqdict = CoreSet.frequency(searchstring, df)
         freqarray = []
         for tple in freqdict:
@@ -385,7 +425,8 @@ class CoreSet(object):
         plt.ylabel('Number of hashtags')
         plt.show()
 
-    def distplot(searchstring, df):
+    @classmethod
+    def distplot(cls, searchstring, df):
         freqdict = CoreSet.frequency(searchstring, df)
         freqarray = []
         for tple in freqdict:
@@ -393,45 +434,99 @@ class CoreSet(object):
         sns.distplot(freqarray, bins=len(freqarray), kde=False, rug=True)
         plt.show()
 
-    def kerneldistplot(searchstring, df):
+    @classmethod
+    def kerneldistplot(cls, searchstring, df):
         freqdict = CoreSet.frequency(searchstring, df)
         freqarray = []
         for tple in freqdict:
             freqarray.append(tple[1])
         sns.distplot(freqarray, hist=False, rug=True)
 
-    def hashtagtimeseries(searchstring, df):
+    @classmethod
+    def hashtagtimeseries(cls, searchstring, df):
         '''Takes a hashtag as input, for example "womanwriter",
         then returns a time series describing the formation of hashtag.'''
         ts = pd.DataFrame(columns=["User", "Timestamp",
-                                   "Hashtag", "ThreadURL"])
+                                   "Hashtag", "ThreadURL", "Role"])
         datadict = {}
         for row in df.iterrows():
-            regexp = '\#' + searchstring[1:] + "\s"  # hashtag search
-            match = re.findall(regexp, row[1][3], re.IGNORECASE)
+            singular = '\#' + searchstring[1:] + '.*'
+            plural = '\#' + searchstring[1:] + 's\s'
+            regexp = '[' + singular + '|' + plural + ']' #hashtag search
+            #regexp = '\#' + searchstring[1:] + "\s"
+            #  print(regexp)
+            match = re.findall(singular, str(row[1][3]),
+                               flags=re.IGNORECASE | re.DOTALL | re.MULTILINE)
             if match:
-                #print(row[1][3])
                 datadict = {}
                 matchcounter = 0
                 for m in match:
                     matchcounter += 1
-                # print(str(matchcounter))
                     datadict["User"] = row[1][9]
                     datadict["Timestamp"] = row[1][4]
                     datadict["Hashtag"] = m
-                    datadict["ThreadURL"] = URLconstructor.commenturl(row[0], df)
+                    datadict["ThreadURL"] = URLconstructor.commenturl(row[0],
+                                                                      df)
+                    datadict["Role"] = row[1][11]
                     ts = ts.append(datadict, ignore_index=True)
         # ts = pd.Series(timefreq)
         # hitsperday = ts.resample('1440T', base=60).count()
         # hitsperday = hitsperday[hitsperday != 0]  # Remove empty values
         return ts
 
-    def vis(hashtag, df, excludeusers = None):
+    @classmethod
+    def hashtagroles(cls, df):
+        '''This creates a directed network file between a mentioned
+        user and the hashtags in a post. The purpose is to find which
+        users are pinged when certain hashtags are used.'''
+        G = nx.DiGraph()
+        edgecounter = 0
+        for post in df['comment_body']:
+            hashtaglist = []
+            userspingedlist = []
+            hashtag = re.findall(r'\#[a-zA-Z0-9_-]+', str(post),
+                                 re.IGNORECASE | re.DOTALL)
+            userpinged = re.findall(r'\@[a-zA-Z0-9]+', str(post),
+                                    re.IGNORECASE | re.DOTALL)
+            #questionmark = re.findall(r'\?', str(post),
+            #                          re.IGNORECASE | re.DOTALL)
+            if hashtag:
+                for h in hashtag:
+                    if h == "#v":  # Note #v is a false positive generated
+                        continue
+                    else:
+                        hashtaglist.append(h.lower())
+            if userpinged:
+                #  if questionmark: # This can be used to detect questions.
+                    #  print(post)
+                for u in userpinged:
+                    userspingedlist.append(u.lower())
+                if hashtaglist:
+                    # print("Hashtags: " + str(hashtaglist))
+                    # print("Users: " + str(userspingedlist))
+                    # print(post)
+                    # print("---")
+                    for h in hashtaglist:
+                        for u in userspingedlist:
+                            # print(h, u)
+                            if G.has_edge(h, u):
+                                G[h][u]['weight'] += 1
+                            else:
+                                G.add_edge(h, u, weight=1)
+                            edgecounter += 1
+
+        print("Edgecounter: " + str(edgecounter))
+        nx.write_gexf(G, "hashtaguserinteractions.gexf")
+
+    @classmethod
+    def vis(cls, hashtag, df, excludeusers = None):
+        '''Create html files with VIS visualizations'''
         hashtag = hashtag.lower()
         header = ('''<!DOCTYPE HTML>
                     <html>
                     <head>
-                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <title>Shakespeare's world | Hashtag timeline analysis
+                      </title>
                       <style type="text/css">
                         body, html {
                           font-family: sans-serif;
@@ -450,10 +545,10 @@ class CoreSet(object):
                           border-color: lightblue;
                         }
                               .vis-item.active {
-                          background-color: lightblue;
-                          border-color: lightblue;
+                          background-color: grey;
+                          border-color: grey;
                         }
-                              .vis-item.visitor {
+                              .vis-item.casual {
                           background-color: white;
                           border-color: white;
                         }
@@ -467,35 +562,31 @@ class CoreSet(object):
                     <script type="text/javascript">
                       var items = new vis.DataSet([
                         \n''')
-        
+
         htmlfile = open("html/" + hashtag[1:] + ".html", "w")
         htmlfile.write(header)
         iterator = 1
-        listofresearchers = ["VVH", "PhilipDurkin", "hwolfe", "S_Powell",
-                            "LWSmith", "pding", "simoneduca", "elaineleong", 
-                             "etobey", "camallen"]
-        listofmoderators = ["mutabilitie", "parsfan"]
-        listofsuperusers = ["Cuboctahedron", "jules", "Traceydix", "cdorsett",
-                            "Greensleeves", "Christoferos", "kodemunkey",
-                            "fromere", "joolslee", "IntelVoid", "Dizzy78"]
 
         for t in CoreSet.hashtagtimeseries(hashtag, df).iterrows():
-            #print(t[1][0])
+            # print(t[1][0])
             color = ""
             if excludeusers:
                 if t[1][0] in excludeusers:
                     continue
-            if t[1][0] in listofresearchers:
+            if t[1][4] == 'researcher':
                 color = "className: 'researcher'"
-            elif t[1][0] in listofmoderators:
+            elif t[1][4] == 'moderator':
                 color = "className: 'moderator'"
-            elif t[1][0] in listofsuperusers:
+            elif t[1][4] == 'superuser':
                 color = "className: 'superuser'"
+            elif t[1][4] == 'active':
+                color = "className: 'active'"
             else:
-                color = "className: 'visitor'"
+                color = "className: 'casual'"
 
-            htmlfile.write("{id: " + str(iterator) + ", content: '" + t[1][0] + "', start: '"
-              + str(t[1][1])[0:10] + "', type: 'box', " + color + "}, \n")
+            htmlfile.write("{id: " + str(iterator) + ", content: '" + t[1][0]
+                           + "', start: '" + str(t[1][1])[0:10]
+                           + "', type: 'box', " + color + "}, \n")
             iterator += 1
 
         footer = (''']);
@@ -517,6 +608,5 @@ class CoreSet(object):
         ''')
         htmlfile.write(footer)
         htmlfile.close()
-        print("Wrote " + str(iterator) + " interactions for hashtag #" + hashtag[1:]
-             + " as " + hashtag[1:] + ".html")
-
+        print("Wrote " + str(iterator) + " interactions for hashtag #"
+              + hashtag[1:] + " as " + hashtag[1:] + ".html")

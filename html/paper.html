@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
                     <html>
                     <head>
-                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <title>Shakespeare's world | Hashtag timeline analysis
+                      </title>
                       <style type="text/css">
                         body, html {
                           font-family: sans-serif;
@@ -20,10 +21,10 @@
                           border-color: lightblue;
                         }
                               .vis-item.active {
-                          background-color: lightblue;
-                          border-color: lightblue;
+                          background-color: grey;
+                          border-color: grey;
                         }
-                              .vis-item.visitor {
+                              .vis-item.casual {
                           background-color: white;
                           border-color: white;
                         }
@@ -37,47 +38,59 @@
                     <script type="text/javascript">
                       var items = new vis.DataSet([
                         
-{id: 1, content: 'mutabilitie', start: '2016-01-11', type: 'box', className: 'moderator'}, 
+{id: 1, content: 'mutabilitie', start: '2016-01-11', type: 'box', className: 'superuser'}, 
 {id: 2, content: 'LWSmith', start: '2016-02-09', type: 'box', className: 'researcher'}, 
-{id: 3, content: 'parsfan', start: '2016-02-21', type: 'box', className: 'moderator'}, 
-{id: 4, content: 'LWSmith', start: '2016-03-08', type: 'box', className: 'researcher'}, 
-{id: 5, content: 'Christoferos', start: '2016-03-09', type: 'box', className: 'superuser'}, 
-{id: 6, content: 'Greensleeves', start: '2016-03-21', type: 'box', className: 'superuser'}, 
-{id: 7, content: 'S_Powell', start: '2016-03-21', type: 'box', className: 'researcher'}, 
-{id: 8, content: 'Greensleeves', start: '2016-03-22', type: 'box', className: 'superuser'}, 
-{id: 9, content: 'Greensleeves', start: '2016-03-22', type: 'box', className: 'superuser'}, 
-{id: 10, content: 'S_Powell', start: '2016-03-22', type: 'box', className: 'researcher'}, 
-{id: 11, content: 'Greensleeves', start: '2016-06-15', type: 'box', className: 'superuser'}, 
-{id: 12, content: 'Greensleeves', start: '2016-06-18', type: 'box', className: 'superuser'}, 
-{id: 13, content: 'S_Powell', start: '2016-06-20', type: 'box', className: 'researcher'}, 
-{id: 14, content: 'Traceydix', start: '2016-06-26', type: 'box', className: 'superuser'}, 
-{id: 15, content: 'S_Powell', start: '2016-06-27', type: 'box', className: 'researcher'}, 
-{id: 16, content: 'LWSmith', start: '2016-06-27', type: 'box', className: 'researcher'}, 
-{id: 17, content: 'mutabilitie', start: '2016-06-28', type: 'box', className: 'moderator'}, 
-{id: 18, content: 'LWSmith', start: '2016-07-04', type: 'box', className: 'researcher'}, 
-{id: 19, content: 'mutabilitie', start: '2016-07-05', type: 'box', className: 'moderator'}, 
-{id: 20, content: 'S_Powell', start: '2016-07-07', type: 'box', className: 'researcher'}, 
-{id: 21, content: 'Traceydix', start: '2016-07-09', type: 'box', className: 'superuser'}, 
-{id: 22, content: 'Traceydix', start: '2016-07-09', type: 'box', className: 'superuser'}, 
-{id: 23, content: 'S_Powell', start: '2016-07-11', type: 'box', className: 'researcher'}, 
-{id: 24, content: 'Christoferos', start: '2016-07-22', type: 'box', className: 'superuser'}, 
-{id: 25, content: 'mutabilitie', start: '2016-07-22', type: 'box', className: 'moderator'}, 
-{id: 26, content: 'Traceydix', start: '2016-07-29', type: 'box', className: 'superuser'}, 
-{id: 27, content: 'Traceydix', start: '2016-08-12', type: 'box', className: 'superuser'}, 
-{id: 28, content: 'S_Powell', start: '2016-09-14', type: 'box', className: 'researcher'}, 
-{id: 29, content: 'Greensleeves', start: '2016-10-21', type: 'box', className: 'superuser'}, 
-{id: 30, content: 'S_Powell', start: '2016-10-21', type: 'box', className: 'researcher'}, 
-{id: 31, content: 'Traceydix', start: '2016-10-23', type: 'box', className: 'superuser'}, 
-{id: 32, content: 'Christoferos', start: '2016-10-28', type: 'box', className: 'superuser'}, 
-{id: 33, content: 'mutabilitie', start: '2016-11-12', type: 'box', className: 'moderator'}, 
-{id: 34, content: 'jules', start: '2016-12-13', type: 'box', className: 'superuser'}, 
-{id: 35, content: 'schub', start: '2017-01-10', type: 'box', className: 'visitor'}, 
-{id: 36, content: 'Traceydix', start: '2017-02-21', type: 'box', className: 'superuser'}, 
-{id: 37, content: 'Greensleeves', start: '2017-03-06', type: 'box', className: 'superuser'}, 
-{id: 38, content: 'schub', start: '2017-05-04', type: 'box', className: 'visitor'}, 
-{id: 39, content: 'Christoferos', start: '2017-08-02', type: 'box', className: 'superuser'}, 
-{id: 40, content: 'VVH', start: '2017-09-05', type: 'box', className: 'researcher'}, 
-{id: 41, content: 'parsfan', start: '2017-10-12', type: 'box', className: 'moderator'}, 
+{id: 3, content: 'elaineleong', start: '2016-02-09', type: 'box', className: 'researcher'}, 
+{id: 4, content: 'mutabilitie', start: '2016-02-15', type: 'box', className: 'moderator'}, 
+{id: 5, content: 'parsfan', start: '2016-02-21', type: 'box', className: 'superuser'}, 
+{id: 6, content: 'LWSmith', start: '2016-03-08', type: 'box', className: 'researcher'}, 
+{id: 7, content: 'Greensleeves', start: '2016-03-08', type: 'box', className: 'superuser'}, 
+{id: 8, content: 'Christoferos', start: '2016-03-09', type: 'box', className: 'superuser'}, 
+{id: 9, content: 'Greensleeves', start: '2016-03-21', type: 'box', className: 'superuser'}, 
+{id: 10, content: 'S_Powell', start: '2016-03-21', type: 'box', className: 'researcher'}, 
+{id: 11, content: 'Greensleeves', start: '2016-03-22', type: 'box', className: 'superuser'}, 
+{id: 12, content: 'S_Powell', start: '2016-03-22', type: 'box', className: 'researcher'}, 
+{id: 13, content: 'Greensleeves', start: '2016-06-15', type: 'box', className: 'superuser'}, 
+{id: 14, content: 'mutabilitie', start: '2016-06-17', type: 'box', className: 'moderator'}, 
+{id: 15, content: 'Greensleeves', start: '2016-06-18', type: 'box', className: 'superuser'}, 
+{id: 16, content: 'S_Powell', start: '2016-06-20', type: 'box', className: 'researcher'}, 
+{id: 17, content: 'Traceydix', start: '2016-06-26', type: 'box', className: 'superuser'}, 
+{id: 18, content: 'LWSmith', start: '2016-06-27', type: 'box', className: 'researcher'}, 
+{id: 19, content: 'S_Powell', start: '2016-06-27', type: 'box', className: 'researcher'}, 
+{id: 20, content: 'LWSmith', start: '2016-06-27', type: 'box', className: 'researcher'}, 
+{id: 21, content: 'mutabilitie', start: '2016-06-28', type: 'box', className: 'moderator'}, 
+{id: 22, content: 'LWSmith', start: '2016-07-04', type: 'box', className: 'researcher'}, 
+{id: 23, content: 'jules', start: '2016-07-04', type: 'box', className: 'moderator'}, 
+{id: 24, content: 'mutabilitie', start: '2016-07-05', type: 'box', className: 'moderator'}, 
+{id: 25, content: 'Traceydix', start: '2016-07-07', type: 'box', className: 'superuser'}, 
+{id: 26, content: 'S_Powell', start: '2016-07-07', type: 'box', className: 'researcher'}, 
+{id: 27, content: 'Traceydix', start: '2016-07-09', type: 'box', className: 'superuser'}, 
+{id: 28, content: 'Traceydix', start: '2016-07-09', type: 'box', className: 'superuser'}, 
+{id: 29, content: 'S_Powell', start: '2016-07-11', type: 'box', className: 'researcher'}, 
+{id: 30, content: 'Christoferos', start: '2016-07-22', type: 'box', className: 'superuser'}, 
+{id: 31, content: 'mutabilitie', start: '2016-07-22', type: 'box', className: 'moderator'}, 
+{id: 32, content: 'Greensleeves', start: '2016-07-28', type: 'box', className: 'superuser'}, 
+{id: 33, content: 'Traceydix', start: '2016-07-29', type: 'box', className: 'superuser'}, 
+{id: 34, content: 'S_Powell', start: '2016-08-10', type: 'box', className: 'researcher'}, 
+{id: 35, content: 'Traceydix', start: '2016-08-12', type: 'box', className: 'superuser'}, 
+{id: 36, content: 'S_Powell', start: '2016-08-16', type: 'box', className: 'researcher'}, 
+{id: 37, content: 'S_Powell', start: '2016-09-14', type: 'box', className: 'researcher'}, 
+{id: 38, content: 'Greensleeves', start: '2016-10-05', type: 'box', className: 'superuser'}, 
+{id: 39, content: 'Greensleeves', start: '2016-10-21', type: 'box', className: 'superuser'}, 
+{id: 40, content: 'S_Powell', start: '2016-10-21', type: 'box', className: 'researcher'}, 
+{id: 41, content: 'Traceydix', start: '2016-10-23', type: 'box', className: 'superuser'}, 
+{id: 42, content: 'Christoferos', start: '2016-10-28', type: 'box', className: 'superuser'}, 
+{id: 43, content: 'mutabilitie', start: '2016-11-12', type: 'box', className: 'moderator'}, 
+{id: 44, content: 'jules', start: '2016-12-13', type: 'box', className: 'moderator'}, 
+{id: 45, content: 'mutabilitie', start: '2016-12-19', type: 'box', className: 'moderator'}, 
+{id: 46, content: 'schub', start: '2017-01-10', type: 'box', className: 'active'}, 
+{id: 47, content: 'Traceydix', start: '2017-02-21', type: 'box', className: 'superuser'}, 
+{id: 48, content: 'Greensleeves', start: '2017-03-06', type: 'box', className: 'superuser'}, 
+{id: 49, content: 'schub', start: '2017-05-04', type: 'box', className: 'active'}, 
+{id: 50, content: 'VVH', start: '2017-06-13', type: 'box', className: 'researcher'}, 
+{id: 51, content: 'Christoferos', start: '2017-08-02', type: 'box', className: 'superuser'}, 
+{id: 52, content: 'VVH', start: '2017-09-05', type: 'box', className: 'researcher'}, 
+{id: 53, content: 'parsfan', start: '2017-10-12', type: 'box', className: 'moderator'}, 
 ]);
           // DOM element where the Timeline will be attached
           var container = document.getElementById('visualization');

@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
                     <html>
                     <head>
-                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <title>Shakespeare's world | Hashtag timeline analysis
+                      </title>
                       <style type="text/css">
                         body, html {
                           font-family: sans-serif;
@@ -20,10 +21,10 @@
                           border-color: lightblue;
                         }
                               .vis-item.active {
-                          background-color: lightblue;
-                          border-color: lightblue;
+                          background-color: grey;
+                          border-color: grey;
                         }
-                              .vis-item.visitor {
+                              .vis-item.casual {
                           background-color: white;
                           border-color: white;
                         }
@@ -37,54 +38,71 @@
                     <script type="text/javascript">
                       var items = new vis.DataSet([
                         
-{id: 1, content: 'MayorBatman', start: '2015-12-09', type: 'box', className: 'visitor'}, 
-{id: 2, content: 'hightower73', start: '2015-12-15', type: 'box', className: 'visitor'}, 
-{id: 3, content: 'Captain_Video', start: '2015-12-16', type: 'box', className: 'visitor'}, 
+{id: 1, content: 'MayorBatman', start: '2015-12-09', type: 'box', className: 'casual'}, 
+{id: 2, content: 'hightower73', start: '2015-12-15', type: 'box', className: 'moderator'}, 
+{id: 3, content: 'Captain_Video', start: '2015-12-16', type: 'box', className: 'active'}, 
 {id: 4, content: 'LWSmith', start: '2015-12-17', type: 'box', className: 'researcher'}, 
 {id: 5, content: 'kodemunkey', start: '2015-12-17', type: 'box', className: 'superuser'}, 
 {id: 6, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
-{id: 7, content: 'kodemunkey', start: '2015-12-21', type: 'box', className: 'superuser'}, 
-{id: 8, content: 'kodemunkey', start: '2015-12-22', type: 'box', className: 'superuser'}, 
-{id: 9, content: 'Archi', start: '2015-12-22', type: 'box', className: 'visitor'}, 
-{id: 10, content: 'kodemunkey', start: '2015-12-23', type: 'box', className: 'superuser'}, 
-{id: 11, content: 'kodemunkey', start: '2015-12-24', type: 'box', className: 'superuser'}, 
-{id: 12, content: 'kodemunkey', start: '2015-12-25', type: 'box', className: 'superuser'}, 
-{id: 13, content: 'Archi', start: '2016-01-01', type: 'box', className: 'visitor'}, 
-{id: 14, content: 'kodemunkey', start: '2016-01-02', type: 'box', className: 'superuser'}, 
-{id: 15, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'visitor'}, 
-{id: 16, content: 'Captain_Video', start: '2016-01-06', type: 'box', className: 'visitor'}, 
-{id: 17, content: 'Antihelios', start: '2016-01-06', type: 'box', className: 'visitor'}, 
-{id: 18, content: 'Kimnj', start: '2016-01-13', type: 'box', className: 'visitor'}, 
-{id: 19, content: 'griddlesticks', start: '2016-01-16', type: 'box', className: 'visitor'}, 
-{id: 20, content: 'griddlesticks', start: '2016-01-16', type: 'box', className: 'visitor'}, 
-{id: 21, content: 'griddlesticks', start: '2016-01-17', type: 'box', className: 'visitor'}, 
-{id: 22, content: 'joolslee', start: '2016-01-28', type: 'box', className: 'superuser'}, 
-{id: 23, content: 'joolslee', start: '2016-01-28', type: 'box', className: 'superuser'}, 
-{id: 24, content: 'Archi', start: '2016-02-03', type: 'box', className: 'visitor'}, 
-{id: 25, content: 'joolslee', start: '2016-02-14', type: 'box', className: 'superuser'}, 
-{id: 26, content: 'fromere', start: '2016-03-01', type: 'box', className: 'superuser'}, 
-{id: 27, content: 'Woo-H', start: '2016-03-07', type: 'box', className: 'visitor'}, 
-{id: 28, content: 'Dizzy78', start: '2016-03-26', type: 'box', className: 'superuser'}, 
-{id: 29, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
-{id: 30, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'visitor'}, 
-{id: 31, content: 'Dizzy78', start: '2016-04-19', type: 'box', className: 'superuser'}, 
-{id: 32, content: 'Bladud', start: '2016-06-05', type: 'box', className: 'visitor'}, 
-{id: 33, content: 'Bladud', start: '2016-06-05', type: 'box', className: 'visitor'}, 
-{id: 34, content: 'Bladud', start: '2016-06-07', type: 'box', className: 'visitor'}, 
-{id: 35, content: 'LWSmith', start: '2016-06-27', type: 'box', className: 'researcher'}, 
-{id: 36, content: 'fromere', start: '2016-07-02', type: 'box', className: 'superuser'}, 
-{id: 37, content: 'fromere', start: '2016-08-20', type: 'box', className: 'superuser'}, 
-{id: 38, content: 'fromere', start: '2016-09-10', type: 'box', className: 'superuser'}, 
-{id: 39, content: 'fromere', start: '2016-10-07', type: 'box', className: 'superuser'}, 
-{id: 40, content: 'fromere', start: '2016-10-07', type: 'box', className: 'superuser'}, 
-{id: 41, content: 'fromere', start: '2016-10-12', type: 'box', className: 'superuser'}, 
-{id: 42, content: 'Dizzy78', start: '2016-10-14', type: 'box', className: 'superuser'}, 
-{id: 43, content: 'Kimnj', start: '2017-01-22', type: 'box', className: 'visitor'}, 
-{id: 44, content: 'Kimnj', start: '2017-08-14', type: 'box', className: 'visitor'}, 
-{id: 45, content: 'fromere', start: '2017-10-18', type: 'box', className: 'superuser'}, 
-{id: 46, content: 'fromere', start: '2017-10-18', type: 'box', className: 'superuser'}, 
-{id: 47, content: 'fromere', start: '2017-10-19', type: 'box', className: 'superuser'}, 
-{id: 48, content: 'fromere', start: '2017-10-19', type: 'box', className: 'superuser'}, 
+{id: 7, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
+{id: 8, content: 'kodemunkey', start: '2015-12-21', type: 'box', className: 'superuser'}, 
+{id: 9, content: 'kodemunkey', start: '2015-12-22', type: 'box', className: 'superuser'}, 
+{id: 10, content: 'Archi', start: '2015-12-22', type: 'box', className: 'active'}, 
+{id: 11, content: 'kodemunkey', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 12, content: 'kodemunkey', start: '2015-12-24', type: 'box', className: 'superuser'}, 
+{id: 13, content: 'kodemunkey', start: '2015-12-25', type: 'box', className: 'superuser'}, 
+{id: 14, content: 'kodemunkey', start: '2015-12-25', type: 'box', className: 'superuser'}, 
+{id: 15, content: 'kodemunkey', start: '2015-12-25', type: 'box', className: 'superuser'}, 
+{id: 16, content: 'edtechgirl', start: '2015-12-27', type: 'box', className: 'active'}, 
+{id: 17, content: 'kodemunkey', start: '2015-12-27', type: 'box', className: 'superuser'}, 
+{id: 18, content: 'Archi', start: '2016-01-01', type: 'box', className: 'active'}, 
+{id: 19, content: 'kodemunkey', start: '2016-01-02', type: 'box', className: 'superuser'}, 
+{id: 20, content: 'kgullo', start: '2016-01-04', type: 'box', className: 'casual'}, 
+{id: 21, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'active'}, 
+{id: 22, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'active'}, 
+{id: 23, content: 'Antihelios', start: '2016-01-05', type: 'box', className: 'active'}, 
+{id: 24, content: 'Captain_Video', start: '2016-01-06', type: 'box', className: 'active'}, 
+{id: 25, content: 'Antihelios', start: '2016-01-06', type: 'box', className: 'active'}, 
+{id: 26, content: 'Kimnj', start: '2016-01-08', type: 'box', className: 'active'}, 
+{id: 27, content: 'Antihelios', start: '2016-01-08', type: 'box', className: 'active'}, 
+{id: 28, content: 'Antihelios', start: '2016-01-11', type: 'box', className: 'active'}, 
+{id: 29, content: 'Kimnj', start: '2016-01-13', type: 'box', className: 'active'}, 
+{id: 30, content: 'Antihelios', start: '2016-01-14', type: 'box', className: 'active'}, 
+{id: 31, content: 'Antihelios', start: '2016-01-14', type: 'box', className: 'active'}, 
+{id: 32, content: 'griddlesticks', start: '2016-01-15', type: 'box', className: 'active'}, 
+{id: 33, content: 'griddlesticks', start: '2016-01-16', type: 'box', className: 'active'}, 
+{id: 34, content: 'griddlesticks', start: '2016-01-16', type: 'box', className: 'active'}, 
+{id: 35, content: 'griddlesticks', start: '2016-01-17', type: 'box', className: 'active'}, 
+{id: 36, content: 'joolslee', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 37, content: 'joolslee', start: '2016-01-28', type: 'box', className: 'superuser'}, 
+{id: 38, content: 'Archi', start: '2016-02-03', type: 'box', className: 'active'}, 
+{id: 39, content: 'Antihelios', start: '2016-02-10', type: 'box', className: 'active'}, 
+{id: 40, content: 'joolslee', start: '2016-02-14', type: 'box', className: 'superuser'}, 
+{id: 41, content: 'fromere', start: '2016-03-01', type: 'box', className: 'superuser'}, 
+{id: 42, content: 'Woo-H', start: '2016-03-07', type: 'box', className: 'active'}, 
+{id: 43, content: 'etobey', start: '2016-03-15', type: 'box', className: 'researcher'}, 
+{id: 44, content: 'etobey', start: '2016-03-15', type: 'box', className: 'researcher'}, 
+{id: 45, content: 'Dizzy78', start: '2016-03-26', type: 'box', className: 'superuser'}, 
+{id: 46, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'casual'}, 
+{id: 47, content: 'Citranine', start: '2016-04-14', type: 'box', className: 'casual'}, 
+{id: 48, content: 'Dizzy78', start: '2016-04-19', type: 'box', className: 'superuser'}, 
+{id: 49, content: 'Bladud', start: '2016-06-05', type: 'box', className: 'active'}, 
+{id: 50, content: 'Bladud', start: '2016-06-05', type: 'box', className: 'active'}, 
+{id: 51, content: 'Bladud', start: '2016-06-07', type: 'box', className: 'active'}, 
+{id: 52, content: 'LWSmith', start: '2016-06-27', type: 'box', className: 'researcher'}, 
+{id: 53, content: 'fromere', start: '2016-07-02', type: 'box', className: 'superuser'}, 
+{id: 54, content: 'fromere', start: '2016-08-20', type: 'box', className: 'superuser'}, 
+{id: 55, content: 'fromere', start: '2016-09-10', type: 'box', className: 'superuser'}, 
+{id: 56, content: 'fromere', start: '2016-10-07', type: 'box', className: 'superuser'}, 
+{id: 57, content: 'fromere', start: '2016-10-07', type: 'box', className: 'superuser'}, 
+{id: 58, content: 'fromere', start: '2016-10-12', type: 'box', className: 'superuser'}, 
+{id: 59, content: 'Dizzy78', start: '2016-10-14', type: 'box', className: 'superuser'}, 
+{id: 60, content: 'Kimnj', start: '2017-01-22', type: 'box', className: 'active'}, 
+{id: 61, content: 'Kimnj', start: '2017-08-14', type: 'box', className: 'active'}, 
+{id: 62, content: 'fromere', start: '2017-10-18', type: 'box', className: 'superuser'}, 
+{id: 63, content: 'fromere', start: '2017-10-18', type: 'box', className: 'superuser'}, 
+{id: 64, content: 'fromere', start: '2017-10-19', type: 'box', className: 'superuser'}, 
+{id: 65, content: 'fromere', start: '2017-10-19', type: 'box', className: 'superuser'}, 
 ]);
           // DOM element where the Timeline will be attached
           var container = document.getElementById('visualization');

@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
                     <html>
                     <head>
-                      <title>Shakespeare's world | Hashtag timeline analysis</title>
+                      <title>Shakespeare's world | Hashtag timeline analysis
+                      </title>
                       <style type="text/css">
                         body, html {
                           font-family: sans-serif;
@@ -20,10 +21,10 @@
                           border-color: lightblue;
                         }
                               .vis-item.active {
-                          background-color: lightblue;
-                          border-color: lightblue;
+                          background-color: grey;
+                          border-color: grey;
                         }
-                              .vis-item.visitor {
+                              .vis-item.casual {
                           background-color: white;
                           border-color: white;
                         }
@@ -37,25 +38,64 @@
                     <script type="text/javascript">
                       var items = new vis.DataSet([
                         
-{id: 1, content: 'jules', start: '2015-12-10', type: 'box', className: 'superuser'}, 
-{id: 2, content: 'jules', start: '2015-12-12', type: 'box', className: 'superuser'}, 
-{id: 3, content: 'Antihelios', start: '2015-12-21', type: 'box', className: 'visitor'}, 
-{id: 4, content: 'Traceydix', start: '2015-12-22', type: 'box', className: 'superuser'}, 
-{id: 5, content: 'nilremzo0', start: '2015-12-23', type: 'box', className: 'visitor'}, 
-{id: 6, content: 'kodemunkey', start: '2016-01-02', type: 'box', className: 'superuser'}, 
-{id: 7, content: 'jules', start: '2016-01-04', type: 'box', className: 'superuser'}, 
-{id: 8, content: 'jules', start: '2016-01-06', type: 'box', className: 'superuser'}, 
-{id: 9, content: 'jules', start: '2016-02-04', type: 'box', className: 'superuser'}, 
-{id: 10, content: 'IntelVoid', start: '2016-02-05', type: 'box', className: 'superuser'}, 
-{id: 11, content: 'Traceydix', start: '2016-02-13', type: 'box', className: 'superuser'}, 
-{id: 12, content: 'Cuboctahedron', start: '2016-02-16', type: 'box', className: 'superuser'}, 
-{id: 13, content: 'Cuboctahedron', start: '2016-02-18', type: 'box', className: 'superuser'}, 
-{id: 14, content: 'kerebeth', start: '2016-06-02', type: 'box', className: 'visitor'}, 
-{id: 15, content: 'parsfan', start: '2016-09-02', type: 'box', className: 'moderator'}, 
-{id: 16, content: 'Traceydix', start: '2016-10-22', type: 'box', className: 'superuser'}, 
-{id: 17, content: 'parsfan', start: '2017-01-17', type: 'box', className: 'moderator'}, 
-{id: 18, content: 'parsfan', start: '2017-05-26', type: 'box', className: 'moderator'}, 
-{id: 19, content: 'parsfan', start: '2017-06-30', type: 'box', className: 'moderator'}, 
+{id: 1, content: 'jules', start: '2015-11-28', type: 'box', className: 'moderator'}, 
+{id: 2, content: 'jules', start: '2015-12-10', type: 'box', className: 'moderator'}, 
+{id: 3, content: 'jules', start: '2015-12-10', type: 'box', className: 'moderator'}, 
+{id: 4, content: 'bookish', start: '2015-12-11', type: 'box', className: 'casual'}, 
+{id: 5, content: 'S_Powell', start: '2015-12-11', type: 'box', className: 'researcher'}, 
+{id: 6, content: 'bootnecksbs', start: '2015-12-11', type: 'box', className: 'moderator'}, 
+{id: 7, content: 'S_Powell', start: '2015-12-12', type: 'box', className: 'researcher'}, 
+{id: 8, content: 'jules', start: '2015-12-12', type: 'box', className: 'moderator'}, 
+{id: 9, content: 'kodemunkey', start: '2015-12-13', type: 'box', className: 'superuser'}, 
+{id: 10, content: 'VVH', start: '2015-12-14', type: 'box', className: 'researcher'}, 
+{id: 11, content: 'kodemunkey', start: '2015-12-17', type: 'box', className: 'superuser'}, 
+{id: 12, content: 'kerebeth', start: '2015-12-17', type: 'box', className: 'active'}, 
+{id: 13, content: 'Traceydix', start: '2015-12-19', type: 'box', className: 'superuser'}, 
+{id: 14, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
+{id: 15, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
+{id: 16, content: 'kodemunkey', start: '2015-12-20', type: 'box', className: 'superuser'}, 
+{id: 17, content: 'Antihelios', start: '2015-12-21', type: 'box', className: 'active'}, 
+{id: 18, content: 'Traceydix', start: '2015-12-22', type: 'box', className: 'superuser'}, 
+{id: 19, content: 'Traceydix', start: '2015-12-22', type: 'box', className: 'superuser'}, 
+{id: 20, content: 'Traceydix', start: '2015-12-22', type: 'box', className: 'superuser'}, 
+{id: 21, content: 'Traceydix', start: '2015-12-22', type: 'box', className: 'superuser'}, 
+{id: 22, content: 'nilremzo0', start: '2015-12-23', type: 'box', className: 'casual'}, 
+{id: 23, content: 'Traceydix', start: '2015-12-23', type: 'box', className: 'superuser'}, 
+{id: 24, content: 'Traceydix', start: '2015-12-27', type: 'box', className: 'superuser'}, 
+{id: 25, content: 'Traceydix', start: '2015-12-27', type: 'box', className: 'superuser'}, 
+{id: 26, content: 'kodemunkey', start: '2016-01-02', type: 'box', className: 'superuser'}, 
+{id: 27, content: 'Traceydix', start: '2016-01-03', type: 'box', className: 'superuser'}, 
+{id: 28, content: 'parsfan', start: '2016-01-03', type: 'box', className: 'superuser'}, 
+{id: 29, content: 'jules', start: '2016-01-04', type: 'box', className: 'moderator'}, 
+{id: 30, content: 'jules', start: '2016-01-06', type: 'box', className: 'moderator'}, 
+{id: 31, content: 'Terri_Silvers', start: '2016-01-11', type: 'box', className: 'casual'}, 
+{id: 32, content: 'parsfan', start: '2016-01-17', type: 'box', className: 'superuser'}, 
+{id: 33, content: 'SarahtheEntwife', start: '2016-01-30', type: 'box', className: 'active'}, 
+{id: 34, content: 'SarahtheEntwife', start: '2016-01-30', type: 'box', className: 'active'}, 
+{id: 35, content: 'griddlesticks', start: '2016-02-03', type: 'box', className: 'active'}, 
+{id: 36, content: 'jules', start: '2016-02-04', type: 'box', className: 'moderator'}, 
+{id: 37, content: 'IntelVoid', start: '2016-02-05', type: 'box', className: 'superuser'}, 
+{id: 38, content: 'Traceydix', start: '2016-02-13', type: 'box', className: 'superuser'}, 
+{id: 39, content: 'Cuboctahedron', start: '2016-02-16', type: 'box', className: 'superuser'}, 
+{id: 40, content: 'Cuboctahedron', start: '2016-02-18', type: 'box', className: 'superuser'}, 
+{id: 41, content: 'Greensleeves', start: '2016-02-18', type: 'box', className: 'superuser'}, 
+{id: 42, content: 'IntelVoid', start: '2016-03-20', type: 'box', className: 'superuser'}, 
+{id: 43, content: 'Dizzy78', start: '2016-03-21', type: 'box', className: 'superuser'}, 
+{id: 44, content: 'Dizzy78', start: '2016-03-22', type: 'box', className: 'superuser'}, 
+{id: 45, content: 'Dizzy78', start: '2016-03-27', type: 'box', className: 'superuser'}, 
+{id: 46, content: 'griddlesticks', start: '2016-04-30', type: 'box', className: 'active'}, 
+{id: 47, content: 'murphysmate', start: '2016-05-02', type: 'box', className: 'casual'}, 
+{id: 48, content: 'murphysmate', start: '2016-05-08', type: 'box', className: 'casual'}, 
+{id: 49, content: 'murphysmate', start: '2016-05-08', type: 'box', className: 'casual'}, 
+{id: 50, content: 'kerebeth', start: '2016-06-02', type: 'box', className: 'active'}, 
+{id: 51, content: 'ebaldwin', start: '2016-06-19', type: 'box', className: 'active'}, 
+{id: 52, content: 'ebaldwin', start: '2016-06-29', type: 'box', className: 'active'}, 
+{id: 53, content: 'parsfan', start: '2016-09-02', type: 'box', className: 'superuser'}, 
+{id: 54, content: 'Traceydix', start: '2016-10-22', type: 'box', className: 'superuser'}, 
+{id: 55, content: 'parsfan', start: '2017-01-17', type: 'box', className: 'superuser'}, 
+{id: 56, content: 'schub', start: '2017-04-03', type: 'box', className: 'active'}, 
+{id: 57, content: 'parsfan', start: '2017-05-26', type: 'box', className: 'superuser'}, 
+{id: 58, content: 'parsfan', start: '2017-06-30', type: 'box', className: 'superuser'}, 
 ]);
           // DOM element where the Timeline will be attached
           var container = document.getElementById('visualization');
