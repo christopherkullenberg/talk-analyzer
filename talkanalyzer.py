@@ -1,10 +1,12 @@
 import re
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.dates as dt
 import networkx as nx
 from collections import Counter
 import numpy as np
 import seaborn as sns
+from datetime import datetime
 
 ''' talkanalyzer.py - A set of functions for
 analyzing exported data from the Zooniverse Talk
@@ -530,11 +532,11 @@ class CoreSet(object):
                       <style type="text/css">
                         body, html {
                           font-family: sans-serif;
-                            font-size: 7pt;
+                            font-size: 15pt;
                         }
                         .vis-item.researcher {
                           background-color: greenyellow;
-                          border-color: green;
+                          border-color: greenyellow;
                         }
                         .vis-item.moderator {
                           background-color: pink;
@@ -550,7 +552,7 @@ class CoreSet(object):
                         }
                               .vis-item.casual {
                           background-color: white;
-                          border-color: white;
+                          border-color: grey;
                         }
                       </style>
 
@@ -575,16 +577,21 @@ class CoreSet(object):
                     continue
             if t[1][4] == 'researcher':
                 color = "className: 'researcher'"
+                username = t[1][0] #  Sets real usernam
             elif t[1][4] == 'moderator':
                 color = "className: 'moderator'"
+                username = "moderator" #  Anonymizes username
             elif t[1][4] == 'superuser':
                 color = "className: 'superuser'"
+                username = "superuser"
             elif t[1][4] == 'active':
                 color = "className: 'active'"
+                username = "active"
             else:
                 color = "className: 'casual'"
+                username = "casual"
 
-            htmlfile.write("{id: " + str(iterator) + ", content: '" + t[1][0]
+            htmlfile.write("{id: " + str(iterator) + ", content: '"
                            + "', start: '" + str(t[1][1])[0:10]
                            + "', type: 'box', " + color + "}, \n")
             iterator += 1
@@ -608,5 +615,91 @@ class CoreSet(object):
         ''')
         htmlfile.write(footer)
         htmlfile.close()
+        print("Wrote " + str(iterator) + " interactions for hashtag #"
+              + hashtag[1:] + " as " + hashtag[1:] + ".html")
+
+
+
+
+    @classmethod
+    def htmltosvg(cls, hashtag, df, excludeusers = None):
+        '''Create html files with VIS visualizations'''
+        hashtag = hashtag.lower()
+        header = ('''<html>
+          <head>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+              google.charts.load('current', {'packages':['timeline']});
+              function drawChart() {
+                var container = document.getElementById('timeline');
+                var chart = new google.visualization.Timeline(container);
+                var dataTable = new google.visualization.DataTable();
+
+                dataTable.addColumn({ type: 'string', id: 'Role' });
+                dataTable.addColumn({ type: 'date', id: 'Start' });
+                dataTable.addColumn({ type: 'date', id: 'End' });
+                dataTable.addRows([''')
+
+        svgfile = open("html/" + hashtag[1:] + ".html", "w")
+        svgfile.write(header)
+        iterator = 1
+
+        for t in CoreSet.hashtagtimeseries(hashtag, df).iterrows():
+            # print(t[1][0])
+            color = ""
+            if excludeusers:
+                if t[1][0] in excludeusers:
+                    continue
+            if t[1][4] == 'researcher':
+                color = "className: 'researcher'"
+                username = t[1][0] #  Sets real usernam
+            elif t[1][4] == 'moderator':
+                color = "className: 'moderator'"
+                username = "moderator" #  Anonymizes username
+            elif t[1][4] == 'superuser':
+                color = "className: 'superuser'"
+                username = "superuser"
+            elif t[1][4] == 'active':
+                color = "className: 'active'"
+                username = "active"
+            else:
+                color = "className: 'casual'"
+                username = "casual"
+
+            '''
+                  [ 'Washington', new Date(1789, 3, 30), new Date(1797, 2, 4) ],
+                  [ 'Adams',      new Date(1797, 2, 4),  new Date(1801, 2, 4) ],
+                  [ 'Jefferson',  new Date(1801, 2, 4),  new Date(1809, 2, 4) ]
+            '''
+            newdate = str(t[1][1] + pd.DateOffset(1))
+
+            svgfile.write("[' " + username + "', new Date('" + str(t[1][1])[0:10]
+                         + "'), new Date('" + str(newdate)[0:10] + "') ],\n")
+            iterator += 1
+
+        footer = (''']);
+                    google.visualization.events.addListener(chart, 'ready', allReady); // ADD LISTENER
+                    chart.draw(dataTable);
+                    }
+                    function allReady() {
+                    var e = document.getElementById('timeline');
+                    // svg elements don't have inner/outerHTML properties, so use the parents
+                    console.log(e.getElementsByTagName('svg')[0].outerHTML);
+
+                    }
+                    google.charts.setOnLoadCallback(drawChart);
+
+                    </script>
+
+                    </head>
+                    <body>
+                    <div id="timeline" style="height: 180px;"></div>
+                    </body>
+                    </html>
+                    ''')
+        svgfile.write(footer)
+        svgfile.close()
         print("Wrote " + str(iterator) + " interactions for hashtag #"
               + hashtag[1:] + " as " + hashtag[1:] + ".html")

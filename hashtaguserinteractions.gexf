@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.1</creator>
+      <lastmodified>10/01/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="#dailyzoo" label="#dailyzoo" />
+      <node id="@jules" label="@jules" />
+      <node id="#alchemy" label="#alchemy" />
+      <node id="@hightower73" label="@hightower73" />
+      <node id="@stevenpemberton" label="@stevenpemberton" />
+      <node id="@hwolfe" label="@hwolfe" />
+      <node id="@s" label="@s" />
+      <node id="@lwsmith" label="@lwsmith" />
+      <node id="@visto" label="@visto" />
+      <node id="#underlining" label="#underlining" />
+      <node id="@vorble" label="@vorble" />
+      <node id="#recipe" label="#recipe" />
+      <node id="@lordofthepies" label="@lordofthepies" />
+      <node id="#recipes2try" label="#recipes2try" />
+      <node id="#binding" label="#binding" />
+      <node id="@pding001" label="@pding001" />
+      <node id="#outeredge" label="#outeredge" />
+      <node id="#historyofthebook" label="#historyofthebook" />
+      <node id="#bleedthrough" label="#bleedthrough" />
+      <node id="@karevanhoek" label="@karevanhoek" />
+      <node id="@carolynhucker" label="@carolynhucker" />
+      <node id="@parsfan" label="@parsfan" />
+      <node id="#notthatoneunfortunately" label="#notthatoneunfortunately" />
+      <node id="@snikdekl" label="@snikdekl" />
+      <node id="#catholic" label="#catholic" />
+      <node id="@karenvanhoek" label="@karenvanhoek" />
+      <node id="#womenwriters" label="#womenwriters" />
+      <node id="#christmas" label="#christmas" />
+      <node id="#oed" label="#oed" />
+      <node id="@trein" label="@trein" />
+      <node id="#womanwriter" label="#womanwriter" />
+      <node id="@gailt" label="@gailt" />
+      <node id="#newwordvariant" label="#newwordvariant" />
+      <node id="@kodemunkey" label="@kodemunkey" />
+      <node id="@philipdurkin" label="@philipdurkin" />
+      <node id="@shaxworld" label="@shaxworld" />
+      <node id="#medicine" label="#medicine" />
+      <node id="@bpavlis" label="@bpavlis" />
+      <node id="@vvh" label="@vvh" />
+      <node id="#drugs" label="#drugs" />
+      <node id="#tags" label="#tags" />
+      <node id="@antihelios" label="@antihelios" />
+      <node id="#medical" label="#medical" />
+      <node id="@joolslee" label="@joolslee" />
+      <node id="@mrniaboc" label="@mrniaboc" />
+      <node id="@mutabilitie" label="@mutabilitie" />
+      <node id="#autobiography" label="#autobiography" />
+      <node id="#letter" label="#letter" />
+      <node id="@victoria" label="@victoria" />
+      <node id="#strange" label="#strange" />
+      <node id="#_gb_1" label="#_gb_1" />
+      <node id="#_us_1" label="#_us_1" />
+      <node id="#womenswriting" label="#womenswriting" />
+      <node id="#spain" label="#spain" />
+      <node id="#ambassadorial_letter" label="#ambassadorial_letter" />
+      <node id="#king" label="#king" />
+      <node id="#state_letter" label="#state_letter" />
+      <node id="#latin" label="#latin" />
+      <node id="#cambridge" label="#cambridge" />
+      <node id="#buckinghamshire" label="#buckinghamshire" />
+      <node id="#religion" label="#religion" />
+      <node id="#food" label="#food" />
+      <node id="#cooking" label="#cooking" />
+      <node id="#recipestotry" label="#recipestotry" />
+      <node id="@greensleeves" label="@greensleeves" />
+      <node id="#bookplate" label="#bookplate" />
+      <node id="#ownershipmark" label="#ownershipmark" />
+      <node id="#funeral" label="#funeral" />
+      <node id="#everydaylife" label="#everydaylife" />
+      <node id="@hannebambel" label="@hannebambel" />
+      <node id="@kathrynparsons" label="@kathrynparsons" />
+      <node id="#fight" label="#fight" />
+      <node id="@lchad" label="@lchad" />
+      <node id="#unsure" label="#unsure" />
+      <node id="#diary" label="#diary" />
+      <node id="#magic" label="#magic" />
+      <node id="#domestic" label="#domestic" />
+      <node id="@elaineleong" label="@elaineleong" />
+      <node id="@jenmunroe" label="@jenmunroe" />
+      <node id="#page" label="#page" />
+      <node id="#book" label="#book" />
+      <node id="@cuboctahedron" label="@cuboctahedron" />
+      <node id="@mrnaiboc" label="@mrnaiboc" />
+      <node id="@hanya" label="@hanya" />
+      <node id="#university" label="#university" />
+      <node id="#cookbook" label="#cookbook" />
+      <node id="@kerebeth" label="@kerebeth" />
+      <node id="#pie" label="#pie" />
+      <node id="#pastry" label="#pastry" />
+      <node id="@pding" label="@pding" />
+      <node id="@jayarkay" label="@jayarkay" />
+      <node id="@etobey" label="@etobey" />
+      <node id="#recipe2try" label="#recipe2try" />
+      <node id="#access_token" label="#access_token" />
+      <node id="#hashtags" label="#hashtags" />
+      <node id="@kgullo" label="@kgullo" />
+      <node id="#thorn" label="#thorn" />
+      <node id="@intelvoid" label="@intelvoid" />
+      <node id="#resource" label="#resource" />
+      <node id="@kimnj" label="@kimnj" />
+      <node id="#water" label="#water" />
+      <node id="#blank" label="#blank" />
+      <node id="#dots" label="#dots" />
+      <node id="@n05" label="@n05" />
+      <node id="#cider" label="#cider" />
+      <node id="#wardens" label="#wardens" />
+      <node id="#animals" label="#animals" />
+      <node id="#paper" label="#paper" />
+      <node id="@woo" label="@woo" />
+      <node id="@christoferos" label="@christoferos" />
+      <node id="#i131132" label="#i131132" />
+      <node id="@mutabilite" label="@mutabilite" />
+      <node id="#recusants" label="#recusants" />
+      <node id="@traceydix" label="@traceydix" />
+      <node id="#differentcopy" label="#differentcopy" />
+      <node id="#lyly" label="#lyly" />
+      <node id="@archi" label="@archi" />
+      <node id="#_gb_2" label="#_gb_2" />
+      <node id="#lent" label="#lent" />
+      <node id="@elainelong" label="@elainelong" />
+      <node id="#catholics" label="#catholics" />
+      <node id="#folgeremmo" label="#folgeremmo" />
+      <node id="@mutabilities" label="@mutabilities" />
+      <node id="@folger" label="@folger" />
+      <node id="#spanishmatch" label="#spanishmatch" />
+      <node id="@ebaldwin" label="@ebaldwin" />
+      <node id="@fromere" label="@fromere" />
+      <node id="#asthma" label="#asthma" />
+      <node id="#translation" label="#translation" />
+      <node id="@viccro" label="@viccro" />
+      <node id="#59575" label="#59575" />
+      <node id="#papist" label="#papist" />
+      <node id="@citranine" label="@citranine" />
+      <node id="@parsan" label="@parsan" />
+      <node id="#magical" label="#magical" />
+      <node id="@myramo" label="@myramo" />
+      <node id="#firstmatch" label="#firstmatch" />
+      <node id="#manuschrisi" label="#manuschrisi" />
+      <node id="#specialp" label="#specialp" />
+      <node id="#cotton" label="#cotton" />
+      <node id="@m" label="@m" />
+      <node id="@pagem4" label="@pagem4" />
+      <node id="#advent" label="#advent" />
+      <node id="#jesuits" label="#jesuits" />
+      <node id="#recusant" label="#recusant" />
+      <node id="#slits" label="#slits" />
+      <node id="#underlined" label="#underlined" />
+      <node id="#badcatalogue" label="#badcatalogue" />
+      <node id="@mutabiltie" label="@mutabiltie" />
+      <node id="#letterlocking-format-catgories" label="#letterlocking-format-catgories" />
+      <node id="#inquisition" label="#inquisition" />
+      <node id="#plague" label="#plague" />
+      <node id="#correction" label="#correction" />
+      <node id="@schub" label="@schub" />
+      <node id="#counts_arundell_of_wardour_in_the_holy_roman_empire" label="#counts_arundell_of_wardour_in_the_holy_roman_empire" />
+      <node id="#french" label="#french" />
+      <node id="@wh" label="@wh" />
+      <node id="@carriechelle" label="@carriechelle" />
+      <node id="#catalogue" label="#catalogue" />
+      <node id="#draft" label="#draft" />
+      <node id="#fashion" label="#fashion" />
+      <node id="@cdorsett" label="@cdorsett" />
+    </nodes>
+    <edges>
+      <edge id="0" source="#dailyzoo" target="@jules" weight="2" />
+      <edge id="1" source="#dailyzoo" target="@visto" weight="1" />
+      <edge id="2" source="#dailyzoo" target="@kodemunkey" weight="1" />
+      <edge id="3" source="#dailyzoo" target="@s" weight="1" />
+      <edge id="4" source="#dailyzoo" target="@lwsmith" weight="1" />
+      <edge id="5" source="#dailyzoo" target="@mrniaboc" weight="1" />
+      <edge id="6" source="#dailyzoo" target="@mutabilitie" weight="2" />
+      <edge id="7" source="#dailyzoo" target="@philipdurkin" weight="1" />
+      <edge id="8" source="#dailyzoo" target="@joolslee" weight="1" />
+      <edge id="9" source="#dailyzoo" target="@parsfan" weight="2" />
+      <edge id="10" source="#dailyzoo" target="@mrnaiboc" weight="1" />
+      <edge id="11" source="#dailyzoo" target="@cuboctahedron" weight="1" />
+      <edge id="12" source="#alchemy" target="@hightower73" weight="1" />
+      <edge id="13" source="#alchemy" target="@jules" weight="2" />
+      <edge id="14" source="#alchemy" target="@stevenpemberton" weight="1" />
+      <edge id="15" source="#alchemy" target="@hwolfe" weight="1" />
+      <edge id="16" source="#alchemy" target="@s" weight="1" />
+      <edge id="17" source="#alchemy" target="@lwsmith" weight="1" />
+      <edge id="18" source="#underlining" target="@vorble" weight="1" />
+      <edge id="19" source="#underlining" target="@vvh" weight="1" />
+      <edge id="20" source="#underlining" target="@jules" weight="1" />
+      <edge id="21" source="#underlining" target="@mutabilitie" weight="1" />
+      <edge id="22" source="#recipe" target="@lordofthepies" weight="1" />
+      <edge id="23" source="#recipe" target="@vvh" weight="1" />
+      <edge id="24" source="#recipe" target="@jules" weight="1" />
+      <edge id="25" source="#recipe" target="@mutabilitie" weight="1" />
+      <edge id="26" source="#recipes2try" target="@lordofthepies" weight="1" />
+      <edge id="27" source="#recipes2try" target="@parsfan" weight="1" />
+      <edge id="28" source="#recipes2try" target="@shaxworld" weight="1" />
+      <edge id="29" source="#recipes2try" target="@mutabilitie" weight="2" />
+      <edge id="30" source="#recipes2try" target="@philipdurkin" weight="1" />
+      <edge id="31" source="#recipes2try" target="@woo" weight="1" />
+      <edge id="32" source="#binding" target="@s" weight="1" />
+      <edge id="33" source="#binding" target="@hwolfe" weight="1" />
+      <edge id="34" source="#binding" target="@pding001" weight="1" />
+      <edge id="35" source="#outeredge" target="@s" weight="1" />
+      <edge id="36" source="#outeredge" target="@hwolfe" weight="1" />
+      <edge id="37" source="#outeredge" target="@pding001" weight="1" />
+      <edge id="38" source="#historyofthebook" target="@s" weight="1" />
+      <edge id="39" source="#historyofthebook" target="@hwolfe" weight="1" />
+      <edge id="40" source="#historyofthebook" target="@pding001" weight="1" />
+      <edge id="41" source="#bleedthrough" target="@karevanhoek" weight="1" />
+      <edge id="42" source="#bleedthrough" target="@carolynhucker" weight="1" />
+      <edge id="43" source="#bleedthrough" target="@trein" weight="1" />
+      <edge id="44" source="#bleedthrough" target="@vvh" weight="1" />
+      <edge id="45" source="#bleedthrough" target="@jules" weight="1" />
+      <edge id="46" source="#bleedthrough" target="@hanya" weight="1" />
+      <edge id="47" source="#bleedthrough" target="@pagem4" weight="1" />
+      <edge id="48" source="#notthatoneunfortunately" target="@snikdekl" weight="1" />
+      <edge id="49" source="#catholic" target="@hightower73" weight="1" />
+      <edge id="50" source="#catholic" target="@karenvanhoek" weight="1" />
+      <edge id="51" source="#catholic" target="@hwolfe" weight="1" />
+      <edge id="52" source="#catholic" target="@mutabilitie" weight="9" />
+      <edge id="53" source="#catholic" target="@philipdurkin" weight="1" />
+      <edge id="54" source="#catholic" target="@jules" weight="4" />
+      <edge id="55" source="#catholic" target="@victoria" weight="1" />
+      <edge id="56" source="#catholic" target="@lchad" weight="1" />
+      <edge id="57" source="#catholic" target="@kimnj" weight="1" />
+      <edge id="58" source="#catholic" target="@traceydix" weight="1" />
+      <edge id="59" source="#catholic" target="@cuboctahedron" weight="1" />
+      <edge id="60" source="#catholic" target="@mutabiltie" weight="1" />
+      <edge id="61" source="#catholic" target="@christoferos" weight="1" />
+      <edge id="62" source="#catholic" target="@stevenpemberton" weight="1" />
+      <edge id="63" source="#catholic" target="@carriechelle" weight="1" />
+      <edge id="64" source="#catholic" target="@vvh" weight="2" />
+      <edge id="65" source="#catholic" target="@cdorsett" weight="1" />
+      <edge id="66" source="#womenwriters" target="@hightower73" weight="1" />
+      <edge id="67" source="#womenwriters" target="@karenvanhoek" weight="1" />
+      <edge id="68" source="#womenwriters" target="@hwolfe" weight="1" />
+      <edge id="69" source="#womenwriters" target="@mutabilitie" weight="1" />
+      <edge id="70" source="#womenwriters" target="@philipdurkin" weight="1" />
+      <edge id="71" source="#christmas" target="@parsfan" weight="1" />
+      <edge id="72" source="#oed" target="@parsfan" weight="5" />
+      <edge id="73" source="#oed" target="@kodemunkey" weight="1" />
+      <edge id="74" source="#oed" target="@philipdurkin" weight="56" />
+      <edge id="75" source="#oed" target="@mutabilitie" weight="13" />
+      <edge id="76" source="#oed" target="@jules" weight="5" />
+      <edge id="77" source="#oed" target="@greensleeves" weight="6" />
+      <edge id="78" source="#oed" target="@joolslee" weight="2" />
+      <edge id="79" source="#oed" target="@s" weight="4" />
+      <edge id="80" source="#oed" target="@elaineleong" weight="3" />
+      <edge id="81" source="#oed" target="@jenmunroe" weight="1" />
+      <edge id="82" source="#oed" target="@cuboctahedron" weight="4" />
+      <edge id="83" source="#oed" target="@hannebambel" weight="1" />
+      <edge id="84" source="#oed" target="@pding" weight="3" />
+      <edge id="85" source="#oed" target="@etobey" weight="2" />
+      <edge id="86" source="#oed" target="@archi" weight="1" />
+      <edge id="87" source="#oed" target="@intelvoid" weight="2" />
+      <edge id="88" source="#oed" target="@christoferos" weight="2" />
+      <edge id="89" source="#oed" target="@vvh" weight="4" />
+      <edge id="90" source="#oed" target="@ebaldwin" weight="4" />
+      <edge id="91" source="#oed" target="@fromere" weight="1" />
+      <edge id="92" source="#oed" target="@hwolfe" weight="4" />
+      <edge id="93" source="#oed" target="@pding001" weight="2" />
+      <edge id="94" source="#oed" target="@lwsmith" weight="2" />
+      <edge id="95" source="#oed" target="@citranine" weight="1" />
+      <edge id="96" source="#oed" target="@parsan" weight="2" />
+      <edge id="97" source="#oed" target="@mutabilite" weight="1" />
+      <edge id="98" source="#oed" target="@stevenpemberton" weight="1" />
+      <edge id="99" source="#womanwriter" target="@gailt" weight="1" />
+      <edge id="100" source="#womanwriter" target="@s" weight="1" />
+      <edge id="101" source="#womanwriter" target="@bpavlis" weight="1" />
+      <edge id="102" source="#womanwriter" target="@parsfan" weight="1" />
+      <edge id="103" source="#womanwriter" target="@vvh" weight="2" />
+      <edge id="104" source="#womanwriter" target="@jules" weight="1" />
+      <edge id="105" source="#womanwriter" target="@christoferos" weight="2" />
+      <edge id="106" source="#womanwriter" target="@cuboctahedron" weight="1" />
+      <edge id="107" source="#womanwriter" target="@philipdurkin" weight="1" />
+      <edge id="108" source="#womanwriter" target="@mutabilitie" weight="5" />
+      <edge id="109" source="#womanwriter" target="@lwsmith" weight="1" />
+      <edge id="110" source="#womanwriter" target="@stevenpemberton" weight="1" />
+      <edge id="111" source="#newwordvariant" target="@kodemunkey" weight="1" />
+      <edge id="112" source="#newwordvariant" target="@philipdurkin" weight="1" />
+      <edge id="113" source="#medicine" target="@s" weight="2" />
+      <edge id="114" source="#medicine" target="@bpavlis" weight="1" />
+      <edge id="115" source="#medicine" target="@vvh" weight="2" />
+      <edge id="116" source="#medicine" target="@joolslee" weight="1" />
+      <edge id="117" source="#medicine" target="@hannebambel" weight="1" />
+      <edge id="118" source="#medicine" target="@kathrynparsons" weight="1" />
+      <edge id="119" source="#medicine" target="@greensleeves" weight="1" />
+      <edge id="120" source="#drugs" target="@vvh" weight="1" />
+      <edge id="121" source="#tags" target="@antihelios" weight="2" />
+      <edge id="122" source="#medical" target="@joolslee" weight="1" />
+      <edge id="123" source="#medical" target="@vvh" weight="2" />
+      <edge id="124" source="#medical" target="@jules" weight="1" />
+      <edge id="125" source="#medical" target="@myramo" weight="2" />
+      <edge id="126" source="#medical" target="@mutabilitie" weight="1" />
+      <edge id="127" source="#medical" target="@elaineleong" weight="1" />
+      <edge id="128" source="#autobiography" target="@mutabilitie" weight="1" />
+      <edge id="129" source="#autobiography" target="@philipdurkin" weight="1" />
+      <edge id="130" source="#letter" target="@victoria" weight="2" />
+      <edge id="131" source="#letter" target="@jules" weight="3" />
+      <edge id="132" source="#letter" target="@vvh" weight="3" />
+      <edge id="133" source="#strange" target="@victoria" weight="1" />
+      <edge id="134" source="#strange" target="@jules" weight="1" />
+      <edge id="135" source="#_gb_1" target="@philipdurkin" weight="1" />
+      <edge id="136" source="#_gb_1" target="@joolslee" weight="2" />
+      <edge id="137" source="#_gb_1" target="@mutabilitie" weight="2" />
+      <edge id="138" source="#_us_1" target="@philipdurkin" weight="1" />
+      <edge id="139" source="#_us_1" target="@joolslee" weight="2" />
+      <edge id="140" source="#_us_1" target="@mutabilitie" weight="2" />
+      <edge id="141" source="#womenswriting" target="@lwsmith" weight="1" />
+      <edge id="142" source="#spain" target="@jules" weight="2" />
+      <edge id="143" source="#spain" target="@victoria" weight="1" />
+      <edge id="144" source="#ambassadorial_letter" target="@jules" weight="1" />
+      <edge id="145" source="#king" target="@jules" weight="2" />
+      <edge id="146" source="#king" target="@victoria" weight="1" />
+      <edge id="147" source="#state_letter" target="@jules" weight="1" />
+      <edge id="148" source="#state_letter" target="@s" weight="1" />
+      <edge id="149" source="#latin" target="@s" weight="1" />
+      <edge id="150" source="#latin" target="@vvh" weight="2" />
+      <edge id="151" source="#latin" target="@mutabilitie" weight="1" />
+      <edge id="152" source="#cambridge" target="@s" weight="1" />
+      <edge id="153" source="#buckinghamshire" target="@s" weight="1" />
+      <edge id="154" source="#religion" target="@jules" weight="1" />
+      <edge id="155" source="#religion" target="@victoria" weight="1" />
+      <edge id="156" source="#food" target="@jules" weight="1" />
+      <edge id="157" source="#food" target="@victoria" weight="1" />
+      <edge id="158" source="#cooking" target="@jules" weight="2" />
+      <edge id="159" source="#cooking" target="@victoria" weight="1" />
+      <edge id="160" source="#cooking" target="@vvh" weight="2" />
+      <edge id="161" source="#recipestotry" target="@jules" weight="1" />
+      <edge id="162" source="#recipestotry" target="@victoria" weight="1" />
+      <edge id="163" source="#bookplate" target="@mutabilitie" weight="1" />
+      <edge id="164" source="#ownershipmark" target="@mutabilitie" weight="1" />
+      <edge id="165" source="#funeral" target="@jules" weight="1" />
+      <edge id="166" source="#funeral" target="@victoria" weight="1" />
+      <edge id="167" source="#everydaylife" target="@jules" weight="1" />
+      <edge id="168" source="#everydaylife" target="@victoria" weight="1" />
+      <edge id="169" source="#fight" target="@jules" weight="1" />
+      <edge id="170" source="#fight" target="@victoria" weight="1" />
+      <edge id="171" source="#unsure" target="@vvh" weight="1" />
+      <edge id="172" source="#diary" target="@vvh" weight="1" />
+      <edge id="173" source="#magic" target="@greensleeves" weight="1" />
+      <edge id="174" source="#magic" target="@joolslee" weight="1" />
+      <edge id="175" source="#magic" target="@jayarkay" weight="1" />
+      <edge id="176" source="#domestic" target="@vvh" weight="1" />
+      <edge id="177" source="#page" target="@philipdurkin" weight="1" />
+      <edge id="178" source="#book" target="@vvh" weight="1" />
+      <edge id="179" source="#book" target="@jules" weight="1" />
+      <edge id="180" source="#university" target="@parsfan" weight="1" />
+      <edge id="181" source="#cookbook" target="@kerebeth" weight="1" />
+      <edge id="182" source="#pie" target="@kerebeth" weight="1" />
+      <edge id="183" source="#pastry" target="@kerebeth" weight="1" />
+      <edge id="184" source="#recipe2try" target="@greensleeves" weight="1" />
+      <edge id="185" source="#recipe2try" target="@etobey" weight="1" />
+      <edge id="186" source="#recipe2try" target="@philipdurkin" weight="1" />
+      <edge id="187" source="#recipe2try" target="@elaineleong" weight="1" />
+      <edge id="188" source="#access_token" target="@victoria" weight="1" />
+      <edge id="189" source="#hashtags" target="@kgullo" weight="1" />
+      <edge id="190" source="#thorn" target="@intelvoid" weight="1" />
+      <edge id="191" source="#resource" target="@mutabilitie" weight="1" />
+      <edge id="192" source="#water" target="@lwsmith" weight="1" />
+      <edge id="193" source="#water" target="@elaineleong" weight="1" />
+      <edge id="194" source="#blank" target="@kimnj" weight="1" />
+      <edge id="195" source="#blank" target="@jules" weight="1" />
+      <edge id="196" source="#dots" target="@n05" weight="2" />
+      <edge id="197" source="#dots" target="@vvh" weight="1" />
+      <edge id="198" source="#cider" target="@mutabilitie" weight="1" />
+      <edge id="199" source="#wardens" target="@parsfan" weight="1" />
+      <edge id="200" source="#animals" target="@joolslee" weight="1" />
+      <edge id="201" source="#animals" target="@mutabilitie" weight="1" />
+      <edge id="202" source="#animals" target="@parsfan" weight="1" />
+      <edge id="203" source="#animals" target="@traceydix" weight="1" />
+      <edge id="204" source="#animals" target="@m" weight="1" />
+      <edge id="205" source="#animals" target="@parsan" weight="1" />
+      <edge id="206" source="#paper" target="@elaineleong" weight="18" />
+      <edge id="207" source="#paper" target="@greensleeves" weight="2" />
+      <edge id="208" source="#paper" target="@elainelong" weight="7" />
+      <edge id="209" source="#paper" target="@shaxworld" weight="1" />
+      <edge id="210" source="#paper" target="@folger" weight="1" />
+      <edge id="211" source="#paper" target="@traceydix" weight="3" />
+      <edge id="212" source="#paper" target="@myramo" weight="2" />
+      <edge id="213" source="#paper" target="@mutabilitie" weight="2" />
+      <edge id="214" source="#paper" target="@cuboctahedron" weight="1" />
+      <edge id="215" source="#paper" target="@stevenpemberton" weight="1" />
+      <edge id="216" source="#paper" target="@hwolfe" weight="1" />
+      <edge id="217" source="#i131132" target="@mutabilite" weight="1" />
+      <edge id="218" source="#recusants" target="@traceydix" weight="1" />
+      <edge id="219" source="#recusants" target="@vvh" weight="3" />
+      <edge id="220" source="#differentcopy" target="@hannebambel" weight="1" />
+      <edge id="221" source="#lyly" target="@philipdurkin" weight="1" />
+      <edge id="222" source="#_gb_2" target="@mutabilitie" weight="1" />
+      <edge id="223" source="#lent" target="@greensleeves" weight="1" />
+      <edge id="224" source="#catholics" target="@etobey" weight="1" />
+      <edge id="225" source="#catholics" target="@intelvoid" weight="1" />
+      <edge id="226" source="#catholics" target="@wh" weight="3" />
+      <edge id="227" source="#catholics" target="@vvh" weight="1" />
+      <edge id="228" source="#folgeremmo" target="@mutabilities" weight="1" />
+      <edge id="229" source="#folgeremmo" target="@mutabilitie" weight="1" />
+      <edge id="230" source="#spanishmatch" target="@intelvoid" weight="1" />
+      <edge id="231" source="#asthma" target="@traceydix" weight="1" />
+      <edge id="232" source="#translation" target="@viccro" weight="1" />
+      <edge id="233" source="#59575" target="@jules" weight="1" />
+      <edge id="234" source="#papist" target="@cuboctahedron" weight="1" />
+      <edge id="235" source="#magical" target="@myramo" weight="2" />
+      <edge id="236" source="#magical" target="@mutabilitie" weight="1" />
+      <edge id="237" source="#magical" target="@elaineleong" weight="1" />
+      <edge id="238" source="#firstmatch" target="@lwsmith" weight="1" />
+      <edge id="239" source="#manuschrisi" target="@mutabilitie" weight="1" />
+      <edge id="240" source="#manuschrisi" target="@elaineleong" weight="1" />
+      <edge id="241" source="#manuschrisi" target="@lwsmith" weight="1" />
+      <edge id="242" source="#specialp" target="@mutabilitie" weight="1" />
+      <edge id="243" source="#cotton" target="@etobey" weight="1" />
+      <edge id="244" source="#advent" target="@mutabilitie" weight="1" />
+      <edge id="245" source="#advent" target="@jules" weight="1" />
+      <edge id="246" source="#advent" target="@traceydix" weight="1" />
+      <edge id="247" source="#jesuits" target="@vvh" weight="1" />
+      <edge id="248" source="#recusant" target="@vvh" weight="2" />
+      <edge id="249" source="#slits" target="@hwolfe" weight="3" />
+      <edge id="250" source="#slits" target="@jules" weight="2" />
+      <edge id="251" source="#slits" target="@philipdurkin" weight="1" />
+      <edge id="252" source="#underlined" target="@vvh" weight="1" />
+      <edge id="253" source="#badcatalogue" target="@hwolfe" weight="1" />
+      <edge id="254" source="#letterlocking-format-catgories" target="@jules" weight="1" />
+      <edge id="255" source="#inquisition" target="@parsfan" weight="1" />
+      <edge id="256" source="#plague" target="@philipdurkin" weight="1" />
+      <edge id="257" source="#correction" target="@schub" weight="1" />
+      <edge id="258" source="#correction" target="@vvh" weight="1" />
+      <edge id="259" source="#correction" target="@philipdurkin" weight="2" />
+      <edge id="260" source="#counts_arundell_of_wardour_in_the_holy_roman_empire" target="@philipdurkin" weight="1" />
+      <edge id="261" source="#french" target="@jules" weight="1" />
+      <edge id="262" source="#catalogue" target="@hwolfe" weight="1" />
+      <edge id="263" source="#draft" target="@vvh" weight="1" />
+      <edge id="264" source="#draft" target="@s" weight="1" />
+      <edge id="265" source="#draft" target="@parsfan" weight="1" />
+      <edge id="266" source="#draft" target="@hwolfe" weight="1" />
+      <edge id="267" source="#fashion" target="@hwolfe" weight="1" />
+    </edges>
+  </graph>
+</gexf>

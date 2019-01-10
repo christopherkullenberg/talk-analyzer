@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="4393.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-2154.000000 -2208.000000 4393.000000 4412.000000" height="4412.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="6.0"
+              d="M -540.453064,-948.232178 L -1121.583984,-1079.903931"
+              class="id_#dailyzoo id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -51.603287,299.361633 L -142.198105,-531.987793"
+              class="id_#oed id_1" stroke-opacity="0.69803923" stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1605.751709,-1332.140869 L -1196.612671,-1108.292603"
+              class="id_#alchemy id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -510.051788,-931.211914 L -162.316208,-574.643677"
+              class="id_#dailyzoo id_1" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="15.0"
+              d="M -1102.656738,102.454750 L -645.134277,-240.983200"
+              class="id_7 id_0" stroke-opacity="0.69803923" stroke="#812000"/>
+        <path fill="none" stroke-width="54.0"
+              d="M -908.640381,1175.772217 L -519.042725,1251.243774"
+              class="id_#paper id_3" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -2129.170410,-129.581421 L -1719.008789,48.481758"
+              class="id_9 id_11" stroke-opacity="0.69803923" stroke="#098a0c"/>
+        <path fill="none" stroke-width="168.0"
+              d="M 4.962597,357.810913 L 549.103149,435.209534"
+              class="id_#oed id_@philipdurkin" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="15.0"
+              d="M -77.563057,309.845520 L -1128.012939,-1046.164185"
+              class="id_#oed id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="18.0"
+              d="M -77.985184,390.941010 L -487.899200,908.864563"
+              class="id_#oed id_@greensleeves" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -13.897655,310.307617 L 564.258728,-414.056641"
+              class="id_#oed id_@joolslee" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="12.0"
+              d="M -94.457588,368.064453 L -940.555908,673.880737"
+              class="id_#oed id_@s" stroke-opacity="0.69803923" stroke="#098a0c"/>
+        <path fill="none" stroke-width="27.0"
+              d="M -1263.709961,-468.631561 L -670.599670,-291.984436"
+              class="id_6 id_0" stroke-opacity="0.69803923" stroke="#812000"/>
+        <path fill="none" stroke-width="12.0"
+              d="M -19.081964,394.448914 L 277.618652,877.790649"
+              class="id_#oed id_@cuboctahedron" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="9.0"
+              d="M 0.635666,372.355499 L 514.534485,612.421082"
+              class="id_#oed id_@pding" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 3.709774,337.187592 L 693.778687,151.663086"
+              class="id_#oed id_@etobey" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -7.854084,385.131531 L 564.753296,903.776917"
+              class="id_#oed id_@intelvoid" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -97.480850,352.671143 L -748.206543,379.387329"
+              class="id_#oed id_@christoferos" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="9.0"
+              d="M -65.605392,398.190735 L -412.672333,1242.447754"
+              class="id_#oed id_3" stroke-opacity="0.69803923" stroke="#098a0c"/>
+        <path fill="none" stroke-width="12.0"
+              d="M -2.671280,322.759705 L 474.219635,16.967020"
+              class="id_#oed id_@ebaldwin" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="12.0"
+              d="M -47.002495,299.067810 L -70.042984,-913.619995"
+              class="id_#oed id_@hwolfe" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -30.643211,399.708038 L 202.038147,1143.234985"
+              class="id_#oed id_@pding001" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -46.839928,402.052063 L -56.864155,1034.839233"
+              class="id_#oed id_@lwsmith" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -805.014709,-636.268677 L -622.240784,-305.568512"
+              class="id_10 id_0" stroke-opacity="0.69803923" stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1432.682251,627.555054 L -997.228699,682.307190"
+              class="id_#medicine id_@s" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1837.895752,779.074463 L -1690.500000,104.177124"
+              class="id_#medical id_11" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 1215.519897,-1717.643066 L 1368.455933,-1603.547729"
+              class="id_#tags id_@antihelios" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -2076.706787,355.762085 L -1714.455078,88.645630"
+              class="id_#latin id_11" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1831.932373,807.555786 L -1565.960693,1174.022339"
+              class="id_#medical id_@myramo" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="9.0"
+              d="M -1716.759155,-836.899658 L -1202.066650,-1070.270630"
+              class="id_#letter id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1805.877075,-527.417480 L -1690.162354,24.970158"
+              class="id_#cooking id_11" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 221.515289,-460.996613 L 554.108215,-437.226013"
+              class="id_#_gb_1 id_@joolslee" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 317.429962,-786.437500 L 564.889343,-457.010345"
+              class="id_#_us_1 id_@joolslee" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="12.0"
+              d="M -96.754959,341.690643 L -1633.098022,73.133263"
+              class="id_#oed id_11" stroke-opacity="0.69803923" stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1310.074097,-1579.780029 L -1172.844360,-1127.608032"
+              class="id_#spain id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -955.397705,-1564.677612 L -1145.012939,-1126.028931"
+              class="id_#king id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1730.401489,-814.395203 L -1684.091797,24.171375"
+              class="id_#letter id_11" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1796.950928,-553.294617 L -1192.059448,-1062.763428"
+              class="id_#cooking id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 1918.420532,-209.768814 L 1882.920044,-23.621990"
+              class="id_#dots id_@n05" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="12.0"
+              d="M -1279.274292,-494.448792 L -1170.736328,-1040.303955"
+              class="id_6 id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -911.026123,1160.576294 L -536.407837,954.558594"
+              class="id_#paper id_@greensleeves" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="9.0"
+              d="M -933.407532,1193.936768 L -974.097229,1549.786255"
+              class="id_#paper id_@traceydix" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -953.432190,1172.367432 L -1522.858154,1194.932983"
+              class="id_#paper id_@myramo" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1538.976318,1502.105225 L -1549.025513,1223.157715"
+              class="id_#magical id_@myramo" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="9.0"
+              d="M -461.800537,-1356.007813 L -91.051933,-968.825073"
+              class="id_#slits id_@hwolfe" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -487.606873,-1361.540161 L -1123.543091,-1104.053101"
+              class="id_#slits id_@jules" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1454.626221,610.844482 L -1666.302979,102.003242"
+              class="id_#medicine id_11" stroke-opacity="0.69803923"
+              stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 1125.141846,526.026489 L 838.965820,477.142334"
+              class="id_#correction id_@philipdurkin"
+              stroke-opacity="0.69803923" stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -524.908691,-926.181580 L -599.145813,-310.069916"
+              class="id_#dailyzoo id_0" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="9.0"
+              d="M -1295.372925,-458.057617 L -1655.103638,28.427334"
+              class="id_6 id_11" stroke-opacity="0.69803923" stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1102.834595,124.499756 L -792.835205,365.115784"
+              class="id_7 id_@christoferos" stroke-opacity="0.69803923"
+              stroke="#098a78"/>
+        <path fill="none" stroke-width="39.0"
+              d="M -80.385162,312.197418 L -545.159302,-206.683472"
+              class="id_#oed id_0" stroke-opacity="0.69803923" stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -1135.284912,111.798164 L -1641.508789,68.093361"
+              class="id_7 id_11" stroke-opacity="0.69803923" stroke="#098a0c"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 190.089264,-458.488007 L -566.460938,-280.818176"
+              class="id_#_gb_1 id_0" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 294.050751,-791.204346 L -570.588257,-291.228210"
+              class="id_#_us_1 id_0" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -925.841675,1149.420044 L -612.184387,-234.735718"
+              class="id_#paper id_0" stroke-opacity="0.69803923"
+              stroke="#812000"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#dailyzoo id_@jules"
+                  points="-1130.361450,-1081.892700 -1120.589600,-1084.292725 -1122.578369,-1075.515137"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923" class="id_#oed id_1"
+                  points="-143.173096,-540.934875 -137.724594,-532.475281 -146.671616,-531.500305"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#alchemy id_@jules"
+                  points="-1188.717163,-1103.972778 -1198.772583,-1104.344849 -1194.452759,-1112.240356"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#dailyzoo id_1"
+                  points="-156.032547,-568.200378 -165.537842,-571.501831 -159.094574,-577.785522"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923" class="id_7 id_0"
+                  points="-627.139893,-254.490646 -638.380554,-231.985992 -651.888000,-249.980408"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#paper id_3"
+                  points="-439.521057,1266.648438 -526.745056,1291.004639 -511.340393,1211.482910"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923" class="id_9 id_11"
+                  points="-1710.753296,52.065758 -1720.800781,52.609558 -1717.216797,44.353958"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#oed id_@philipdurkin"
+                  points="798.591919,470.696869 531.359497,559.953918 566.846802,310.465149"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#oed id_@jules"
+                  points="-1141.791992,-1063.951416 -1119.119263,-1053.053711 -1136.906616,-1039.274658"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#oed id_@greensleeves"
+                  points="-504.655457,930.035950 -498.484894,900.486450 -477.313507,917.242676"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#oed id_@joolslee"
+                  points="569.873108,-421.090790 567.775818,-411.249481 560.741638,-416.863800"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923" class="id_#oed id_@s"
+                  points="-957.484131,679.999268 -943.615173,665.416626 -937.496643,682.344849"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923" class="id_6 id_0"
+                  points="-631.784607,-280.424103 -676.379822,-272.576904 -664.819519,-311.391968"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#oed id_@cuboctahedron"
+                  points="287.035370,893.130981 269.948486,882.499023 285.288818,873.082275"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#oed id_@pding"
+                  points="526.765747,618.134888 511.677612,618.536682 517.391357,606.305481"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#oed id_@etobey"
+                  points="702.470093,149.326416 694.947021,156.008774 692.610352,147.317398"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#oed id_@intelvoid"
+                  points="571.423767,909.818787 561.732361,907.112183 567.774231,900.441650"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#oed id_@christoferos"
+                  points="-757.198975,379.756531 -748.391113,374.891113 -748.021973,383.883545"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923" class="id_#oed id_3"
+                  points="-417.805267,1254.933838 -418.915375,1239.881226 -406.429291,1245.014282"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#oed id_@ebaldwin"
+                  points="489.372101,7.250927 479.077667,24.543259 469.361603,9.390782"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#oed id_@hwolfe"
+                  points="-70.384918,-931.616699 -61.044609,-913.790955 -79.041359,-913.449036"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#oed id_@pding001"
+                  points="204.726089,1151.824219 197.743530,1144.578979 206.332764,1141.890991"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#oed id_@lwsmith"
+                  points="-57.006710,1043.838135 -61.363590,1034.767944 -52.364719,1034.910522"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923" class="id_10 id_0"
+                  points="-617.887268,-297.691528 -626.179260,-303.391754 -618.302307,-307.745270"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#medicine id_@s"
+                  points="-988.299011,683.429993 -997.790100,686.772034 -996.667297,677.842346"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#medical id_11"
+                  points="-1688.579712,95.384369 -1686.103638,105.137283 -1694.896362,103.216965"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#tags id_@antihelios"
+                  points="1375.669678,-1598.166016 1365.765137,-1599.940918 1371.146729,-1607.154541"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#latin id_11"
+                  points="-1707.211426,83.304321 -1711.784424,92.267456 -1717.125732,85.023804"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#medical id_@myramo"
+                  points="-1560.674194,1181.306152 -1569.602661,1176.665527 -1562.318726,1171.379150"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#letter id_@jules"
+                  points="-1189.771484,-1075.845581 -1199.279175,-1064.123047 -1204.854126,-1076.418213"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#cooking id_11"
+                  points="-1688.317139,33.778957 -1694.566772,25.892796 -1685.757935,24.047520"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#_gb_1 id_@joolslee"
+                  points="563.085327,-436.584412 553.787415,-432.737457 554.429016,-441.714569"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#_us_1 id_@joolslee"
+                  points="570.294800,-449.814423 561.291382,-454.307617 568.487305,-459.713074"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923" class="id_#oed id_11"
+                  points="-1650.829102,70.033806 -1631.548340,64.267693 -1634.647705,81.998833"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#spain id_@jules"
+                  points="-1170.230713,-1118.995972 -1177.150391,-1126.301147 -1168.538330,-1128.914917"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#king id_@jules"
+                  points="-1148.583984,-1117.767700 -1149.143555,-1127.814453 -1140.882324,-1124.243408"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#letter id_11"
+                  points="-1683.595581,33.157681 -1688.584961,24.419508 -1679.598633,23.923243"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#cooking id_@jules"
+                  points="-1185.175781,-1068.561279 -1189.160522,-1059.321533 -1194.958374,-1066.205322"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#dots id_@n05"
+                  points="1881.234009,-14.781328 1878.499756,-24.465002 1887.340332,-22.778978"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_6 id_@jules"
+                  points="-1167.225952,-1057.958374 -1161.909180,-1038.548706 -1179.563477,-1042.059204"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#paper id_@greensleeves"
+                  points="-528.521729,950.221680 -534.239380,958.501648 -538.576294,950.615540"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#paper id_@traceydix"
+                  points="-975.630920,1563.198853 -980.803528,1549.019409 -967.390930,1550.553101"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#paper id_@myramo"
+                  points="-1531.851074,1195.289307 -1523.036377,1190.436523 -1522.679932,1199.429443"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_#magical id_@myramo"
+                  points="-1549.349487,1214.163574 -1544.528442,1222.995728 -1553.522583,1223.319702"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#slits id_@hwolfe"
+                  points="-81.715172,-959.074463 -95.927254,-964.156677 -86.176613,-973.493469"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#slits id_@jules"
+                  points="-1131.885254,-1100.675415 -1125.231934,-1108.224121 -1121.854248,-1099.882080"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#medicine id_11"
+                  points="-1669.759888,93.693581 -1662.148193,100.274841 -1670.457764,103.731644"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923"
+                  class="id_#correction id_@philipdurkin"
+                  points="830.094299,475.626923 839.723511,472.706573 838.208130,481.578094"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#dailyzoo id_0"
+                  points="-600.222473,-301.134552 -603.613525,-310.608246 -594.678101,-309.531586"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923" class="id_6 id_11"
+                  points="-1663.130127,39.282059 -1660.531006,24.414078 -1649.676270,32.440590"
+                  stroke="none"/>
+        <polyline fill="#098a78" fill-opacity="0.69803923"
+                  class="id_7 id_@christoferos"
+                  points="-785.725525,370.634155 -795.594421,368.670624 -790.075989,361.560944"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923" class="id_#oed id_0"
+                  points="-584.190674,-250.258713 -523.371704,-226.199158 -566.946899,-187.167786"
+                  stroke="none"/>
+        <polyline fill="#098a0c" fill-opacity="0.69803923" class="id_7 id_11"
+                  points="-1650.475342,67.319229 -1641.121704,63.610039 -1641.895874,72.576683"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#_gb_1 id_0"
+                  points="-575.222534,-278.760559 -567.489746,-285.199005 -565.432129,-276.437347"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#_us_1 id_0"
+                  points="-578.379456,-286.722961 -572.840881,-295.123810 -568.335632,-287.332611"
+                  stroke="none"/>
+        <polyline fill="#812000" fill-opacity="0.69803923"
+                  class="id_#paper id_0"
+                  points="-610.195374,-243.513184 -607.795654,-233.741211 -616.573120,-235.730225"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#122400" r="16.666668" cx="-522.7355"
+                class="id_#dailyzoo" cy="-944.2178" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#f01d00" r="30.0" cx="-1161.0828"
+                class="id_@jules" cy="-1088.8535" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="-1617.7899"
+                class="id_#alchemy" cy="-1338.7272" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#f01d00" r="10.0" cx="-1049.4895"
+                class="id_@hightower73" cy="-1958.6384" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1496.663"
+                class="id_@stevenpemberton" cy="-502.31168" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="14.444445" cx="-70.6878"
+                class="id_@hwolfe" cy="-947.5583" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="14.444445" cx="-972.4791"
+                class="id_@s" cy="685.4191" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="12.222222" cx="-57.22406"
+                class="id_@lwsmith" cy="1057.5586" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1576.725"
+                class="id_@visto" cy="-267.49197" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="-2141.7576"
+                class="id_9" cy="-135.04591" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1462.9921"
+                class="id_@vorble" cy="708.6128" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1155.4521"
+                class="id_#recipe" cy="-1082.2039" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1404.2714"
+                class="id_@lordofthepies" cy="-968.05695" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1334.98"
+                class="id_#binding" cy="-195.96071" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="12.222222" cx="208.82437"
+                class="id_@pding001" cy="1164.9202" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1852.605"
+                class="id_#outeredge" cy="-733.6419" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="2087.8298"
+                class="id_#historyofthebook" cy="-646.3653" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1313.7129"
+                class="id_#bleedthrough" cy="-712.4668" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="443.5958"
+                class="id_5" cy="-1268.1381" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="866.5381"
+                class="id_@carolynhucker" cy="-1767.6047" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1774.3389"
+                class="id_#notthatoneunfortunately" cy="-506.79797"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1854.9205"
+                class="id_@snikdekl" cy="-1193.2932" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="2048.1987"
+                class="id_8" cy="823.03516" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1103.1143"
+                class="id_#christmas" cy="-843.4498" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="50.0" cx="-46.024197"
+                class="id_#oed" cy="350.55853" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="571.04553"
+                class="id_@trein" cy="1439.5607" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="702.6464"
+                class="id_@gailt" cy="-1345.9374" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1679.7836"
+                class="id_#newwordvariant" cy="-1423.0674" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="861.83344"
+                class="id_@kodemunkey" cy="-884.25604" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="14.444445" cx="814.3775"
+                class="id_@philipdurkin" cy="472.9422" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1513.3997"
+                class="id_@shaxworld" cy="3.9390497" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="14.444445" cx="-1448.5021"
+                class="id_#medicine" cy="625.5659" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="672.5481"
+                class="id_@bpavlis" cy="-1086.3147" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="14.444445" cx="-423.8676"
+                class="id_3" cy="1269.6808" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="298.83682"
+                class="id_#drugs" cy="-1653.1259" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="1204.5212"
+                class="id_#tags" cy="-1725.8484" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="12.222222" cx="1386.6683"
+                class="id_@antihelios" cy="-1589.9607" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="14.444445" cx="-1841.2977"
+                class="id_#medical" cy="794.65173" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="16.666668" cx="581.20575"
+                class="id_@joolslee" cy="-435.28934" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="18.88889" cx="-1283.2506"
+                class="id_6" cy="-474.4514" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="19.518057"
+                class="id_#autobiography" cy="1914.7206" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="14.444445" cx="-1731.2806"
+                class="id_#letter" cy="-830.31537" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1577.9398"
+                class="id_#strange" cy="-748.74066" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="14.444445" cx="205.61142"
+                class="id_#_gb_1" cy="-462.13327" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="14.444445" cx="307.85367"
+                class="id_#_us_1" cy="-799.18585" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="-1314.0592"
+                class="id_#spain" cy="-1592.9109" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="187.30269"
+                class="id_#ambassadorial_letter" cy="2160.5208" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="-949.95294"
+                class="id_#king" cy="-1577.2734" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1708.3756"
+                class="id_#state_letter" cy="-969.70746" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="-2087.7512"
+                class="id_#latin" cy="363.9059" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="916.7648"
+                class="id_#cambridge" cy="-1165.722" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="861.78986"
+                class="id_#buckinghamshire" cy="-1523.1299" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-229.32156"
+                class="id_#religion" cy="-1697.1003" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1069.9717"
+                class="id_#food" cy="-1372.2092" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="14.444445" cx="-1809.1461"
+                class="id_#cooking" cy="-543.0232" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="30.0" cx="-1681.8586"
+                class="id_11" cy="64.60976" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="14.444445" cx="-514.5506"
+                class="id_@greensleeves" cy="942.5384" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1692.065"
+                class="id_#bookplate" cy="522.45154" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1499.1001"
+                class="id_#ownershipmark" cy="1249.7324" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-319.99133"
+                class="id_#funeral" cy="-2171.07" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1252.7684"
+                class="id_#everydaylife" cy="1168.3413" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="800.1439"
+                class="id_@hannebambel" cy="1801.3839" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1305.9277"
+                class="id_@kathrynparsons" cy="1450.7977" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1027.8307"
+                class="id_#fight" cy="-595.4723" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1076.5767"
+                class="id_@lchad" cy="-257.01218" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="46.173893"
+                class="id_#unsure" cy="-1719.763" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1062.65"
+                class="id_#diary" cy="1361.8564" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="514.32996"
+                class="id_#magic" cy="1927.2234" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1413.5258"
+                class="id_#domestic" cy="1680.6222" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1731.1527"
+                class="id_@jenmunroe" cy="796.39905" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1606.6749"
+                class="id_#page" cy="1495.9181" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-602.10364"
+                class="id_#book" cy="-1811.1459" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="12.222222" cx="294.21414"
+                class="id_@cuboctahedron" cy="904.8256" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1179.3341"
+                class="id_@hanya" cy="12.30704" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-176.90634"
+                class="id_#university" cy="1686.849" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1461.2726"
+                class="id_#cookbook" cy="436.18494" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="264.7629"
+                class="id_@kerebeth" cy="1872.7562" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="983.32074"
+                class="id_#pie" cy="1966.6161" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1661.595"
+                class="id_#pastry" cy="1035.5192" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="12.222222" cx="539.1983"
+                class="id_@pding" cy="623.9427" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="-438.4229"
+                class="id_@jayarkay" cy="1763.994" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f018" r="12.222222" cx="715.72174"
+                class="id_@etobey" cy="145.76372" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1927.3542"
+                class="id_#access_token" cy="608.8272" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="436.17258"
+                class="id_#hashtags" cy="2166.2327" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1425.7524"
+                class="id_@kgullo" cy="955.00006" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-685.1204"
+                class="id_#thorn" cy="1817.079" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="12.222222" cx="581.59424"
+                class="id_@intelvoid" cy="919.0308" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-526.6911"
+                class="id_#resource" cy="2055.7146" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="-9.81764"
+                class="id_@kimnj" cy="-1482.1576" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-59.1053"
+                class="id_#water" cy="2186.8184" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="426.1234"
+                class="id_#blank" cy="-1892.9434" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="1920.9912"
+                class="id_#dots" cy="-223.2481" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="12.222222" cx="1878.6633"
+                class="id_@n05" cy="-1.3020458" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-773.7095"
+                class="id_#cider" cy="2070.9067" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="814.3333"
+                class="id_#wardens" cy="1287.2812" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-242.04332"
+                class="id_#animals" cy="1945.1235" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="21.11111" cx="-930.8388"
+                class="id_#paper" cy="1171.472" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1240.4666"
+                class="id_@woo" cy="-452.62225" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="14.444445" cx="-773.13"
+                class="id_@christoferos" cy="380.41058" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-998.3369"
+                class="id_#i131132" cy="1941.4324" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="-811.65247"
+                class="id_10" cy="-648.2786" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="12.222222" cx="-977.1898"
+                class="id_@traceydix" cy="1576.8323" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="2003.0702"
+                class="id_#differentcopy" cy="-941.7182" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-326.05035"
+                class="id_#lyly" cy="2193.7288" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1184.5774"
+                class="id_@archi" cy="885.82526" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="726.77594"
+                class="id_#_gb_2" cy="2082.0413" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="704.3921"
+                class="id_#lent" cy="-2046.6241" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="1909.9961"
+                class="id_4" cy="333.6451" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="16.666668" cx="-1117.1855"
+                class="id_7" cy="113.36077" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1002.6717"
+                class="id_#folgeremmo" cy="1078.9857" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="314.43384"
+                class="id_@folger" cy="1598.3047" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="824.3676"
+                class="id_#spanishmatch" cy="1549.1284" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="12.222222" cx="500.92352"
+                class="id_@ebaldwin" cy="-0.15609498" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="173.89766"
+                class="id_@fromere" cy="-1938.9995" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="521.4451"
+                class="id_#asthma" cy="-1530.9023" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-1254.4078"
+                class="id_#translation" cy="1816.0204" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="67.8545"
+                class="id_@viccro" cy="1636.5724" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="554.5106"
+                class="id_#59575" cy="1688.6371" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-106.9636"
+                class="id_#papist" cy="-1947.0492" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="627.4169"
+                class="id_@citranine" cy="-1756.4135" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="-1538.4823"
+                class="id_#magical" cy="1515.8186" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="16.666668" cx="-1550.0035"
+                class="id_@myramo" cy="1196.0087" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1069.3252"
+                class="id_#firstmatch" cy="1629.5608" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1205.6962"
+                class="id_#manuschrisi" cy="1833.9235" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="227.35222"
+                class="id_#specialp" cy="-1394.8641" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1641.0822"
+                class="id_#cotton" cy="239.97165" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="2175.4927"
+                class="id_@m" cy="-404.6591" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="-376.8032"
+                class="id_@pagem4" cy="-1907.0547" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="2228.151"
+                class="id_#advent" cy="-50.51063" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1568.1904"
+                class="id_#jesuits" cy="-1188.7097" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="14.444445" cx="-472.8279"
+                class="id_#slits" cy="-1367.524" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1342.6095"
+                class="id_#badcatalogue" cy="200.8704" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#f01d00" r="14.444445" cx="-144.90039"
+                class="id_1" cy="-556.78546" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-581.2984"
+                class="id_#letterlocking-format-catgories" cy="-2118.856"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="2169.9143"
+                class="id_#inquisition" cy="232.76025" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1923.509"
+                class="id_#plague" cy="1050.7932" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="12.222222" cx="1138.6681"
+                class="id_#correction" cy="528.33704" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="210.3258"
+                class="id_@schub" cy="-2187.9944" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="964.9091"
+                class="id_#counts_arundell_of_wardour_in_the_holy_roman_empire"
+                cy="-1998.0706" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-798.39514"
+                class="id_#french" cy="-1998.8914" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="2156.1643"
+                class="id_@carriechelle" cy="505.19427" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1783.6406"
+                class="id_#catalogue" cy="1289.1063" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="1330.1597"
+                class="id_#draft" cy="-1260.6929" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#122400" r="10.0" cx="-54.135555"
+                class="id_#fashion" cy="-2197.2595" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00f0f0" r="10.0" cx="472.3375"
+                class="id_@cdorsett" cy="-2150.4746" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#f01d00" r="27.777779" cx="-603.7249"
+                class="id_0" cy="-272.06702" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke-linecap="round" font-size="100" x="-522.7355"
+              y="-920.02344" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#dailyzoo" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="9.375px">
+            #dailyzoo
+        </text>
+        <text stroke-linecap="round" font-size="180" x="-1161.0828"
+              y="-1054.0195" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@jules" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="16.875px">
+            moderator1
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-1617.7899"
+              y="-1321.0653" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#alchemy" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #alchemy
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-1049.4895"
+              y="-1947.0271" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hightower73" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            moderator4
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1496.663" y="-490.78824"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@stevenpemberton" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-70.6878" y="-927.2526"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hwolfe" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            @hwolfe
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-972.4791" y="706.4682"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@s" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            @spowell
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-57.22406" y="1074.5967"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@lwsmith" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            @lwsmith
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1576.725" y="-255.96854"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@visto" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-2141.7576"
+              y="-121.68515" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_9" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #recusants
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1462.9921" y="720.1362"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@vorble" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1155.4521" y="-1067.6873"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#recipe" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #recipe
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1404.2714" y="-956.5335"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@lordofthepies" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1334.98" y="-181.4441"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#binding" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #binding
+        </text>
+        <text stroke-linecap="round" font-size="73" x="208.82437" y="1178.9403"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@pding001" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1852.605" y="-719.1253"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#outeredge" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #outeredge
+        </text>
+        <text stroke-linecap="round" font-size="60" x="2087.8298" y="-631.8487"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#historyofthebook" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #historyofthebook
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1313.7129" y="-697.9502"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#bleedthrough" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #bleedthrough
+        </text>
+        <text stroke-linecap="round" font-size="60" x="443.5958" y="-1256.6146"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_5" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="866.5381" y="-1756.0813"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@carolynhucker" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1774.3389" y="-492.28137"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#notthatoneunfortunately"
+              stroke="#ffffff" stroke-opacity="1.0" stroke-width="5.625px">
+            #notthatoneunfortunately
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1854.9205" y="-1181.7698"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@snikdekl" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="2048.1987" y="837.55176"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_8" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #underlining
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1103.1143" y="-831.8385"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#christmas" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #christmas
+        </text>
+        <text stroke-linecap="round" font-size="300" x="-46.024197"
+              y="408.61517" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#oed" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="28.125px">
+            #oed
+        </text>
+        <text stroke-linecap="round" font-size="60" x="571.04553" y="1451.0841"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@trein" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="702.6464" y="-1334.414"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@gailt" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1679.7836" y="-1411.456"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#newwordvariant" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #newwordvariant
+        </text>
+        <text stroke-linecap="round" font-size="60" x="861.83344" y="-872.7326"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kodemunkey" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="87" x="814.3775" y="493.99127"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@philipdurkin" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            @philipdurkin
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1513.3997" y="15.462487"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@shaxworld" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-1448.5021" y="642.40234"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#medicine" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            #medicine
+        </text>
+        <text stroke-linecap="round" font-size="60" x="672.5481" y="-1074.7913"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@bpavlis" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-423.8676" y="1290.7299"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_3" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            @elaineleong
+        </text>
+        <text stroke-linecap="round" font-size="60" x="298.83682" y="-1638.6093"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#drugs" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #drugs
+        </text>
+        <text stroke-linecap="round" font-size="73" x="1204.5212" y="-1708.9529"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#tags" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #tags
+        </text>
+        <text stroke-linecap="round" font-size="73" x="1386.6683" y="-1575.9406"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@antihelios" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-1841.2977" y="811.48816"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#medical" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            #medical
+        </text>
+        <text stroke-linecap="round" font-size="100" x="581.20575"
+              y="-416.08362" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@joolslee" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="9.375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="113" x="-1283.2506"
+              y="-452.58337" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_6" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="10.59375px">
+            #catholic
+        </text>
+        <text stroke-linecap="round" font-size="60" x="19.518057" y="1929.2372"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#autobiography" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #autobiography
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-1731.2806"
+              y="-813.47894" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#letter" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            #letter
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1577.9398" y="-734.85394"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#strange" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #strange
+        </text>
+        <text stroke-linecap="round" font-size="87" x="205.61142" y="-440.4753"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#_gb_1" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            #_gb_1
+        </text>
+        <text stroke-linecap="round" font-size="87" x="307.85367" y="-778.1934"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#_us_1" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            #_us_1
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-1314.0592" y="-1575.249"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#spain" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #spain
+        </text>
+        <text stroke-linecap="round" font-size="60" x="187.30269" y="2175.4573"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#ambassadorial_letter"
+              stroke="#ffffff" stroke-opacity="1.0" stroke-width="5.625px">
+            #ambassadorial_letter
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-949.95294"
+              y="-1559.6116" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#king" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #king
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1708.3756" y="-954.77094"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#state_letter" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #state_letter
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-2087.7512" y="378.03302"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#latin" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #latin
+        </text>
+        <text stroke-linecap="round" font-size="60" x="916.7648" y="-1151.2054"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cambridge" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #cambridge
+        </text>
+        <text stroke-linecap="round" font-size="60" x="861.78986" y="-1508.6133"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#buckinghamshire" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #buckinghamshire
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-229.32156"
+              y="-1682.5837" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#religion" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #religion
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1069.9717" y="-1360.5979"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#food" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #food
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-1809.1461" y="-521.9741"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cooking" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            #cooking
+        </text>
+        <text stroke-linecap="round" font-size="180" x="-1681.8586"
+              y="106.621475" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_11" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="16.875px">
+            @vvh
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-514.5506" y="959.2474"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@greensleeves" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1692.065" y="536.96814"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#bookplate" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #bookplate
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1499.1001" y="1264.249"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#ownershipmark" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #ownershipmark
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-319.99133"
+              y="-2159.4587" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#funeral" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #funeral
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1252.7684" y="1182.8579"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#everydaylife" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #everydaylife
+        </text>
+        <text stroke-linecap="round" font-size="60" x="800.1439" y="1812.9073"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hannebambel" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1305.9277" y="1462.3212"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kathrynparsons" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1027.8307" y="-580.9557"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#fight" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #fight
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1076.5767" y="-245.48874"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@lchad" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="46.173893" y="-1708.7815"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#unsure" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #unsure
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1062.65" y="1376.373"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#diary" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #diary
+        </text>
+        <text stroke-linecap="round" font-size="60" x="514.32996" y="1941.74"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#magic" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #magic
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1413.5258" y="1692.2335"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#domestic" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #domestic
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1731.1527" y="807.9225"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@jenmunroe" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1606.6749" y="1509.8048"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#page" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #page
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-602.10364"
+              y="-1799.5345" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#book" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #book
+        </text>
+        <text stroke-linecap="round" font-size="73" x="294.21414" y="918.8458"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@cuboctahedron" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1179.3341" y="23.830479"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hanya" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-176.90634" y="1701.3656"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#university" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #university
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1461.2726" y="447.79626"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cookbook" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #cookbook
+        </text>
+        <text stroke-linecap="round" font-size="60" x="264.7629" y="1884.2797"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kerebeth" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="983.32074" y="1981.1327"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#pie" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #pie
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1661.595" y="1049.4059"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#pastry" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #pastry
+        </text>
+        <text stroke-linecap="round" font-size="73" x="539.1983" y="641.60455"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@pding" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            @pding
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-438.4229" y="1775.5175"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@jayarkay" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="73" x="715.72174" y="163.42558"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@etobey" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            @etobey
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1927.3542" y="623.76373"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#access_token" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #access_token
+        </text>
+        <text stroke-linecap="round" font-size="60" x="436.17258" y="2180.7493"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#hashtags" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #hashtags
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1425.7524" y="966.5235"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kgullo" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-685.1204" y="1828.6903"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#thorn" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #thorn
+        </text>
+        <text stroke-linecap="round" font-size="73" x="581.59424" y="933.051"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@intelvoid" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-526.6911" y="2066.696"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#resource" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #resource
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-9.81764" y="-1470.6342"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kimnj" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-59.1053" y="2197.7998"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#water" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #water
+        </text>
+        <text stroke-linecap="round" font-size="60" x="426.1234" y="-1881.332"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#blank" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #blank
+        </text>
+        <text stroke-linecap="round" font-size="73" x="1920.9912" y="-209.12097"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#dots" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #dots
+        </text>
+        <text stroke-linecap="round" font-size="73" x="1878.6633" y="12.718136"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@n05" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-773.7095" y="2082.518"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cider" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #cider
+        </text>
+        <text stroke-linecap="round" font-size="60" x="814.3333" y="1298.8926"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#wardens" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #wardens
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-242.04332" y="1956.7349"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#animals" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #animals
+        </text>
+        <text stroke-linecap="round" font-size="127" x="-930.8388" y="1200.8656"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#paper" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="11.90625px">
+            #paper
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1240.4666" y="-441.09882"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@woo" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-773.13" y="397.11957"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@christoferos" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-998.3369" y="1953.0437"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#i131132" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #i131132
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-811.65247"
+              y="-630.61676" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_10" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #recipe2try
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-977.1898" y="1590.8524"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@traceydix" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="2003.0702" y="-927.2016"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#differentcopy" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #differentcopy
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-326.05035" y="2208.2454"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#lyly" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #lyly
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1184.5774" y="897.3487"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@archi" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="726.77594" y="2096.9778"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#_gb_2" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #_gb_2
+        </text>
+        <text stroke-linecap="round" font-size="60" x="704.3921" y="-2035.0128"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#lent" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #lent
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1909.9961" y="345.16855"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_4" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="100" x="-1117.1855"
+              y="132.71298" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_7" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="9.375px">
+            #womanwriter
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1002.6717" y="1093.5023"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#folgeremmo" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #folgeremmo
+        </text>
+        <text stroke-linecap="round" font-size="60" x="314.43384" y="1609.8281"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@folger" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="824.3676" y="1563.645"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#spanishmatch" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #spanishmatch
+        </text>
+        <text stroke-linecap="round" font-size="73" x="500.92352" y="13.864088"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@ebaldwin" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="173.89766" y="-1927.4761"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@fromere" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="521.4451" y="-1519.291"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#asthma" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #asthma
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-1254.4078" y="1827.6317"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#translation" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #translation
+        </text>
+        <text stroke-linecap="round" font-size="60" x="67.8545" y="1648.0958"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@viccro" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="554.5106" y="1699.9847"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#59575" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #59575
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-106.9636" y="-1932.5326"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#papist" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #papist
+        </text>
+        <text stroke-linecap="round" font-size="60" x="627.4169" y="-1744.89"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@citranine" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="73" x="-1538.4823" y="1533.4805"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#magical" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #magical
+        </text>
+        <text stroke-linecap="round" font-size="100" x="-1550.0035"
+              y="1215.2144" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@myramo" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="9.375px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1069.3252" y="1641.1721"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#firstmatch" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #firstmatch
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1205.6962" y="1845.5348"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#manuschrisi" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #manuschrisi
+        </text>
+        <text stroke-linecap="round" font-size="60" x="227.35222" y="-1380.3475"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#specialp" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #specialp
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1641.0822" y="250.9531"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cotton" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #cotton
+        </text>
+        <text stroke-linecap="round" font-size="60" x="2175.4927" y="-393.13565"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@m" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-376.8032" y="-1895.5312"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@pagem4" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="2228.151" y="-38.899303"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#advent" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #advent
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1568.1904" y="-1174.1931"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#jesuits" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #jesuits
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-472.8279" y="-1350.6876"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#slits" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            #slits
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1342.6095" y="215.38701"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#badcatalogue" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #badcatalogue
+        </text>
+        <text stroke-linecap="round" font-size="87" x="-144.90039"
+              y="-539.94904" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_1" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="8.15625px">
+            moderator3
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-581.2984" y="-2104.3394"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#letterlocking-format-catgories"
+              stroke="#ffffff" stroke-opacity="1.0" stroke-width="5.625px">
+            #letterlocking-format-catgories
+        </text>
+        <text stroke-linecap="round" font-size="60" x="2169.9143" y="247.27686"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#inquisition" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #inquisition
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1923.509" y="1065.3098"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#plague" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #plague
+        </text>
+        <text stroke-linecap="round" font-size="73" x="1138.6681" y="542.4642"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#correction" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="6.84375px">
+            #correction
+        </text>
+        <text stroke-linecap="round" font-size="60" x="210.3258" y="-2176.471"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@schub" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="964.9091" y="-1983.134"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog"
+              class="id_#counts_arundell_of_wardour_in_the_holy_roman_empire"
+              stroke="#ffffff" stroke-opacity="1.0" stroke-width="5.625px">
+            #counts_arundell_of_wardour_in_the_holy_roman_empire
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-798.39514" y="-1987.28"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#french" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #french
+        </text>
+        <text stroke-linecap="round" font-size="60" x="2156.1643" y="516.7177"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@carriechelle" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1783.6406" y="1303.6229"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#catalogue" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #catalogue
+        </text>
+        <text stroke-linecap="round" font-size="60" x="1330.1597" y="-1249.0815"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#draft" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #draft
+        </text>
+        <text stroke-linecap="round" font-size="60" x="-54.135555"
+              y="-2185.6482" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#fashion" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            #fashion
+        </text>
+        <text stroke-linecap="round" font-size="60" x="472.3375" y="-2138.9512"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@cdorsett" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="5.625px">
+            superuser
+        </text>
+        <text stroke-linecap="round" font-size="167" x="-603.7249"
+              y="-239.74881" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_0" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="15.65625px">
+            moderator2
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="100" x="-522.7355" y="-920.02344" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#dailyzoo">
+            #dailyzoo
+        </text>
+        <text font-size="180" x="-1161.0828" y="-1054.0195" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@jules">
+            moderator1
+        </text>
+        <text font-size="73" x="-1617.7899" y="-1321.0653" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#alchemy">
+            #alchemy
+        </text>
+        <text font-size="60" x="-1049.4895" y="-1947.0271" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hightower73">
+            moderator4
+        </text>
+        <text font-size="60" x="1496.663" y="-490.78824" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@stevenpemberton">
+            superuser
+        </text>
+        <text font-size="87" x="-70.6878" y="-927.2526" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hwolfe">
+            @hwolfe
+        </text>
+        <text font-size="87" x="-972.4791" y="706.4682" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@s">
+            @spowell
+        </text>
+        <text font-size="73" x="-57.22406" y="1074.5967" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@lwsmith">
+            @lwsmith
+        </text>
+        <text font-size="60" x="1576.725" y="-255.96854" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@visto">
+            superuser
+        </text>
+        <text font-size="73" x="-2141.7576" y="-121.68515" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_9">
+            #recusants
+        </text>
+        <text font-size="60" x="1462.9921" y="720.1362" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@vorble">
+            superuser
+        </text>
+        <text font-size="60" x="1155.4521" y="-1067.6873" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#recipe">
+            #recipe
+        </text>
+        <text font-size="60" x="1404.2714" y="-956.5335" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@lordofthepies">
+            superuser
+        </text>
+        <text font-size="60" x="1334.98" y="-181.4441" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#binding">
+            #binding
+        </text>
+        <text font-size="73" x="208.82437" y="1178.9403" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@pding001">
+            superuser
+        </text>
+        <text font-size="60" x="1852.605" y="-719.1253" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#outeredge">
+            #outeredge
+        </text>
+        <text font-size="60" x="2087.8298" y="-631.8487" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#historyofthebook">
+            #historyofthebook
+        </text>
+        <text font-size="60" x="1313.7129" y="-697.9502" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#bleedthrough">
+            #bleedthrough
+        </text>
+        <text font-size="60" x="443.5958" y="-1256.6146" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_5">
+            superuser
+        </text>
+        <text font-size="60" x="866.5381" y="-1756.0813" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@carolynhucker">
+            superuser
+        </text>
+        <text font-size="60" x="1774.3389" y="-492.28137" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#notthatoneunfortunately">
+            #notthatoneunfortunately
+        </text>
+        <text font-size="60" x="1854.9205" y="-1181.7698" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@snikdekl">
+            superuser
+        </text>
+        <text font-size="60" x="2048.1987" y="837.55176" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_8">
+            #underlining
+        </text>
+        <text font-size="60" x="1103.1143" y="-831.8385" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#christmas">
+            #christmas
+        </text>
+        <text font-size="300" x="-46.024197" y="408.61517" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#oed">
+            #oed
+        </text>
+        <text font-size="60" x="571.04553" y="1451.0841" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@trein">
+            superuser
+        </text>
+        <text font-size="60" x="702.6464" y="-1334.414" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@gailt">
+            superuser
+        </text>
+        <text font-size="60" x="1679.7836" y="-1411.456" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#newwordvariant">
+            #newwordvariant
+        </text>
+        <text font-size="60" x="861.83344" y="-872.7326" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kodemunkey">
+            superuser
+        </text>
+        <text font-size="87" x="814.3775" y="493.99127" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@philipdurkin">
+            @philipdurkin
+        </text>
+        <text font-size="60" x="1513.3997" y="15.462487" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@shaxworld">
+            superuser
+        </text>
+        <text font-size="87" x="-1448.5021" y="642.40234" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#medicine">
+            #medicine
+        </text>
+        <text font-size="60" x="672.5481" y="-1074.7913" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@bpavlis">
+            superuser
+        </text>
+        <text font-size="87" x="-423.8676" y="1290.7299" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_3">
+            @elaineleong
+        </text>
+        <text font-size="60" x="298.83682" y="-1638.6093" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#drugs">
+            #drugs
+        </text>
+        <text font-size="73" x="1204.5212" y="-1708.9529" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#tags">
+            #tags
+        </text>
+        <text font-size="73" x="1386.6683" y="-1575.9406" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@antihelios">
+            superuser
+        </text>
+        <text font-size="87" x="-1841.2977" y="811.48816" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#medical">
+            #medical
+        </text>
+        <text font-size="100" x="581.20575" y="-416.08362" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@joolslee">
+            superuser
+        </text>
+        <text font-size="113" x="-1283.2506" y="-452.58337" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_6">
+            #catholic
+        </text>
+        <text font-size="60" x="19.518057" y="1929.2372" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#autobiography">
+            #autobiography
+        </text>
+        <text font-size="87" x="-1731.2806" y="-813.47894" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#letter">
+            #letter
+        </text>
+        <text font-size="60" x="1577.9398" y="-734.85394" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#strange">
+            #strange
+        </text>
+        <text font-size="87" x="205.61142" y="-440.4753" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#_gb_1">
+            #_gb_1
+        </text>
+        <text font-size="87" x="307.85367" y="-778.1934" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#_us_1">
+            #_us_1
+        </text>
+        <text font-size="73" x="-1314.0592" y="-1575.249" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#spain">
+            #spain
+        </text>
+        <text font-size="60" x="187.30269" y="2175.4573" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#ambassadorial_letter">
+            #ambassadorial_letter
+        </text>
+        <text font-size="73" x="-949.95294" y="-1559.6116" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#king">
+            #king
+        </text>
+        <text font-size="60" x="1708.3756" y="-954.77094" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#state_letter">
+            #state_letter
+        </text>
+        <text font-size="73" x="-2087.7512" y="378.03302" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#latin">
+            #latin
+        </text>
+        <text font-size="60" x="916.7648" y="-1151.2054" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cambridge">
+            #cambridge
+        </text>
+        <text font-size="60" x="861.78986" y="-1508.6133" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#buckinghamshire">
+            #buckinghamshire
+        </text>
+        <text font-size="60" x="-229.32156" y="-1682.5837" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#religion">
+            #religion
+        </text>
+        <text font-size="60" x="1069.9717" y="-1360.5979" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#food">
+            #food
+        </text>
+        <text font-size="87" x="-1809.1461" y="-521.9741" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cooking">
+            #cooking
+        </text>
+        <text font-size="180" x="-1681.8586" y="106.621475" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_11">
+            @vvh
+        </text>
+        <text font-size="87" x="-514.5506" y="959.2474" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@greensleeves">
+            superuser
+        </text>
+        <text font-size="60" x="1692.065" y="536.96814" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#bookplate">
+            #bookplate
+        </text>
+        <text font-size="60" x="1499.1001" y="1264.249" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#ownershipmark">
+            #ownershipmark
+        </text>
+        <text font-size="60" x="-319.99133" y="-2159.4587" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#funeral">
+            #funeral
+        </text>
+        <text font-size="60" x="1252.7684" y="1182.8579" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#everydaylife">
+            #everydaylife
+        </text>
+        <text font-size="60" x="800.1439" y="1812.9073" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hannebambel">
+            superuser
+        </text>
+        <text font-size="60" x="1305.9277" y="1462.3212" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kathrynparsons">
+            superuser
+        </text>
+        <text font-size="60" x="1027.8307" y="-580.9557" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#fight">
+            #fight
+        </text>
+        <text font-size="60" x="1076.5767" y="-245.48874" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@lchad">
+            superuser
+        </text>
+        <text font-size="60" x="46.173893" y="-1708.7815" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#unsure">
+            #unsure
+        </text>
+        <text font-size="60" x="1062.65" y="1376.373" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#diary">
+            #diary
+        </text>
+        <text font-size="60" x="514.32996" y="1941.74" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#magic">
+            #magic
+        </text>
+        <text font-size="60" x="1413.5258" y="1692.2335" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#domestic">
+            #domestic
+        </text>
+        <text font-size="60" x="1731.1527" y="807.9225" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@jenmunroe">
+            superuser
+        </text>
+        <text font-size="60" x="1606.6749" y="1509.8048" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#page">
+            #page
+        </text>
+        <text font-size="60" x="-602.10364" y="-1799.5345" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#book">
+            #book
+        </text>
+        <text font-size="73" x="294.21414" y="918.8458" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@cuboctahedron">
+            superuser
+        </text>
+        <text font-size="60" x="1179.3341" y="23.830479" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@hanya">
+            superuser
+        </text>
+        <text font-size="60" x="-176.90634" y="1701.3656" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#university">
+            #university
+        </text>
+        <text font-size="60" x="1461.2726" y="447.79626" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cookbook">
+            #cookbook
+        </text>
+        <text font-size="60" x="264.7629" y="1884.2797" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kerebeth">
+            superuser
+        </text>
+        <text font-size="60" x="983.32074" y="1981.1327" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#pie">
+            #pie
+        </text>
+        <text font-size="60" x="1661.595" y="1049.4059" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#pastry">
+            #pastry
+        </text>
+        <text font-size="73" x="539.1983" y="641.60455" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@pding">
+            @pding
+        </text>
+        <text font-size="60" x="-438.4229" y="1775.5175" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@jayarkay">
+            superuser
+        </text>
+        <text font-size="73" x="715.72174" y="163.42558" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@etobey">
+            @etobey
+        </text>
+        <text font-size="60" x="1927.3542" y="623.76373" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#access_token">
+            #access_token
+        </text>
+        <text font-size="60" x="436.17258" y="2180.7493" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#hashtags">
+            #hashtags
+        </text>
+        <text font-size="60" x="1425.7524" y="966.5235" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kgullo">
+            superuser
+        </text>
+        <text font-size="60" x="-685.1204" y="1828.6903" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#thorn">
+            #thorn
+        </text>
+        <text font-size="73" x="581.59424" y="933.051" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@intelvoid">
+            superuser
+        </text>
+        <text font-size="60" x="-526.6911" y="2066.696" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#resource">
+            #resource
+        </text>
+        <text font-size="60" x="-9.81764" y="-1470.6342" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@kimnj">
+            superuser
+        </text>
+        <text font-size="60" x="-59.1053" y="2197.7998" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#water">
+            #water
+        </text>
+        <text font-size="60" x="426.1234" y="-1881.332" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#blank">
+            #blank
+        </text>
+        <text font-size="73" x="1920.9912" y="-209.12097" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#dots">
+            #dots
+        </text>
+        <text font-size="73" x="1878.6633" y="12.718136" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@n05">
+            superuser
+        </text>
+        <text font-size="60" x="-773.7095" y="2082.518" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cider">
+            #cider
+        </text>
+        <text font-size="60" x="814.3333" y="1298.8926" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#wardens">
+            #wardens
+        </text>
+        <text font-size="60" x="-242.04332" y="1956.7349" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#animals">
+            #animals
+        </text>
+        <text font-size="127" x="-930.8388" y="1200.8656" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#paper">
+            #paper
+        </text>
+        <text font-size="60" x="1240.4666" y="-441.09882" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@woo">
+            superuser
+        </text>
+        <text font-size="87" x="-773.13" y="397.11957" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@christoferos">
+            superuser
+        </text>
+        <text font-size="60" x="-998.3369" y="1953.0437" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#i131132">
+            #i131132
+        </text>
+        <text font-size="73" x="-811.65247" y="-630.61676" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_10">
+            #recipe2try
+        </text>
+        <text font-size="73" x="-977.1898" y="1590.8524" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@traceydix">
+            superuser
+        </text>
+        <text font-size="60" x="2003.0702" y="-927.2016" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#differentcopy">
+            #differentcopy
+        </text>
+        <text font-size="60" x="-326.05035" y="2208.2454" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#lyly">
+            #lyly
+        </text>
+        <text font-size="60" x="1184.5774" y="897.3487" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@archi">
+            superuser
+        </text>
+        <text font-size="60" x="726.77594" y="2096.9778" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#_gb_2">
+            #_gb_2
+        </text>
+        <text font-size="60" x="704.3921" y="-2035.0128" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#lent">
+            #lent
+        </text>
+        <text font-size="60" x="1909.9961" y="345.16855" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_4">
+            superuser
+        </text>
+        <text font-size="100" x="-1117.1855" y="132.71298" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_7">
+            #womanwriter
+        </text>
+        <text font-size="60" x="1002.6717" y="1093.5023" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#folgeremmo">
+            #folgeremmo
+        </text>
+        <text font-size="60" x="314.43384" y="1609.8281" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@folger">
+            superuser
+        </text>
+        <text font-size="60" x="824.3676" y="1563.645" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#spanishmatch">
+            #spanishmatch
+        </text>
+        <text font-size="73" x="500.92352" y="13.864088" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@ebaldwin">
+            superuser
+        </text>
+        <text font-size="60" x="173.89766" y="-1927.4761" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@fromere">
+            superuser
+        </text>
+        <text font-size="60" x="521.4451" y="-1519.291" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#asthma">
+            #asthma
+        </text>
+        <text font-size="60" x="-1254.4078" y="1827.6317" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#translation">
+            #translation
+        </text>
+        <text font-size="60" x="67.8545" y="1648.0958" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@viccro">
+            superuser
+        </text>
+        <text font-size="60" x="554.5106" y="1699.9847" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#59575">
+            #59575
+        </text>
+        <text font-size="60" x="-106.9636" y="-1932.5326" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#papist">
+            #papist
+        </text>
+        <text font-size="60" x="627.4169" y="-1744.89" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@citranine">
+            superuser
+        </text>
+        <text font-size="73" x="-1538.4823" y="1533.4805" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#magical">
+            #magical
+        </text>
+        <text font-size="100" x="-1550.0035" y="1215.2144" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@myramo">
+            superuser
+        </text>
+        <text font-size="60" x="1069.3252" y="1641.1721" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#firstmatch">
+            #firstmatch
+        </text>
+        <text font-size="60" x="1205.6962" y="1845.5348" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#manuschrisi">
+            #manuschrisi
+        </text>
+        <text font-size="60" x="227.35222" y="-1380.3475" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#specialp">
+            #specialp
+        </text>
+        <text font-size="60" x="1641.0822" y="250.9531" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#cotton">
+            #cotton
+        </text>
+        <text font-size="60" x="2175.4927" y="-393.13565" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@m">
+            superuser
+        </text>
+        <text font-size="60" x="-376.8032" y="-1895.5312" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@pagem4">
+            superuser
+        </text>
+        <text font-size="60" x="2228.151" y="-38.899303" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#advent">
+            #advent
+        </text>
+        <text font-size="60" x="1568.1904" y="-1174.1931" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#jesuits">
+            #jesuits
+        </text>
+        <text font-size="87" x="-472.8279" y="-1350.6876" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#slits">
+            #slits
+        </text>
+        <text font-size="60" x="1342.6095" y="215.38701" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#badcatalogue">
+            #badcatalogue
+        </text>
+        <text font-size="87" x="-144.90039" y="-539.94904" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_1">
+            moderator3
+        </text>
+        <text font-size="60" x="-581.2984" y="-2104.3394" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#letterlocking-format-catgories">
+            #letterlocking-format-catgories
+        </text>
+        <text font-size="60" x="2169.9143" y="247.27686" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#inquisition">
+            #inquisition
+        </text>
+        <text font-size="60" x="1923.509" y="1065.3098" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#plague">
+            #plague
+        </text>
+        <text font-size="73" x="1138.6681" y="542.4642" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#correction">
+            #correction
+        </text>
+        <text font-size="60" x="210.3258" y="-2176.471" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@schub">
+            superuser
+        </text>
+        <text font-size="60" x="964.9091" y="-1983.134" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog"
+              class="id_#counts_arundell_of_wardour_in_the_holy_roman_empire">
+            #counts_arundell_of_wardour_in_the_holy_roman_empire
+        </text>
+        <text font-size="60" x="-798.39514" y="-1987.28" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#french">
+            #french
+        </text>
+        <text font-size="60" x="2156.1643" y="516.7177" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@carriechelle">
+            superuser
+        </text>
+        <text font-size="60" x="1783.6406" y="1303.6229" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#catalogue">
+            #catalogue
+        </text>
+        <text font-size="60" x="1330.1597" y="-1249.0815" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#draft">
+            #draft
+        </text>
+        <text font-size="60" x="-54.135555" y="-2185.6482" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_#fashion">
+            #fashion
+        </text>
+        <text font-size="60" x="472.3375" y="-2138.9512" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_@cdorsett">
+            superuser
+        </text>
+        <text font-size="167" x="-603.7249" y="-239.74881" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_0">
+            moderator2
+        </text>
+    </g>
+</svg>
