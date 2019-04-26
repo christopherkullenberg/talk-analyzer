@@ -4,10 +4,15 @@ Some simple functions for analyzing Zooniverse Talk pages.
 To be used with the forum data that can be exported from the
 Talk admin interface (.json format).
 
-These scripts rely on the pandas, matplotlib and networkx modules, besides the standard Python3 library.
+This software was used in **>>insert article when published<<**. In the folder `supplementary files`` there are search terms and classificatory protocols for refining the data and in the folder ``Figures``there are high resolution images from the article.  
 
-For hashtag visualizations rendered as javascript/html, [Vis.js](http://visjs.org/) is incorporated
-(see html folder).
+For questions, please contact Christopher Kullenberg <christopher.kullenber AT gu.se>.
+
+## Requirements
+
+These scripts rely on the pandas, matplotlib and networkx modules, besides the standard Python 3 library.
+
+For hashtag visualizations rendered as javascript/html, [Vis.js](http://visjs.org/) is incorporated (see html folder).
 
 ### 1. talkanalyzer.py
 
@@ -59,10 +64,12 @@ Returns a network visualization of various entry-points to the data. The network
 
 
 
-### 2. shapkespearesworld.py
+### 2. shakespearesworld.py
 A script for generating a web front end using cgi-bin to interact with
 ``talkanalyzer.py``.
 
 
 ### 3. HashtagRolesAnalysis.ipynb
 A notebook using the `Coreset.hashtagroles()` and `Coreset.vis()` methods to create hashtag-mentions visualisations and networks. 
+
+
