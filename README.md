@@ -4,7 +4,7 @@ Some simple functions for analyzing Zooniverse Talk pages.
 To be used with the forum data that can be exported from the
 Talk admin interface (.json format).
 
-This software was used in **>>insert article when published<<**. In the folder `supplementary files`` there are search terms and classificatory protocols for refining the data and in the folder ``Figures``there are high resolution images from the article.  
+This software was used in **>>insert article when published<<**. In the folder ``supplementary files`` there are search terms and classificatory protocols for refining the data and in the folder ``Figures`` there are high resolution images from the article.  
 
 For questions, please contact Christopher Kullenberg <christopher.kullenber AT gu.se>.
 
