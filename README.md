@@ -4,7 +4,7 @@ Some simple functions for analyzing Zooniverse Talk pages.
 To be used with the forum data that can be exported from the
 Talk admin interface (.json format).
 
-This software was used in **>>insert article when published<<**. In the folder ``supplementary_files`` there are search terms and classificatory protocols for refining the data and in the folder ``Figures`` there are high resolution images from the article.  
+This software was used in the research article [Rohden, F., Kullenberg, C., Hagen, N. and Kasperowski, D., 2019. Tagging, Pinging and Linking – User Roles in Virtual Citizen Science Forums. Citizen Science: Theory and Practice, 4(1), p.19. DOI: http://doi.org/10.5334/cstp.181](https://doi.org/10.5334/cstp.181). In the folder ``supplementary_files`` there are search terms and classificatory protocols for refining the data and in the folder ``Figures`` there are high resolution images from the article.  
 
 For questions, please contact Christopher Kullenberg, christopher.kullenberg@gu.se.
 
